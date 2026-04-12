@@ -1282,6 +1282,21 @@
       .f-bottom{flex-direction:column;gap:.75rem;text-align:center}
       .hero-stats{gap:2rem}
     }
+
+    /* DROPDOWN */
+    .nav-dropdown{position:relative}
+    .nav-dropdown>a{display:flex;align-items:center;gap:.3rem}
+    .nav-dropdown>a::after{content:'';display:inline-block;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(255,255,255,.6);margin-top:1px;transition:transform .2s}
+    .nav-dropdown:hover>a::after{transform:rotate(180deg)}
+    .dropdown-menu{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:.5rem;min-width:240px;box-shadow:0 8px 32px rgba(43,127,204,.15);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s,transform .2s;transform:translateX(-50%) translateY(-4px);z-index:300}
+    .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+    .dropdown-menu a{display:flex;align-items:center;gap:.75rem;padding:.6rem .875rem;border-radius:6px;text-decoration:none;transition:background .15s;color:var(--text)!important;font-weight:400!important;border-bottom:none!important}
+    .dropdown-menu a:hover{background:var(--off)}
+    .dropdown-acro{font-family:var(--font-d);font-size:.85rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;min-width:2.5rem;flex-shrink:0}
+    .dropdown-label{font-size:.82rem;color:var(--text)}
+    .dropdown-sub{font-size:.72rem;color:var(--muted)}
+    .dropdown-divider{height:1px;background:var(--border);margin:.35rem 0}
+    .dropdown-overview{font-size:.82rem;color:var(--blue)!important;font-weight:500!important}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"PodcastSeries","name":"Local SEO Unlocked","description":"Actionable SEO strategies for local business owners, marketers, and agencies. Hosted by Don Phelps, The SEO Guru.","url":"https://localseounlocked.buzzsprout.com/","author":{"@type":"Person","name":"Don Phelps","jobTitle":"The SEO Guru","url":"https://nsyght.com"},"webFeed":"https://feeds.buzzsprout.com/local-seo-unlocked.rss"}
@@ -1318,7 +1333,17 @@
   <ul class="nav-links">
     <li><a href="/about">About</a></li>
     <li><a href="/services">Services</a></li>
-    <li><a href="/the-stack">The Stack</a></li>
+    <li class="nav-dropdown">
+      <a href="/the-stack">The Stack</a>
+      <div class="dropdown-menu">
+        <a href="/the-stack" style="color:var(--blue)!important;font-weight:500!important"><span style="font-size:.82rem">Stack Overview &rarr;</span></a>
+        <div class="dropdown-divider"></div>
+        <a href="/seo"><span class="dropdown-acro">SEO</span><div><div class="dropdown-label">Search Engine Optimization</div><div class="dropdown-sub">The foundation</div></div></a>
+        <a href="/geo"><span class="dropdown-acro">GEO</span><div><div class="dropdown-label">Generative Engine Optimization</div><div class="dropdown-sub">AI citation visibility</div></div></a>
+        <a href="/aeo"><span class="dropdown-acro">AEO</span><div><div class="dropdown-label">Answer Engine Optimization</div><div class="dropdown-sub">Position zero answers</div></div></a>
+        <a href="/aio"><span class="dropdown-acro">AIO</span><div><div class="dropdown-label">AI Optimization</div><div class="dropdown-sub">Full AI search presence</div></div></a>
+      </div>
+    </li>
     <li><a href="/industries">Industries</a></li>
     <li><a href="/results">Results</a></li>
     <li><a href="/blog">Resources</a></li>
@@ -1858,9 +1883,9 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
           (512) 240-2206
         </a>
-        <a href="mailto:info@nsyght.com" class="f-contact-link">
+        <a href="/cdn-cgi/l/email-protection#cea7a0a8a18ea0bdb7a9a6bae0ada1a3" class="f-contact-link">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
-          info@nsyght.com
+          <span class="__cf_email__" data-cfemail="f59c9b939ab59b868c929d81db969a98">[email&#160;protected]</span>
         </a>
       </div>
     </div>
@@ -1884,17 +1909,10 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const nav = document.querySelector('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 60);
   }, {passive: true});
 
   const obs = new IntersectionObserver(entries => {
-    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }});
-  }, {threshold:.12});
-  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
-
-</script>
-</body>
-</html>
