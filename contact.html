@@ -54,11 +54,12 @@
     .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
 
     /* NAV */
-    nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;background:rgba(255,255,255,.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);box-shadow:0 1px 12px rgba(20,80,163,.06)}
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;background:#1450A3;border-bottom:1px solid rgba(255,255,255,.1);box-shadow:0 2px 20px rgba(0,0,0,.15);transition:background .35s ease,border-color .35s ease,box-shadow .35s ease}
+    nav.at-top{background:transparent;border-bottom:1px solid transparent;box-shadow:none}
     .nav-logo img{height:34px;width:auto;display:block}
     .nav-links{display:flex;align-items:center;gap:1.75rem;list-style:none}
-    .nav-links a{font-size:.875rem;font-weight:400;color:var(--muted);text-decoration:none;transition:color .2s}
-    .nav-links a:hover{color:var(--blue-dark)}
+    .nav-links a{font-size:.875rem;font-weight:400;color:rgba(255,255,255,.8);text-decoration:none;transition:color .2s}
+    .nav-links a:hover{color:#fff}
     .nav-cta{background:var(--grad)!important;color:#fff!important;font-weight:500!important;padding:.45rem 1.2rem!important;border-radius:6px;box-shadow:0 2px 12px rgba(43,127,204,.3)}
 
     /* PAGE HERO */
@@ -179,7 +180,7 @@
     <li><a href="/industries">Industries</a></li>
     <li><a href="/results">Results</a></li>
     <li><a href="/blog">Resources</a></li>
-    <li><a href="/contact" style="color:var(--blue);font-weight:500">Contact</a></li>
+    <li><a href="/contact" style="color:#fff;font-weight:500">Contact</a></li>
   </ul>
 </nav>
 
@@ -227,7 +228,7 @@
         </div>
         <div>
           <div class="info-label">Email</div>
-          <div class="info-value"><a href="mailto:info@nsyght.com">info@nsyght.com</a></div>
+          <div class="info-value"><a href="/cdn-cgi/l/email-protection#0e676068614e607d7769667a206d6163"><span class="__cf_email__" data-cfemail="fa93949c95ba9489839d928ed4999597">[email&#160;protected]</span></a></div>
           <div class="info-note">We respond within one business day</div>
         </div>
       </div>
@@ -356,9 +357,9 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
           (512) 240-2206
         </a>
-        <a href="mailto:info@nsyght.com" class="f-contact-link">
+        <a href="/cdn-cgi/l/email-protection#e68f888089a688959f818e92c885898b" class="f-contact-link">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
-          info@nsyght.com
+          <span class="__cf_email__" data-cfemail="92fbfcf4fdd2fce1ebf5fae6bcf1fdff">[email&#160;protected]</span>
         </a>
       </div>
     </div>
@@ -382,11 +383,22 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }});
   }, {threshold:.12});
   document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  const nav = document.querySelector('nav');
+  function handleScroll() {
+    if (window.scrollY < 10) {
+      nav.classList.add('at-top');
+    } else {
+      nav.classList.remove('at-top');
+    }
+  }
+  window.addEventListener('scroll', handleScroll, {passive: true});
+  handleScroll();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -396,16 +408,3 @@
     fetch('/', {
       method: 'POST',
       headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-      body: new URLSearchParams(data).toString()
-    })
-    .then(() => {
-      document.getElementById('form-container').style.display = 'none';
-      document.getElementById('form-success').style.display = 'block';
-    })
-    .catch(() => {
-      alert('Something went wrong. Please email us directly at info@nsyght.com');
-    });
-  }
-</script>
-</body>
-</html>
