@@ -119,8 +119,8 @@
     body{font-family:var(--font-b);font-size:16px;line-height:1.6;overflow-x:hidden;background:var(--white);color:var(--text)}
 
     /* NAV */
-    nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;background:transparent;border-bottom:1px solid transparent;transition:background .35s ease,border-color .35s ease,box-shadow .35s ease}
-    nav.scrolled{background:#1450A3;border-bottom:1px solid rgba(255,255,255,.1);box-shadow:0 2px 20px rgba(0,0,0,.2)}
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;background:#1450A3;border-bottom:1px solid rgba(255,255,255,.1);box-shadow:0 2px 20px rgba(0,0,0,.15)}
+    nav.at-top{background:transparent;border-bottom:1px solid transparent;box-shadow:none}
     .nav-logo img{height:34px;width:auto;display:block}
     .nav-links{display:flex;align-items:center;gap:1.75rem;list-style:none}
     .nav-links a{font-size:.875rem;font-weight:400;color:rgba(255,255,255,.8);text-decoration:none;transition:color .2s}
@@ -337,7 +337,7 @@
 
     <p>The NSYGHT Stack is the four-layer framework we use to build search visibility for our clients. Each layer builds on the one before it. You can't shortcut the order. Any agency that tells you otherwise is either uninformed or selling you something that won't last.</p>
 
-    <p>Think of it like building a house. SEO is the foundation and the framing. GEO and AEO are the electrical and plumbing — they depend on solid structure to function. AIO is the finished product, the way everything comes together when someone finally walks through the door.</p>
+    <p>Think of it like building a house. SEO is the foundation and the framing. GEO and AEO are the electrical and plumbing. They depend on solid structure to function. AIO is the finished product, the way everything comes together when someone finally walks through the door.</p>
 
     <div class="stack-cards">
       <a href="/seo" class="stack-card feat">
@@ -619,9 +619,15 @@
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const nav = document.querySelector('nav');
-  window.addEventListener('scroll', () => {{
-    nav.classList.toggle('scrolled', window.scrollY > 60);
-  }}, {{passive: true}});
+  function handleScroll() {
+    if (window.scrollY < 10) {
+      nav.classList.add('at-top');
+    } else {
+      nav.classList.remove('at-top');
+    }
+  }
+  window.addEventListener('scroll', handleScroll, {passive: true});
+  handleScroll();
 
   function toggleFaq(btn) {
     const item = btn.closest('.faq-item');
