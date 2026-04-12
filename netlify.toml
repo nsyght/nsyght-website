@@ -1,0 +1,86 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/the-stack"
+  to = "/the-stack.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries"
+  to = "/industries.html"
+  status = 200
+
+[[redirects]]
+  from = "/results"
+  to = "/results.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/seo"
+  to = "/seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/local-gbp-management"
+  to = "/local-gbp-management.html"
+  status = 200
+
+[[redirects]]
+  from = "/web-design"
+  to = "/web-design.html"
+  status = 200
+
+[[redirects]]
+  from = "/google-ads"
+  to = "/google-ads.html"
+  status = 200
+
+[[redirects]]
+  from = "/facebook-ads"
+  to = "/facebook-ads.html"
+  status = 200
+
+[[redirects]]
+  from = "/social-media"
+  to = "/social-media.html"
+  status = 200
+
+[[redirects]]
+  from = "/podcast"
+  to = "https://localseounlocked.buzzsprout.com/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
