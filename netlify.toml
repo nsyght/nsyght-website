@@ -122,6 +122,21 @@
   to = "/blog.html"
   status = 200
 
+[[redirects]]
+  from = "/blog/local-seo-2026"
+  to = "/blog-local-seo-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-business-profile-guide"
+  to = "/blog-google-business-profile-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/ai-search-guide-2026"
+  to = "/blog-ai-search-guide-2026.html"
+  status = 200
+
 # ── PODCAST ──
 [[redirects]]
   from = "/podcast"
