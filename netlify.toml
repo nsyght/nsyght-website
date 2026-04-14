@@ -1,0 +1,191 @@
+[build]
+  publish = "."
+
+# ── MAIN PAGES ──
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+# ── THE STACK PILLAR PAGES ──
+[[redirects]]
+  from = "/the-stack"
+  to = "/the-stack.html"
+  status = 200
+
+[[redirects]]
+  from = "/seo"
+  to = "/seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/geo"
+  to = "/geo.html"
+  status = 200
+
+[[redirects]]
+  from = "/aeo"
+  to = "/aeo.html"
+  status = 200
+
+[[redirects]]
+  from = "/aio"
+  to = "/aio.html"
+  status = 200
+
+# ── SERVICE PAGES ──
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/seo"
+  to = "/services-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/local-gbp-management"
+  to = "/local-gbp-management.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/web-design"
+  to = "/services-web-design.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/google-ads"
+  to = "/services-google-ads.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/facebook-ads"
+  to = "/services-facebook-ads.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/social-media"
+  to = "/services-social-media.html"
+  status = 200
+
+# ── ABOUT ──
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+# ── INDUSTRIES ──
+[[redirects]]
+  from = "/industries"
+  to = "/industries.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/roofing"
+  to = "/industries-roofing.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/dumpster-rental"
+  to = "/industries-dumpster-rental.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/party-rental"
+  to = "/industries-party-rental.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/law-firms"
+  to = "/industries-law-firms.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/dental"
+  to = "/industries-dental.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/home-services"
+  to = "/industries-home-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/real-estate-investors"
+  to = "/industries-real-estate-investors.html"
+  status = 200
+
+# ── RESULTS ──
+[[redirects]]
+  from = "/results"
+  to = "/results.html"
+  status = 200
+
+# ── THANK YOU ──
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200
+
+# ── BLOG ──
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-seo-2026"
+  to = "/blog-local-seo-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-business-profile-guide"
+  to = "/blog-google-business-profile-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/ai-search-guide-2026"
+  to = "/blog-ai-search-guide-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/houston-roofing-seo"
+  to = "/blog-houston-roofing-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/atlanta-dumpster-rental-seo"
+  to = "/blog-atlanta-dumpster-rental-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/austin-party-rental-seo"
+  to = "/blog-austin-party-rental-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/local-seo-checklist"
+  to = "/local-seo-checklist.html"
+  status = 200
+
+[[redirects]]
+  from = "/press"
+  to = "/press.html"
+  status = 200
+
+# ── PODCAST ──
+[[redirects]]
+  from = "/podcast"
+  to = "https://localseounlocked.buzzsprout.com/"
+  status = 301
+
+# ── SECURITY HEADERS ──
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"
