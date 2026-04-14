@@ -149,6 +149,21 @@
   to = "/blog-ai-search-guide-2026.html"
   status = 200
 
+[[redirects]]
+  from = "/blog/houston-roofing-seo"
+  to = "/blog-houston-roofing-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/atlanta-dumpster-rental-seo"
+  to = "/blog-atlanta-dumpster-rental-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/austin-party-rental-seo"
+  to = "/blog-austin-party-rental-seo.html"
+  status = 200
+
 # ── PODCAST ──
 [[redirects]]
   from = "/podcast"
