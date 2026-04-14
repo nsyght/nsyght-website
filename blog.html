@@ -98,8 +98,9 @@
     .nav-dropdown>a{display:flex;align-items:center;gap:.3rem}
     .nav-dropdown>a::after{content:'';display:inline-block;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(255,255,255,.6);margin-top:1px;transition:transform .2s}
     .nav-dropdown:hover>a::after{transform:rotate(180deg)}
+  .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
     .dropdown-menu{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:.5rem;min-width:240px;box-shadow:0 8px 32px rgba(43,127,204,.15);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s,transform .2s;transform:translateX(-50%) translateY(-4px);z-index:300}
-    .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+    .nav-dropdown:hover 
     .dropdown-menu a{display:flex;align-items:center;gap:.75rem;padding:.6rem .875rem;border-radius:6px;text-decoration:none;transition:background .15s;color:var(--text)!important;font-weight:400!important;border-bottom:none!important}
     .dropdown-menu a:hover{background:var(--off)}
     .dropdown-acro{font-family:var(--font-d);font-size:.85rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;min-width:2.5rem;flex-shrink:0}
@@ -245,103 +246,25 @@
     }
 
     /* DROPDOWN */
-    .nav-dropdown{position:relative}
-    .nav-dropdown>a{display:flex;align-items:center;gap:.3rem}
-    .nav-dropdown>a::after{content:'';display:inline-block;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(255,255,255,.6);margin-top:1px;transition:transform .2s}
-    .nav-dropdown:hover>a::after{transform:rotate(180deg)}
-    .dropdown-menu{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:.5rem;min-width:240px;box-shadow:0 8px 32px rgba(43,127,204,.15);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s,transform .2s;transform:translateX(-50%) translateY(-4px);z-index:300}
-    .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
-    .dropdown-menu a{display:flex;align-items:center;gap:.75rem;padding:.6rem .875rem;border-radius:6px;text-decoration:none;transition:background .15s;color:var(--text)!important;font-weight:400!important;border-bottom:none!important}
-    .dropdown-menu a:hover{background:var(--off)}
-    .dropdown-acro{font-family:var(--font-d);font-size:.85rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;min-width:2.5rem;flex-shrink:0}
-    .dropdown-label{font-size:.82rem;color:var(--text)}
-    .dropdown-sub{font-size:.72rem;color:var(--muted)}
-    .dropdown-divider{height:1px;background:var(--border);margin:.35rem 0}
-    .dropdown-overview{font-size:.82rem;color:var(--blue)!important;font-weight:500!important}
-  
-
+    
+    .nav-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;z-index:300}
+    .nav-hamburger span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:all .3s}
+    .nav-hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .nav-hamburger.open span:nth-child(2){opacity:0}
+    .nav-hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    .mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;bottom:0;background:#1450A3;z-index:199;overflow-y:auto;padding:1.5rem}
+    .mobile-menu.open{display:block}
+    .mobile-menu-links{list-style:none;display:flex;flex-direction:column;gap:0}
+    .mobile-menu-links>li{border-bottom:1px solid rgba(255,255,255,.1)}
+    .mobile-menu-links>li>a{display:block;padding:1rem .5rem;color:#fff;text-decoration:none;font-size:1.05rem;font-weight:500}
+    .mobile-section-title{font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45);padding:.875rem .5rem .35rem;margin-top:.5rem}
+    .mobile-sub-links{list-style:none;display:flex;flex-direction:column;gap:0;padding-bottom:.5rem}
+    .mobile-sub-links a{display:block;padding:.6rem .5rem .6rem 1rem;color:rgba(255,255,255,.75);text-decoration:none;font-size:.9rem;border-left:2px solid rgba(255,255,255,.15)}
+    .mobile-sub-links a:hover{color:#fff;border-left-color:rgba(255,255,255,.5)}
+    .mobile-cta{display:block;background:linear-gradient(135deg,#2B7FCC,#6B4FAF);color:#fff;font-weight:600;text-align:center;padding:1rem;border-radius:10px;text-decoration:none;margin-top:1.5rem;font-size:1rem}
     @media(max-width:1024px){
-      nav{padding:0 1.5rem}.nav-links{display:none}
-      .article-wrap{grid-template-columns:1fr;gap:2.5rem;padding:3rem 1.5rem}
-      .sidebar{position:static}
-      .what-we-do,.result-stats,.hero-stats{grid-template-columns:1fr}
-      .f-inner{grid-template-columns:1fr 1fr}
-    }
-    @media(max-width:640px){
-      .page-hero{padding:7rem 1.5rem 4rem}
-      .cta-band,footer{padding-left:1.5rem;padding-right:1.5rem}
-      .f-inner{grid-template-columns:1fr}
-      .f-bottom{flex-direction:column;gap:.75rem;text-align:center}
-    }
-  
-
-    .blog-hero{padding:8rem 3rem 4rem;background:linear-gradient(150deg,#1450A3 0%,#1A3A8A 45%,#2D1870 100%);position:relative;overflow:hidden}
-    .blog-hero::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.055) 1px,transparent 1px);background-size:38px 38px;pointer-events:none}
-    .blog-hero-inner{position:relative;z-index:1;max-width:var(--max-wide);margin:0 auto}
-    .blog-hero h1{font-family:var(--font-d);font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;line-height:1.05;letter-spacing:-.03em;color:#fff;margin-bottom:.75rem}
-    .blog-hero h1 span{background:linear-gradient(135deg,#82C8FF,#C4A8FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    .blog-hero p{font-size:1.05rem;color:rgba(255,255,255,.7);max-width:560px;line-height:1.75}
-
-    .blog-wrap{max-width:var(--max-wide);margin:0 auto;padding:5rem 3rem}
-
-    /* PODCAST SECTION */
-    .podcast-section{background:var(--grad);border-radius:var(--rl);padding:2.5rem;margin-bottom:4rem;position:relative;overflow:hidden}
-    .podcast-section::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px);background-size:28px 28px}
-    .podcast-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
-    .podcast-season{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:.75rem}
-    .podcast-title{font-family:var(--font-d);font-size:1.75rem;font-weight:800;color:#fff;margin-bottom:.625rem;letter-spacing:-.02em}
-    .podcast-desc{font-size:.95rem;color:rgba(255,255,255,.75);line-height:1.7;margin-bottom:1.5rem;max-width:480px}
-    .podcast-platforms{display:flex;flex-wrap:wrap;gap:.75rem}
-    .podcast-btn{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:100px;padding:.45rem 1rem;font-size:.8rem;font-weight:600;color:#fff;text-decoration:none;transition:background .2s}
-    .podcast-btn:hover{background:rgba(255,255,255,.25)}
-    .podcast-icon-wrap{width:140px;height:140px;background:rgba(255,255,255,.1);border-radius:var(--rl);display:flex;align-items:center;justify-content:center;font-size:4rem;flex-shrink:0;border:1px solid rgba(255,255,255,.2)}
-
-    /* CATEGORIES */
-    .cat-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.5rem}
-    .cat-btn{background:var(--off);border:1px solid var(--border);border-radius:100px;padding:.35rem 1rem;font-size:.8rem;font-weight:500;color:var(--mid);cursor:pointer;transition:background .15s,border-color .15s,color .15s;text-decoration:none}
-    .cat-btn:hover,.cat-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
-
-    /* FEATURED ARTICLE */
-    .featured-label{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);margin-bottom:1rem}
-    .featured-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:4rem}
-    .article-card{background:var(--white);border:1.5px solid var(--border);border-radius:var(--rl);padding:2rem;text-decoration:none;transition:box-shadow .2s,border-color .2s,transform .15s;display:flex;flex-direction:column}
-    .article-card:hover{box-shadow:0 8px 32px rgba(43,127,204,.12);border-color:rgba(43,127,204,.3);transform:translateY(-2px)}
-    .article-card.featured{grid-column:1 / -1;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
-    .article-card-category{font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:.625rem}
-    .article-card-title{font-family:var(--font-d);font-size:1.25rem;font-weight:800;color:var(--text);line-height:1.2;letter-spacing:-.02em;margin-bottom:.625rem}
-    .article-card.featured .article-card-title{font-size:1.75rem}
-    .article-card-excerpt{font-size:.875rem;color:var(--muted);line-height:1.7;flex:1;margin-bottom:1.25rem}
-    .article-card-meta{display:flex;align-items:center;gap:1rem;font-size:.78rem;color:var(--muted)}
-    .article-card-cta{font-size:.82rem;font-weight:600;color:var(--blue);display:flex;align-items:center;gap:.3rem;margin-top:1rem;transition:gap .2s}
-    .article-card:hover .article-card-cta{gap:.55rem}
-    .article-card-badge{display:inline-block;background:linear-gradient(135deg,#EEF5FF,#F3EEFF);border:1px solid rgba(43,127,204,.2);border-radius:6px;padding:.2rem .65rem;font-size:.7rem;font-weight:700;color:var(--blue);margin-bottom:.625rem}
-    .article-featured-visual{width:180px;height:180px;background:var(--grad);border-radius:var(--rl);display:flex;align-items:center;justify-content:center;font-size:4rem;flex-shrink:0}
-
-    /* COMING SOON CARDS */
-    .coming-soon-card{background:var(--off);border:1.5px dashed var(--border);border-radius:var(--rl);padding:2rem;display:flex;flex-direction:column;justify-content:center;min-height:200px}
-    .cs-label{font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem}
-    .cs-title{font-family:var(--font-d);font-size:1rem;font-weight:700;color:var(--muted);line-height:1.3}
-
-    .newsletter-box{background:linear-gradient(145deg,#EEF5FF,#F3EEFF);border:1px solid rgba(43,127,204,.2);border-radius:var(--rl);padding:2.5rem;margin-top:4rem;text-align:center}
-    .newsletter-title{font-family:var(--font-d);font-size:1.25rem;font-weight:800;color:var(--text);margin-bottom:.5rem}
-    .newsletter-sub{font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:1.5rem;max-width:480px;margin-left:auto;margin-right:auto}
-    .newsletter-cta{display:inline-block;background:var(--grad);color:#fff;font-family:var(--font-b);font-size:.9rem;font-weight:700;padding:.875rem 2rem;border-radius:var(--r);text-decoration:none;transition:opacity .2s}
-    .newsletter-cta:hover{opacity:.9}
-
-    @media(max-width:1024px){
-      nav{padding:0 1.5rem}.nav-links{display:none}
-      .blog-wrap{padding:3rem 1.5rem}
-      .podcast-inner{grid-template-columns:1fr}
-      .podcast-icon-wrap{display:none}
-      .featured-grid{grid-template-columns:1fr}
-      .article-card.featured{grid-column:1;grid-template-columns:1fr}
-      .article-featured-visual{display:none}
-      .f-inner{grid-template-columns:1fr 1fr}
-    }
-    @media(max-width:640px){
-      .blog-hero{padding:7rem 1.5rem 3rem}
-      .f-inner{grid-template-columns:1fr}
-      .f-bottom{flex-direction:column;gap:.75rem;text-align:center}
+      .nav-hamburger{display:flex}
+      .nav-links{display:none!important}
     }
   </style>
   <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
@@ -397,7 +320,47 @@
     <li><a href="/blog">Resources</a></li>
     <li><a href="/contact" class="nav-cta">Get Started</a></li>
   </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+<div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+  <ul class="mobile-menu-links">
+    <li><a href="/about">About</a></li>
+    <li><a href="/results">Results</a></li>
+    <div class="mobile-section-title">Services</div>
+    <ul class="mobile-sub-links">
+      <li><a href="/services">All Services</a></li>
+      <li><a href="/services/seo">SEO</a></li>
+      <li><a href="/local-gbp-management">Google Business Profile</a></li>
+      <li><a href="/services/web-design">Website Design</a></li>
+      <li><a href="/services/google-ads">Google Ads</a></li>
+      <li><a href="/services/facebook-ads">Facebook Ads</a></li>
+      <li><a href="/services/social-media">Social Media</a></li>
+    </ul>
+    <div class="mobile-section-title">The Stack</div>
+    <ul class="mobile-sub-links">
+      <li><a href="/the-stack">The NSYGHT Stack</a></li>
+      <li><a href="/seo">SEO</a></li>
+      <li><a href="/geo">GEO</a></li>
+      <li><a href="/aeo">AEO</a></li>
+      <li><a href="/aio">AIO</a></li>
+    </ul>
+    <div class="mobile-section-title">Industries</div>
+    <ul class="mobile-sub-links">
+      <li><a href="/industries">All Industries</a></li>
+      <li><a href="/industries/roofing">Roofing</a></li>
+      <li><a href="/industries/dumpster-rental">Dumpster Rental</a></li>
+      <li><a href="/industries/party-rental">Party Rental</a></li>
+      <li><a href="/industries/law-firms">Law Firms</a></li>
+      <li><a href="/industries/dental">Dental</a></li>
+      <li><a href="/industries/home-services">Home Services</a></li>
+      <li><a href="/industries/real-estate-investors">Real Estate Investors</a></li>
+    </ul>
+    <li><a href="/blog">Resources</a></li>
+  </ul>
+  <a href="/contact" class="mobile-cta">Get Started &rarr;</a>
+</div>
 
 <section class="blog-hero">
   <div class="blog-hero-inner">
@@ -489,7 +452,31 @@
       <span class="article-card-cta">Read the full guide &rarr;</span>
     </a>
 
-    <div class="coming-soon-card">
+    <a href="/blog/houston-roofing-seo" class="article-card">
+      <div class="article-card-category">Local SEO — Roofing</div>
+      <div class="article-card-title">Local SEO for Roofing Companies in Houston</div>
+      <p class="article-card-excerpt">What the Houston roofing search landscape looks like in 2026, what it takes to rank in it, and how one Houston roofer doubled inbound calls in 90 days.</p>
+      <div class="article-card-meta"><span>By Don Phelps</span><span>April 2026</span><span>11 min read</span></div>
+      <span class="article-card-cta">Read the guide &rarr;</span>
+    </a>
+
+    <a href="/blog/atlanta-dumpster-rental-seo" class="article-card">
+      <div class="article-card-category">Local SEO — Dumpster Rental</div>
+      <div class="article-card-title">Local SEO for Dumpster Rental Companies in Atlanta</div>
+      <p class="article-card-excerpt">How an Atlanta dumpster rental operator went from 8% to 34% AI search visibility and reached position 1 in the local pack.</p>
+      <div class="article-card-meta"><span>By Don Phelps</span><span>April 2026</span><span>10 min read</span></div>
+      <span class="article-card-cta">Read the guide &rarr;</span>
+    </a>
+
+    <a href="/blog/austin-party-rental-seo" class="article-card">
+      <div class="article-card-category">Local SEO — Party Rental</div>
+      <div class="article-card-title">Local SEO for Party Rental Companies in Austin</div>
+      <p class="article-card-excerpt">How an Austin party rental company achieved 40% revenue growth in Q1 2026. Year-round strategy, equipment pages, and what drives consistent bookings.</p>
+      <div class="article-card-meta"><span>By Don Phelps</span><span>April 2026</span><span>11 min read</span></div>
+      <span class="article-card-cta">Read the guide &rarr;</span>
+    </a>
+
+        <div class="coming-soon-card">
       <div class="cs-label">Coming Soon</div>
       <div class="cs-title">How to Get More Google Reviews Without Being Pushy</div>
     </div>
@@ -555,5 +542,24 @@
   function hs(){nav.classList.toggle('at-top',window.scrollY<10);}
   window.addEventListener('scroll',hs,{passive:true});hs();
 </script>
+<script>
+  const hamburger=document.getElementById('hamburger');
+  const mobileMenu=document.getElementById('mobile-menu');
+  if(hamburger&&mobileMenu){
+    hamburger.addEventListener('click',function(){
+      const isOpen=mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open',isOpen);
+      hamburger.setAttribute('aria-expanded',isOpen);
+      document.body.style.overflow=isOpen?'hidden':'';
+    });
+    mobileMenu.querySelectorAll('a').forEach(a=>{
+      a.addEventListener('click',()=>{
+        mobileMenu.classList.remove('open');
+        hamburger.classList.remove('open');
+        document.body.style.overflow='';
+      });
+    });
+  }
+  </script>
 </body>
 </html>
