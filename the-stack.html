@@ -280,8 +280,9 @@
     .nav-dropdown>a{display:flex;align-items:center;gap:.3rem}
     .nav-dropdown>a::after{content:'';display:inline-block;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(255,255,255,.6);margin-top:1px;transition:transform .2s}
     .nav-dropdown:hover>a::after{transform:rotate(180deg)}
+  .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
     .dropdown-menu{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:.5rem;min-width:240px;box-shadow:0 8px 32px rgba(43,127,204,.15);opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s,transform .2s;transform:translateX(-50%) translateY(-4px);z-index:300}
-    .nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+    .nav-dropdown:hover 
     .dropdown-menu a{display:flex;align-items:center;gap:.75rem;padding:.6rem .875rem;border-radius:6px;text-decoration:none;transition:background .15s;color:var(--text)!important;font-weight:400!important;border-bottom:none!important}
     .dropdown-menu a:hover{background:var(--off)}
     .dropdown-acro{font-family:var(--font-d);font-size:.85rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;min-width:2.5rem;flex-shrink:0}
@@ -796,27 +797,6 @@
         tocLinks.forEach(link => {
           link.style.color = '';
           if(link.getAttribute('href') === '#' +
-</script>
-<script>
-  // Mobile menu
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobile-menu');
-  if(hamburger && mobileMenu){
-    hamburger.addEventListener('click', function(){
-      const isOpen = mobileMenu.classList.toggle('open');
-      hamburger.classList.toggle('open', isOpen);
-      hamburger.setAttribute('aria-expanded', isOpen);
-      document.body.style.overflow = isOpen ? 'hidden' : '';
-    });
-    // Close on link click
-    mobileMenu.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        mobileMenu.classList.remove('open');
-        hamburger.classList.remove('open');
-        document.body.style.overflow = '';
-      });
-    });
-  }
 </script>
 <script>
   const hamburger=document.getElementById('hamburger');
