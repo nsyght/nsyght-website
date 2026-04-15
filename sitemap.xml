@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- CORE -->
+  <url><loc>https://nsyght.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nsyght.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nsyght.com/results</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- THE STACK -->
+  <url><loc>https://nsyght.com/the-stack</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/seo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/geo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/aeo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/aio</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- SERVICES -->
+  <url><loc>https://nsyght.com/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nsyght.com/services/seo</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nsyght.com/local-gbp-management</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nsyght.com/services/web-design</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/services/google-ads</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/services/facebook-ads</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/services/social-media</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- INDUSTRIES -->
+  <url><loc>https://nsyght.com/industries</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/roofing</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/dumpster-rental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/party-rental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/law-firms</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/dental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/home-services</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/industries/real-estate-investors</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- BLOG -->
+  <url><loc>https://nsyght.com/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nsyght.com/blog/local-seo-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/blog/google-business-profile-guide</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/blog/ai-search-guide-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/blog/houston-roofing-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/blog/atlanta-dumpster-rental-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nsyght.com/blog/austin-party-rental-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <url><loc>https://nsyght.com/local-seo-checklist</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://nsyght.com/press</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://nsyght.com/blog/nsyght-website-relaunch-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+</urlset>
