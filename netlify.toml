@@ -87,16 +87,6 @@
   status = 200
 
 [[redirects]]
-  from = "/industries/dumpster-rental"
-  to = "/industries-dumpster-rental.html"
-  status = 200
-
-[[redirects]]
-  from = "/industries/party-rental"
-  to = "/industries-party-rental.html"
-  status = 200
-
-[[redirects]]
   from = "/industries/law-firms"
   to = "/industries-law-firms.html"
   status = 200
@@ -155,16 +145,6 @@
   status = 200
 
 [[redirects]]
-  from = "/blog/atlanta-dumpster-rental-seo"
-  to = "/blog-atlanta-dumpster-rental-seo.html"
-  status = 200
-
-[[redirects]]
-  from = "/blog/austin-party-rental-seo"
-  to = "/blog-austin-party-rental-seo.html"
-  status = 200
-
-[[redirects]]
   from = "/local-seo-checklist"
   to = "/local-seo-checklist.html"
   status = 200
@@ -178,6 +158,47 @@
   from = "/blog/nsyght-website-relaunch-2026"
   to = "/blog-nsyght-website-relaunch-2026.html"
   status = 200
+
+# ── REMOVED PAGES (301 to parent hubs) ──
+[[redirects]]
+  from = "/industries/dumpster-rental"
+  to = "/industries"
+  status = 301
+
+[[redirects]]
+  from = "/industries/party-rental"
+  to = "/industries"
+  status = 301
+
+[[redirects]]
+  from = "/industries-dumpster-rental.html"
+  to = "/industries"
+  status = 301
+
+[[redirects]]
+  from = "/industries-party-rental.html"
+  to = "/industries"
+  status = 301
+
+[[redirects]]
+  from = "/blog/atlanta-dumpster-rental-seo"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/blog/austin-party-rental-seo"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/blog-atlanta-dumpster-rental-seo.html"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/blog-austin-party-rental-seo.html"
+  to = "/blog"
+  status = 301
 
 # ── PODCAST ──
 [[redirects]]

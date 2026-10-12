@@ -26,8 +26,6 @@
   <!-- INDUSTRIES -->
   <url><loc>https://nsyght.com/industries</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/industries/roofing</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://nsyght.com/industries/dumpster-rental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://nsyght.com/industries/party-rental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/industries/law-firms</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/industries/dental</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/industries/home-services</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -39,8 +37,6 @@
   <url><loc>https://nsyght.com/blog/google-business-profile-guide</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/blog/ai-search-guide-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nsyght.com/blog/houston-roofing-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://nsyght.com/blog/atlanta-dumpster-rental-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://nsyght.com/blog/austin-party-rental-seo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
   <url><loc>https://nsyght.com/local-seo-checklist</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
   <url><loc>https://nsyght.com/press</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>

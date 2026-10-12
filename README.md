@@ -29,8 +29,6 @@ nsyght/
 - [ ] social-media.html
 - [ ] industries/index.html
 - [ ] industries/roofing.html
-- [ ] industries/dumpster-rental.html
-- [ ] industries/party-rental.html
 - [ ] blog/index.html
 
 ## Deployment
