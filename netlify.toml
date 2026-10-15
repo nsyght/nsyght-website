@@ -160,6 +160,16 @@
   status = 200
 
 # ── AUTO-PUBLISHED POSTS ──
+[[redirects]]
+  from = "/blog/multi-location-seo"
+  to = "/blog-multi-location-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-ads-local"
+  to = "/blog-google-ads-local.html"
+  status = 200
+
 # (scripts/release_posts.py adds a redirect here for each post it publishes)
 
 # ── HIDE THE POST QUEUE AND BUILD SCRIPTS ──

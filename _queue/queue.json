@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": null,
+  "last_release_date": "2026-10-14",
   "posts": [
-    {
-      "slug": "google-ads-local",
-      "title": "Make LSA Spend Pay: Google Local Ads for Service Businesses",
-      "category": "Google Ads",
-      "excerpt": "Verify your Google Business Profile, apply for Local Services Ads, and align paid ads with entity driven SEO. Action-first steps for service businesses.",
-      "read_min": 10,
-      "file": "_queue/blog-google-ads-local.html",
-      "blg_id": 788613,
-      "blg_date": "2026-08-29"
-    },
-    {
-      "slug": "multi-location-seo",
-      "title": "Start with 3 Moves: Multi Location SEO for Brands to Win AI",
-      "category": "Local SEO",
-      "excerpt": "Scale multi location visibility with one page per site, a centralized master data repository, and optimized Google Business Profiles for AI.",
-      "read_min": 13,
-      "file": "_queue/blog-multi-location-seo.html",
-      "blg_id": 788614,
-      "blg_date": "2026-08-30"
-    },
     {
       "slug": "seo-for-dentists",
       "title": "3 GBP First Moves to Win Local SEO for Dental Practices",
@@ -476,6 +456,16 @@
       "file": "_queue/blog-wikidata-for-seo.html",
       "blg_id": 965177,
       "blg_date": "2026-10-14"
+    }
+  ],
+  "published": [
+    {
+      "slug": "google-ads-local",
+      "date": "2026-10-14"
+    },
+    {
+      "slug": "multi-location-seo",
+      "date": "2026-10-14"
     }
   ]
 }
