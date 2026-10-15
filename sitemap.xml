@@ -42,6 +42,20 @@
   <url><loc>https://nsyght.com/press</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://nsyght.com/blog/nsyght-website-relaunch-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
+  <!-- BLOG TOPIC HUBS (scripts/build_blog.py) -->
+  <!-- CATEGORY-HUBS:START -->
+  <url><loc>https://nsyght.com/blog/category/local-seo</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/category/google-business-profile</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/category/ai-search</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/category/google-ads</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/category/industry-tips</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/category/agency-news</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<!-- CATEGORY-HUBS:END -->
+
+  <!-- LEGAL -->
+  <url><loc>https://nsyght.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nsyght.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
   <!-- BLOG POSTS (auto-published) -->
   <!-- AUTO-POSTS -->
   <url><loc>https://nsyght.com/blog/multi-location-seo</loc><lastmod>2026-10-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

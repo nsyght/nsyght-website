@@ -5,19 +5,20 @@ Run daily by .github/workflows/release-posts.yml. For each post it:
   1. moves _queue/blog-<slug>.html to the site root and stamps today's date
   2. adds the /blog/<slug> redirect to netlify.toml
   3. adds the URL to sitemap.xml
-  4. adds a card to the top of the article list in blog.html
+  4. adds the post to _data/posts.json
+  5. rebuilds the blog (scripts/build_blog.py): /blog index, topic hubs,
+     Keep Reading links on every post, and /feed.xml
 
 Usage: python3 scripts/release_posts.py [--force] [--count N] [--dry-run]
   --force    release even if a release already ran today
   --count N  release exactly N posts instead of following the rules in queue.json
 """
-import argparse, datetime, html, json, os, sys
+import argparse, datetime, json, os, re, sys
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, '_queue', 'queue.json')
 REDIRECT_MARK = '# ── AUTO-PUBLISHED POSTS ──'
-CARD_MARK = '<!-- AUTO-POSTS:START -->'
 SITEMAP_MARK = '<!-- AUTO-POSTS -->'
 
 
@@ -60,9 +61,10 @@ def main():
             print('  would publish /blog/' + p['slug'])
         return
 
-    netlify, sitemap, blog = read('netlify.toml'), read('sitemap.xml'), read('blog.html')
-    for mark, doc in ((REDIRECT_MARK, 'netlify.toml'), (SITEMAP_MARK, 'sitemap.xml'), (CARD_MARK, 'blog.html')):
-        if mark not in {'netlify.toml': netlify, 'sitemap.xml': sitemap, 'blog.html': blog}[doc]:
+    netlify, sitemap = read('netlify.toml'), read('sitemap.xml')
+    data = json.loads(read('_data/posts.json'))
+    for mark, doc, text in ((REDIRECT_MARK, 'netlify.toml', netlify), (SITEMAP_MARK, 'sitemap.xml', sitemap)):
+        if mark not in text:
             sys.exit(f'Marker {mark!r} missing from {doc}')
 
     for p in batch:
@@ -76,28 +78,29 @@ def main():
         loc = f'https://nsyght.com/blog/{slug}'
         if loc not in sitemap:
             sitemap = sitemap.replace(SITEMAP_MARK, SITEMAP_MARK + f'\n  <url><loc>{loc}</loc><lastmod>{iso}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>', 1)
-        e = html.escape
-        card = f'''
-    <a href="/blog/{slug}" class="article-card">
-      <div class="article-card-category">{e(p['category'])}</div>
-      <div class="article-card-title">{e(p['title'])}</div>
-      <p class="article-card-excerpt">{e(p['excerpt'])}</p>
-      <div class="article-card-meta"><span>By Don Phelps</span><span>{human}</span><span>{p['read_min']} min read</span></div>
-      <span class="article-card-cta">Read the article &rarr;</span>
-    </a>
-'''
-        if f'href="/blog/{slug}"' not in blog:
-            blog = blog.replace(CARD_MARK, CARD_MARK + card, 1)
+        if not any(d['slug'] == slug for d in data):
+            entry = {'slug': slug, 'url': f'/blog/{slug}', 'file': f'blog-{slug}.html', 'title': p['title'],
+                     'category': p['category'], 'excerpt': p['excerpt'], 'read_min': p['read_min'], 'date': iso}
+            m = re.search(r'<meta property="og:image" content="https://nsyght\.com(/[^"]+)"', page)
+            if m:
+                entry['image'] = m.group(1)
+            entry['auto'] = True
+            data.append(entry)
         print('  published /blog/' + slug)
 
     write('netlify.toml', netlify)
     write('sitemap.xml', sitemap)
-    write('blog.html', blog)
+    write('_data/posts.json', json.dumps(data, indent=2, ensure_ascii=False) + '\n')
     q['posts'] = rest
     q['last_release_date'] = iso
     q.setdefault('published', []).extend({'slug': p['slug'], 'date': iso} for p in batch)
     write('_queue/queue.json', json.dumps(q, indent=2, ensure_ascii=False) + '\n')
     print(f'{len(rest)} posts left in the queue')
+
+    sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+    import fix_footer, build_blog
+    fix_footer.main([os.path.join(ROOT, f'blog-{p["slug"]}.html') for p in batch])
+    build_blog.main()
 
 
 if __name__ == '__main__':

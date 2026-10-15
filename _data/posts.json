@@ -11,7 +11,8 @@
     "cornerstone": true,
     "featured": true,
     "badge": "Cornerstone Guide",
-    "excerpt": "Everyone talks about local SEO. Very few people talk honestly about what it actually requires, how long it takes, and what separates the businesses that see results from the ones that do not. Don lays it out plainly."
+    "excerpt": "Everyone talks about local SEO. Very few people talk honestly about what it actually requires, how long it takes, and what separates the businesses that see results from the ones that do not. Don lays it out plainly.",
+    "start_here": 1
   },
   {
     "slug": "google-business-profile-guide",
@@ -24,7 +25,8 @@
     "date_label": "April 2026",
     "cornerstone": true,
     "badge": "Cornerstone Guide",
-    "excerpt": "Most local businesses spend thousands on a website and ignore the one asset that drives the most local search traffic. Here is why your Google Business Profile deserves more attention than almost anything else."
+    "excerpt": "Most local businesses spend thousands on a website and ignore the one asset that drives the most local search traffic. Here is why your Google Business Profile deserves more attention than almost anything else.",
+    "start_here": 2
   },
   {
     "slug": "ai-search-guide-2026",
@@ -37,7 +39,8 @@
     "date_label": "April 2026",
     "cornerstone": true,
     "badge": "Cornerstone Guide",
-    "excerpt": "AI visibility is real, volatile, and misunderstood. Here is what the data says, what NSYGHT believes, and what local service businesses should actually be doing about it right now."
+    "excerpt": "AI visibility is real, volatile, and misunderstood. Here is what the data says, what NSYGHT believes, and what local service businesses should actually be doing about it right now.",
+    "start_here": 3
   },
   {
     "slug": "local-seo-checklist",
@@ -50,7 +53,8 @@
     "date_label": "April 2026",
     "cornerstone": true,
     "badge": "Strategy Guide",
-    "excerpt": "The complete local SEO checklist for 2026: 40 actionable items across 8 categories, plus a plain-English comparison of SEO, GEO, AEO, and AIO with a side-by-side table."
+    "excerpt": "The complete local SEO checklist for 2026: 40 actionable items across 8 categories, plus a plain-English comparison of SEO, GEO, AEO, and AIO with a side-by-side table.",
+    "start_here": 4
   },
   {
     "slug": "nsyght-website-relaunch-2026",
@@ -59,7 +63,7 @@
     "title": "Why We Rebuilt NSYGHT.com and What We Released With It",
     "category": "Agency News",
     "read_min": 8,
-    "date": null,
+    "date": "2026-04-14",
     "date_label": "April 2026",
     "cornerstone": true,
     "badge": "Agency News",
