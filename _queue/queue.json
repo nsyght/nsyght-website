@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-14",
+  "last_release_date": "2026-10-15",
   "posts": [
-    {
-      "slug": "seo-for-dentists",
-      "title": "3 GBP First Moves to Win Local SEO for Dental Practices",
-      "category": "Industry Tips",
-      "excerpt": "GBP first local SEO for dental practices: optimize your Google Business Profile, request HIPAA safe reviews, and publish a page for each treatment.",
-      "read_min": 14,
-      "file": "_queue/blog-seo-for-dentists.html",
-      "blg_id": 794167,
-      "blg_date": "2026-08-31"
-    },
-    {
-      "slug": "seo-vs-google-ads",
-      "title": "2 Week Ads Test Picks SEO Targets for Businesses: SEO vs Google Ads",
-      "category": "Google Ads",
-      "excerpt": "When to run Google Ads and when to invest in SEO. Start with a two-week Ads test to find high-converting keywords, then build a 90-day SEO plan.",
-      "read_min": 9,
-      "file": "_queue/blog-seo-vs-google-ads.html",
-      "blg_id": 805816,
-      "blg_date": "2026-09-01"
-    },
     {
       "slug": "near-me-seo",
       "title": "10 Point Near Me SEO Checklist for Local Businesses (GBP First)",
@@ -466,6 +446,14 @@
     {
       "slug": "multi-location-seo",
       "date": "2026-10-14"
+    },
+    {
+      "slug": "seo-for-dentists",
+      "date": "2026-10-15"
+    },
+    {
+      "slug": "seo-vs-google-ads",
+      "date": "2026-10-15"
     }
   ]
 }

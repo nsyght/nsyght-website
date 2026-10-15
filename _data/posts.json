@@ -103,5 +103,29 @@
     "date": "2026-10-14",
     "image": "/images/blog/decorative-multi-location-seo-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "seo-for-dentists",
+    "url": "/blog/seo-for-dentists",
+    "file": "blog-seo-for-dentists.html",
+    "title": "3 GBP First Moves to Win Local SEO for Dental Practices",
+    "category": "Industry Tips",
+    "excerpt": "GBP first local SEO for dental practices: optimize your Google Business Profile, request HIPAA safe reviews, and publish a page for each treatment.",
+    "read_min": 14,
+    "date": "2026-10-15",
+    "image": "/images/blog/dental-local-seo-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "seo-vs-google-ads",
+    "url": "/blog/seo-vs-google-ads",
+    "file": "blog-seo-vs-google-ads.html",
+    "title": "2 Week Ads Test Picks SEO Targets for Businesses: SEO vs Google Ads",
+    "category": "Google Ads",
+    "excerpt": "When to run Google Ads and when to invest in SEO. Start with a two-week Ads test to find high-converting keywords, then build a 90-day SEO plan.",
+    "read_min": 9,
+    "date": "2026-10-15",
+    "image": "/images/blog/seo-and-google-ads-comparison-title-card.webp",
+    "auto": true
   }
 ]

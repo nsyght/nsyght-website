@@ -193,6 +193,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/seo-vs-google-ads"
+  to = "/blog-seo-vs-google-ads.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/seo-for-dentists"
+  to = "/blog-seo-for-dentists.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/multi-location-seo"
   to = "/blog-multi-location-seo.html"
   status = 200
