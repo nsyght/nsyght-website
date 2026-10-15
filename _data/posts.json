@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "local-seo-2026",
+    "url": "/blog/local-seo-2026",
+    "file": "blog-local-seo-2026.html",
+    "title": "What Local SEO Actually Takes in 2026",
+    "category": "Local SEO",
+    "read_min": 12,
+    "date": null,
+    "date_label": "April 2026",
+    "cornerstone": true,
+    "featured": true,
+    "badge": "Cornerstone Guide",
+    "excerpt": "Everyone talks about local SEO. Very few people talk honestly about what it actually requires, how long it takes, and what separates the businesses that see results from the ones that do not. Don lays it out plainly."
+  },
+  {
+    "slug": "google-business-profile-guide",
+    "url": "/blog/google-business-profile-guide",
+    "file": "blog-google-business-profile-guide.html",
+    "title": "Why Your GBP Is More Important Than Your Website",
+    "category": "Google Business Profile",
+    "read_min": 10,
+    "date": null,
+    "date_label": "April 2026",
+    "cornerstone": true,
+    "badge": "Cornerstone Guide",
+    "excerpt": "Most local businesses spend thousands on a website and ignore the one asset that drives the most local search traffic. Here is why your Google Business Profile deserves more attention than almost anything else."
+  },
+  {
+    "slug": "ai-search-guide-2026",
+    "url": "/blog/ai-search-guide-2026",
+    "file": "blog-ai-search-guide-2026.html",
+    "title": "The Local Business Owner's Guide to AI Search in 2026",
+    "category": "AI Search",
+    "read_min": 14,
+    "date": null,
+    "date_label": "April 2026",
+    "cornerstone": true,
+    "badge": "Cornerstone Guide",
+    "excerpt": "AI visibility is real, volatile, and misunderstood. Here is what the data says, what NSYGHT believes, and what local service businesses should actually be doing about it right now."
+  },
+  {
+    "slug": "local-seo-checklist",
+    "url": "/local-seo-checklist",
+    "file": "local-seo-checklist.html",
+    "title": "Local SEO Checklist 2026 + SEO vs GEO vs AEO vs AIO Explained",
+    "category": "Local SEO",
+    "read_min": 15,
+    "date": null,
+    "date_label": "April 2026",
+    "cornerstone": true,
+    "badge": "Strategy Guide",
+    "excerpt": "The complete local SEO checklist for 2026: 40 actionable items across 8 categories, plus a plain-English comparison of SEO, GEO, AEO, and AIO with a side-by-side table."
+  },
+  {
+    "slug": "nsyght-website-relaunch-2026",
+    "url": "/blog/nsyght-website-relaunch-2026",
+    "file": "blog-nsyght-website-relaunch-2026.html",
+    "title": "Why We Rebuilt NSYGHT.com and What We Released With It",
+    "category": "Agency News",
+    "read_min": 8,
+    "date": null,
+    "date_label": "April 2026",
+    "cornerstone": true,
+    "badge": "Agency News",
+    "excerpt": "Don Phelps explains the full site rebuild, the free 40-point local SEO checklist, the four-discipline stack comparison, and what went into building a site that practices what the agency teaches."
+  },
+  {
+    "slug": "houston-roofing-seo",
+    "url": "/blog/houston-roofing-seo",
+    "file": "blog-houston-roofing-seo.html",
+    "title": "Local SEO for Roofing Companies in Houston",
+    "category": "Industry Tips",
+    "read_min": 11,
+    "date": null,
+    "date_label": "April 2026",
+    "excerpt": "What the Houston roofing search landscape looks like in 2026, what it takes to rank in it, and how one Houston roofer doubled inbound calls in 90 days."
+  },
+  {
+    "slug": "google-ads-local",
+    "url": "/blog/google-ads-local",
+    "file": "blog-google-ads-local.html",
+    "title": "Make LSA Spend Pay: Google Local Ads for Service Businesses",
+    "category": "Google Ads",
+    "excerpt": "Verify your Google Business Profile, apply for Local Services Ads, and align paid ads with entity driven SEO. Action-first steps for service businesses.",
+    "read_min": 10,
+    "date": "2026-10-14",
+    "image": "/images/blog/decorative-local-ads-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "multi-location-seo",
+    "url": "/blog/multi-location-seo",
+    "file": "blog-multi-location-seo.html",
+    "title": "Start with 3 Moves: Multi Location SEO for Brands to Win AI",
+    "category": "Local SEO",
+    "excerpt": "Scale multi location visibility with one page per site, a centralized master data repository, and optimized Google Business Profiles for AI.",
+    "read_min": 13,
+    "date": "2026-10-14",
+    "image": "/images/blog/decorative-multi-location-seo-title-card.webp",
+    "auto": true
+  }
+]
