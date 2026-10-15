@@ -1,0 +1,45 @@
+name: Release queued blog posts
+
+on:
+  schedule:
+    # 13:07 UTC = 8:07am Central (CDT) / 7:07am (CST)
+    - cron: '7 13 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many posts to publish now (blank = follow the queue rules)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-posts
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish next posts
+        run: |
+          if [ -n "${{ github.event.inputs.count }}" ]; then
+            python3 scripts/release_posts.py --force --count "${{ github.event.inputs.count }}"
+          else
+            python3 scripts/release_posts.py
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "nsyght-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to publish."
+          else
+            git commit -m "Publish queued blog posts ($(TZ=America/Chicago date +%F))"
+            git push
+          fi
