@@ -32,6 +32,9 @@ jobs:
             python3 scripts/release_posts.py
           fi
 
+      - name: Rebuild blog index, topic hubs, Keep Reading, and RSS
+        run: python3 scripts/build_blog.py
+
       - name: Commit and push
         run: |
           git config user.name "nsyght-bot"
