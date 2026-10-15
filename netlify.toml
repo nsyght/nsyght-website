@@ -159,6 +159,22 @@
   to = "/blog-nsyght-website-relaunch-2026.html"
   status = 200
 
+# ── AUTO-PUBLISHED POSTS ──
+# (scripts/release_posts.py adds a redirect here for each post it publishes)
+
+# ── HIDE THE POST QUEUE AND BUILD SCRIPTS ──
+[[redirects]]
+  from = "/_queue/*"
+  to = "/blog.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "/blog.html"
+  status = 404
+  force = true
+
 # ── REMOVED PAGES (301 to parent hubs) ──
 [[redirects]]
   from = "/industries/dumpster-rental"

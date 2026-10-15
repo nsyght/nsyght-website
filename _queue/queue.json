@@ -1,0 +1,481 @@
+{
+  "_readme": "Posts waiting to go live, oldest first. The daily GitHub Action (scripts/release_posts.py) publishes from the top. Reorder or delete entries here to change what goes out next.",
+  "rules": {
+    "backlog_per_day": 2,
+    "steady_per_day": 1,
+    "switch_to_steady_when_queue_at_or_below": 3
+  },
+  "last_release_date": null,
+  "posts": [
+    {
+      "slug": "google-ads-local",
+      "title": "Make LSA Spend Pay: Google Local Ads for Service Businesses",
+      "category": "Google Ads",
+      "excerpt": "Verify your Google Business Profile, apply for Local Services Ads, and align paid ads with entity driven SEO. Action-first steps for service businesses.",
+      "read_min": 10,
+      "file": "_queue/blog-google-ads-local.html",
+      "blg_id": 788613,
+      "blg_date": "2026-08-29"
+    },
+    {
+      "slug": "multi-location-seo",
+      "title": "Start with 3 Moves: Multi Location SEO for Brands to Win AI",
+      "category": "Local SEO",
+      "excerpt": "Scale multi location visibility with one page per site, a centralized master data repository, and optimized Google Business Profiles for AI.",
+      "read_min": 13,
+      "file": "_queue/blog-multi-location-seo.html",
+      "blg_id": 788614,
+      "blg_date": "2026-08-30"
+    },
+    {
+      "slug": "seo-for-dentists",
+      "title": "3 GBP First Moves to Win Local SEO for Dental Practices",
+      "category": "Industry Tips",
+      "excerpt": "GBP first local SEO for dental practices: optimize your Google Business Profile, request HIPAA safe reviews, and publish a page for each treatment.",
+      "read_min": 14,
+      "file": "_queue/blog-seo-for-dentists.html",
+      "blg_id": 794167,
+      "blg_date": "2026-08-31"
+    },
+    {
+      "slug": "seo-vs-google-ads",
+      "title": "2 Week Ads Test Picks SEO Targets for Businesses: SEO vs Google Ads",
+      "category": "Google Ads",
+      "excerpt": "When to run Google Ads and when to invest in SEO. Start with a two-week Ads test to find high-converting keywords, then build a 90-day SEO plan.",
+      "read_min": 9,
+      "file": "_queue/blog-seo-vs-google-ads.html",
+      "blg_id": 805816,
+      "blg_date": "2026-09-01"
+    },
+    {
+      "slug": "near-me-seo",
+      "title": "10 Point Near Me SEO Checklist for Local Businesses (GBP First)",
+      "category": "Google Business Profile",
+      "excerpt": "A prioritized 10 point checklist to fix your Google Business Profile, location pages, schema, reviews, and tracking so near me searches turn into calls.",
+      "read_min": 17,
+      "file": "_queue/blog-near-me-seo.html",
+      "blg_id": 803388,
+      "blg_date": "2026-09-02"
+    },
+    {
+      "slug": "local-seo-audit",
+      "title": "GBP and NAP First: An AI Ready Local SEO Audit That Wins Maps",
+      "category": "Google Business Profile",
+      "excerpt": "Run an agency grade local SEO audit that fixes GBP and NAP first, tests LLM prompts for AI visibility, and delivers a prioritized fix list.",
+      "read_min": 11,
+      "file": "_queue/blog-local-seo-audit.html",
+      "blg_id": 802127,
+      "blg_date": "2026-09-03"
+    },
+    {
+      "slug": "google-business-profile-optimization",
+      "title": "Google Business Profile: Fixes to Drive Calls for Local Businesses",
+      "category": "Google Business Profile",
+      "excerpt": "Practical playbook for busy local businesses: verify listing, fix categories, earn reviews, post photos, and track insights to drive calls.",
+      "read_min": 16,
+      "file": "_queue/blog-google-business-profile-optimization.html",
+      "blg_id": 805260,
+      "blg_date": "2026-09-04"
+    },
+    {
+      "slug": "remove-fake-google-reviews",
+      "title": "6 Steps: Evidence Based Removal of Fake Google Reviews for Businesses",
+      "category": "Google Business Profile",
+      "excerpt": "Evidence first playbook for business owners: collect the proof Google needs, report and escalate fake reviews, and restore your rating.",
+      "read_min": 9,
+      "file": "_queue/blog-remove-fake-google-reviews.html",
+      "blg_id": 810436,
+      "blg_date": "2026-09-05"
+    },
+    {
+      "slug": "google-business-hours",
+      "title": "Fix Google Business Hours in Under 10 Minutes for Small Businesses",
+      "category": "Google Business Profile",
+      "excerpt": "Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.",
+      "read_min": 8,
+      "file": "_queue/blog-google-business-hours.html",
+      "blg_id": 813531,
+      "blg_date": "2026-09-06"
+    },
+    {
+      "slug": "review-gating",
+      "title": "Business Owners: Review Gating Risks FTC Fines. Audit Your Review Funnel",
+      "category": "Google Business Profile",
+      "excerpt": "Why Google, Yelp, and the FTC ban review gating, what the penalties look like, and the audit steps businesses should take to fix their review funnel.",
+      "read_min": 8,
+      "file": "_queue/blog-review-gating.html",
+      "blg_id": 817155,
+      "blg_date": "2026-09-07"
+    },
+    {
+      "slug": "google-business-messaging",
+      "title": "Marketers: Convert Local Searches with Business Messages (Build vs Buy)",
+      "category": "Google Business Profile",
+      "excerpt": "An implementation guide for marketers on Business Messages and RCS: set up chat, tie messages to bookings, measure results, and choose build or buy.",
+      "read_min": 7,
+      "file": "_queue/blog-google-business-messaging.html",
+      "blg_id": 821745,
+      "blg_date": "2026-09-08"
+    },
+    {
+      "slug": "service-area-business-seo",
+      "title": "Get Map Pack Movement in 90 Days: Service Area Business SEO Plan",
+      "category": "Local SEO",
+      "excerpt": "Operations first playbook for service-area businesses: fix GBP, publish evidence-backed city pages, add areaServed schema, and follow a 30/90/180 plan.",
+      "read_min": 10,
+      "file": "_queue/blog-service-area-business-seo.html",
+      "blg_id": 825913,
+      "blg_date": "2026-09-09"
+    },
+    {
+      "slug": "google-business-profile-posts",
+      "title": "Weekly Google Business Profile Posts for Business Owners and Marketers",
+      "category": "Google Business Profile",
+      "excerpt": "Build a weekly system for Google Business Profile posts with native scheduling, recurring posts, and multi-location publishing. Batch, tag, and measure.",
+      "read_min": 14,
+      "file": "_queue/blog-google-business-profile-posts.html",
+      "blg_id": 830154,
+      "blg_date": "2026-09-10"
+    },
+    {
+      "slug": "entity-seo",
+      "title": "Entity SEO for Teams: Win AI Citations Without Rebuilding Your CMS",
+      "category": "AI Search",
+      "excerpt": "Practical steps teams can run now to map canonical entity pages, add schema, earn authoritative mentions, and get cited in AI Overviews and Knowledge Panels.",
+      "read_min": 11,
+      "file": "_queue/blog-entity-seo.html",
+      "blg_id": 834793,
+      "blg_date": "2026-09-11"
+    },
+    {
+      "slug": "google-business-qa",
+      "title": "Local Businesses: Fix Ask Maps Answers Within a Month After Google Q&A",
+      "category": "Google Business Profile",
+      "excerpt": "Google retired Business Profile Q&A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.",
+      "read_min": 8,
+      "file": "_queue/blog-google-business-qa.html",
+      "blg_id": 838717,
+      "blg_date": "2026-09-12"
+    },
+    {
+      "slug": "google-business-profile-suspension",
+      "title": "6 Compliance Fixes Before Appealing Google Business Profile Suspension",
+      "category": "Google Business Profile",
+      "excerpt": "Fix six compliance triggers, gather the documents Google accepts, and submit a focused appeal to reinstate your Google Business Profile.",
+      "read_min": 11,
+      "file": "_queue/blog-google-business-profile-suspension.html",
+      "blg_id": 843110,
+      "blg_date": "2026-09-13"
+    },
+    {
+      "slug": "knowledge-graph-seo",
+      "title": "Anchor Google with @id and sameAs: Knowledge Graph SEO for SEO Teams",
+      "category": "AI Search",
+      "excerpt": "Actionable steps for SEO teams to implement canonical @id and sameAs, build entity hub pages, and measure Knowledge Panel and AI citations.",
+      "read_min": 14,
+      "file": "_queue/blog-knowledge-graph-seo.html",
+      "blg_id": 847183,
+      "blg_date": "2026-09-14"
+    },
+    {
+      "slug": "seo-website-redesign",
+      "title": "Protect Rankings: SEO Website Redesign With a 1:1 Redirect Map",
+      "category": "Local SEO",
+      "excerpt": "Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.",
+      "read_min": 18,
+      "file": "_queue/blog-seo-website-redesign.html",
+      "blg_id": 851622,
+      "blg_date": "2026-09-15"
+    },
+    {
+      "slug": "answer-engine-optimization",
+      "title": "Get Cited by AI in 90 Days: Answer Engine Optimization for Marketers",
+      "category": "AI Search",
+      "excerpt": "Turn your top pages into AI citable chunks in 90 days. Learn BLUF first structuring, precise schema choices, and how to allocate your AEO budget.",
+      "read_min": 9,
+      "file": "_queue/blog-answer-engine-optimization.html",
+      "blg_id": 855466,
+      "blg_date": "2026-09-16"
+    },
+    {
+      "slug": "home-services-seo",
+      "title": "90 Day Home Services SEO for Contractors: GBP, Reviews, Entity Signals",
+      "category": "Industry Tips",
+      "excerpt": "Contractors: 90 day plan to finish Google Business Profile, start steady reviews, and build service/city pages that earn local and AI citations.",
+      "read_min": 21,
+      "file": "_queue/blog-home-services-seo.html",
+      "blg_id": 859748,
+      "blg_date": "2026-09-17"
+    },
+    {
+      "slug": "ai-search-visibility",
+      "title": "Marketers: Track AI Search Visibility and Gain Citations, No Rewrites",
+      "category": "AI Search",
+      "excerpt": "A marketer-first plan to measure and improve AI search visibility: set up prompt sampling and a simple dashboard, restructure key sections, earn citations.",
+      "read_min": 14,
+      "file": "_queue/blog-ai-search-visibility.html",
+      "blg_id": 863559,
+      "blg_date": "2026-09-18"
+    },
+    {
+      "slug": "law-firm-seo-strategy",
+      "title": "90 Days to Local Pack Wins and AI Answers With Law Firm SEO Signals",
+      "category": "Industry Tips",
+      "excerpt": "Agency tested entity first law firm SEO: fix GBP, add attorney byline pages with schema, and win local pack rankings and AI citations.",
+      "read_min": 16,
+      "file": "_queue/blog-law-firm-seo-strategy.html",
+      "blg_id": 867631,
+      "blg_date": "2026-09-19"
+    },
+    {
+      "slug": "service-page-seo",
+      "title": "Get Cited by AI: 90 Day Service Page SEO Playbook for Marketers",
+      "category": "Local SEO",
+      "excerpt": "A 90 day playbook for service marketers to rank and convert, using entity signals, AEO aware schema, and single keyword pages that get cited by AI.",
+      "read_min": 13,
+      "file": "_queue/blog-service-page-seo.html",
+      "blg_id": 871036,
+      "blg_date": "2026-09-20"
+    },
+    {
+      "slug": "location-landing-pages",
+      "title": "Get AI Citations With Entity First Location Landing Pages",
+      "category": "AI Search",
+      "excerpt": "Build entity first location landing pages that match your Google Business Profile, convert local visitors, and earn AI citations with answer-ready FAQs.",
+      "read_min": 12,
+      "file": "_queue/blog-location-landing-pages.html",
+      "blg_id": 874599,
+      "blg_date": "2026-09-21"
+    },
+    {
+      "slug": "seo-site-architecture",
+      "title": "Six Step SEO Site Architecture Audit: Keep Pages Within Four Clicks",
+      "category": "Local SEO",
+      "excerpt": "Run a six step site architecture audit to fix orphan pages, standardize URLs, and keep priority content within four clicks for AI ready SEO.",
+      "read_min": 12,
+      "file": "_queue/blog-seo-site-architecture.html",
+      "blg_id": 878150,
+      "blg_date": "2026-09-22"
+    },
+    {
+      "slug": "duplicate-content-seo",
+      "title": "Fix 5 Root Causes of Duplicate Content SEO With Canonical First Triage",
+      "category": "Local SEO",
+      "excerpt": "A canonical first playbook for SEOs and site owners. Use GSC signals, faceted navigation triage, and redirects or rel=canonical to reclaim link equity.",
+      "read_min": 15,
+      "file": "_queue/blog-duplicate-content-seo.html",
+      "blg_id": 882527,
+      "blg_date": "2026-09-23"
+    },
+    {
+      "slug": "local-seo-reporting",
+      "title": "Prove Local SEO ROI: Template First Reporting for Owners & Agencies",
+      "category": "Local SEO",
+      "excerpt": "Download a starter template and agency workflow to build local SEO reports tying GBP, Search Console, and GA4 to calls and bookings.",
+      "read_min": 12,
+      "file": "_queue/blog-local-seo-reporting.html",
+      "blg_id": 887531,
+      "blg_date": "2026-09-24"
+    },
+    {
+      "slug": "local-seo-pricing",
+      "title": "Budget $500–$2,500 Per Month for Local SEO: U.S. 2026 Deliverables",
+      "category": "Local SEO",
+      "excerpt": "Practical 2026 U.S. local SEO pricing: what $500–$9,500/month buys, the deliverables to demand, and the procurement questions to ask before signing.",
+      "read_min": 13,
+      "file": "_queue/blog-local-seo-pricing.html",
+      "blg_id": 890813,
+      "blg_date": "2026-09-25"
+    },
+    {
+      "slug": "google-business-categories",
+      "title": "Local Brands: Testable Google Business Categories and Copyable Sets",
+      "category": "Google Business Profile",
+      "excerpt": "Pick one primary and 2 to 3 secondary Google Business categories, align site content, run 30 to 60 day tests, and apply copyable category sets.",
+      "read_min": 15,
+      "file": "_queue/blog-google-business-categories.html",
+      "blg_id": 892754,
+      "blg_date": "2026-09-26"
+    },
+    {
+      "slug": "local-link-building",
+      "title": "90-Day Community-First Local Link Building Plan for Local Businesses",
+      "category": "Local SEO",
+      "excerpt": "A prioritized 90 day plan for local businesses to earn community-trusted backlinks, fix GBP and structured data, and track local ranking and referral gains.",
+      "read_min": 11,
+      "file": "_queue/blog-local-link-building.html",
+      "blg_id": 898616,
+      "blg_date": "2026-09-27"
+    },
+    {
+      "slug": "rank-in-chatgpt",
+      "title": "Start With a 1 Hour Technical Audit to Rank in ChatGPT for Marketers",
+      "category": "AI Search",
+      "excerpt": "AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.",
+      "read_min": 8,
+      "file": "_queue/blog-rank-in-chatgpt.html",
+      "blg_id": 901680,
+      "blg_date": "2026-09-28"
+    },
+    {
+      "slug": "ai-content-for-seo",
+      "title": "Avoid Penalties for AI Content: A Compliance Playbook for SEO Teams",
+      "category": "AI Search",
+      "excerpt": "Compliance first playbook for SEO teams: Google's AI content policy, AEO and GEO aware templates, sampling, fact check gates, and audit steps.",
+      "read_min": 8,
+      "file": "_queue/blog-ai-content-for-seo.html",
+      "blg_id": 905448,
+      "blg_date": "2026-09-29"
+    },
+    {
+      "slug": "technical-seo-audit",
+      "title": "Engineer Friendly Technical SEO Audit: Automated Scans, Manual Tests",
+      "category": "Local SEO",
+      "excerpt": "Run a technical SEO audit that combines automated scans with manual Search Console and log file checks, then turn findings into developer-ready fixes.",
+      "read_min": 10,
+      "file": "_queue/blog-technical-seo-audit.html",
+      "blg_id": 909085,
+      "blg_date": "2026-09-30"
+    },
+    {
+      "slug": "google-maps-ranking",
+      "title": "30/60/90 Day Plan to Improve Google Maps Ranking for Local Businesses",
+      "category": "Local SEO",
+      "excerpt": "30/60/90 day playbook to lift local business Google Maps ranking with entity first profile setup, review and citation steps.",
+      "read_min": 20,
+      "file": "_queue/blog-google-maps-ranking.html",
+      "blg_id": 913639,
+      "blg_date": "2026-10-01"
+    },
+    {
+      "slug": "perplexity-seo",
+      "title": "Evidence First Perplexity SEO for Engineers: Quarterly Fact Refresh",
+      "category": "AI Search",
+      "excerpt": "For engineers: Perplexity SEO tactics. Put evidence first in page leads, refresh facts quarterly, and use NSYGHT entity structure to win AI citations.",
+      "read_min": 7,
+      "file": "_queue/blog-perplexity-seo.html",
+      "blg_id": 917425,
+      "blg_date": "2026-10-02"
+    },
+    {
+      "slug": "google-gemini-seo",
+      "title": "90 Day Google Gemini SEO Plan to Preserve High Value Traffic",
+      "category": "AI Search",
+      "excerpt": "Adapt SEO for Google Gemini in 90 days: prioritize answer first pages, measure with GA4 and Search Console, and protect conversions.",
+      "read_min": 14,
+      "file": "_queue/blog-google-gemini-seo.html",
+      "blg_id": 921604,
+      "blg_date": "2026-10-03"
+    },
+    {
+      "slug": "google-business-photos",
+      "title": "Get Google Business Photos Live in 24–48 Hours for Small Businesses",
+      "category": "Google Business Profile",
+      "excerpt": "How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.",
+      "read_min": 7,
+      "file": "_queue/blog-google-business-photos.html",
+      "blg_id": 925406,
+      "blg_date": "2026-10-04"
+    },
+    {
+      "slug": "google-reviews-strategy",
+      "title": "Five Pillars for a Policy Safe Google Reviews Strategy",
+      "category": "Google Business Profile",
+      "excerpt": "Compliance first Google reviews playbook built on five operational pillars. Get practical ask tactics, reply templates, KPIs, and governance to scale safely.",
+      "read_min": 10,
+      "file": "_queue/blog-google-reviews-strategy.html",
+      "blg_id": 929445,
+      "blg_date": "2026-10-05"
+    },
+    {
+      "slug": "nap-consistency-seo",
+      "title": "Fix NAP Consistency Fast for Local Businesses: DIY or Hire",
+      "category": "Local SEO",
+      "excerpt": "Run a prioritized NAP consistency audit, correct listings, and set an ongoing maintenance routine. Learn when to DIY and when to hire help.",
+      "read_min": 8,
+      "file": "_queue/blog-nap-consistency-seo.html",
+      "blg_id": 933339,
+      "blg_date": "2026-10-06"
+    },
+    {
+      "slug": "site-speed-seo",
+      "title": "Stop Chasing Scores: Field First Site Speed for Local SEO",
+      "category": "Local SEO",
+      "excerpt": "Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.",
+      "read_min": 8,
+      "file": "_queue/blog-site-speed-seo.html",
+      "blg_id": 935202,
+      "blg_date": "2026-10-07"
+    },
+    {
+      "slug": "generative-engine-optimization",
+      "title": "Get Cited by AI: Generative Engine Optimization Workflow That Raised Visibility 40%",
+      "category": "AI Search",
+      "excerpt": "A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.",
+      "read_min": 8,
+      "file": "_queue/blog-generative-engine-optimization.html",
+      "blg_id": 941387,
+      "blg_date": "2026-10-08"
+    },
+    {
+      "slug": "local-business-schema",
+      "title": "LocalBusiness Schema to Fix Entity Signals for Local Businesses",
+      "category": "AI Search",
+      "excerpt": "Implement LocalBusiness schema as an entity signal for local and AI search. NSYGHT tips for multi location and a working JSON-LD to adapt.",
+      "read_min": 11,
+      "file": "_queue/blog-local-business-schema.html",
+      "blg_id": 945546,
+      "blg_date": "2026-10-09"
+    },
+    {
+      "slug": "faq-schema-seo",
+      "title": "FAQ Schema for AI Overviews: Keep It After Google Dropped Rich Results",
+      "category": "AI Search",
+      "excerpt": "Google removed FAQ rich results, but FAQPage schema can still support AI Overviews and answer engines. Learn what to keep, update, and test.",
+      "read_min": 11,
+      "file": "_queue/blog-faq-schema-seo.html",
+      "blg_id": 949408,
+      "blg_date": "2026-10-10"
+    },
+    {
+      "slug": "chatgpt-citations",
+      "title": "ChatGPT Citations for Local Agencies: Scale Listings, Keep GBP Verified",
+      "category": "AI Search",
+      "excerpt": "Scale local citations with ChatGPT and protect GBP verification. Agencies can standardize NAP data, adapt directory copy, and verify every listing.",
+      "read_min": 8,
+      "file": "_queue/blog-chatgpt-citations.html",
+      "blg_id": 953262,
+      "blg_date": "2026-10-11"
+    },
+    {
+      "slug": "sameas-schema-seo",
+      "title": "sameAs Schema for SEO Across Locations: 5 Checks Before Scaling",
+      "category": "AI Search",
+      "excerpt": "Learn to add sameAs schema with structured data, follow Google and Schema.org guidance, and avoid identity errors when scaling across locations.",
+      "read_min": 7,
+      "file": "_queue/blog-sameas-schema-seo.html",
+      "blg_id": 957451,
+      "blg_date": "2026-10-12"
+    },
+    {
+      "slug": "internal-linking-strategy",
+      "title": "Internal Linking Strategy: Why Six Clicks Hurt SEO and AI Discovery",
+      "category": "Local SEO",
+      "excerpt": "Build an internal linking strategy that connects topic clusters, finds orphaned pages, and supports AI discovery through human review and clear rules.",
+      "read_min": 13,
+      "file": "_queue/blog-internal-linking-strategy.html",
+      "blg_id": 961262,
+      "blg_date": "2026-10-13"
+    },
+    {
+      "slug": "wikidata-for-seo",
+      "title": "Wikidata for SEO: 9 Checks SEO Teams Can Run for AI Visibility",
+      "category": "AI Search",
+      "excerpt": "Wikidata supports SEO and AI visibility. Use the nine point checklist, connect entities with sameAs schema, and track impact without assuming rankings.",
+      "read_min": 10,
+      "file": "_queue/blog-wikidata-for-seo.html",
+      "blg_id": 965177,
+      "blg_date": "2026-10-14"
+    }
+  ]
+}
