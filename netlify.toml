@@ -193,6 +193,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/local-seo-audit"
+  to = "/blog-local-seo-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/near-me-seo"
+  to = "/blog-near-me-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/seo-vs-google-ads"
   to = "/blog-seo-vs-google-ads.html"
   status = 200

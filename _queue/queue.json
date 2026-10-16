@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-15",
+  "last_release_date": "2026-10-16",
   "posts": [
-    {
-      "slug": "near-me-seo",
-      "title": "10 Point Near Me SEO Checklist for Local Businesses (GBP First)",
-      "category": "Google Business Profile",
-      "excerpt": "A prioritized 10 point checklist to fix your Google Business Profile, location pages, schema, reviews, and tracking so near me searches turn into calls.",
-      "read_min": 17,
-      "file": "_queue/blog-near-me-seo.html",
-      "blg_id": 803388,
-      "blg_date": "2026-09-02"
-    },
-    {
-      "slug": "local-seo-audit",
-      "title": "GBP and NAP First: An AI Ready Local SEO Audit That Wins Maps",
-      "category": "Google Business Profile",
-      "excerpt": "Run an agency grade local SEO audit that fixes GBP and NAP first, tests LLM prompts for AI visibility, and delivers a prioritized fix list.",
-      "read_min": 11,
-      "file": "_queue/blog-local-seo-audit.html",
-      "blg_id": 802127,
-      "blg_date": "2026-09-03"
-    },
     {
       "slug": "google-business-profile-optimization",
       "title": "Google Business Profile: Fixes to Drive Calls for Local Businesses",
@@ -454,6 +434,14 @@
     {
       "slug": "seo-vs-google-ads",
       "date": "2026-10-15"
+    },
+    {
+      "slug": "near-me-seo",
+      "date": "2026-10-16"
+    },
+    {
+      "slug": "local-seo-audit",
+      "date": "2026-10-16"
     }
   ]
 }

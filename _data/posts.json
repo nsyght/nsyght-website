@@ -127,5 +127,29 @@
     "date": "2026-10-15",
     "image": "/images/blog/seo-and-google-ads-comparison-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "near-me-seo",
+    "url": "/blog/near-me-seo",
+    "file": "blog-near-me-seo.html",
+    "title": "10 Point Near Me SEO Checklist for Local Businesses (GBP First)",
+    "category": "Google Business Profile",
+    "excerpt": "A prioritized 10 point checklist to fix your Google Business Profile, location pages, schema, reviews, and tracking so near me searches turn into calls.",
+    "read_min": 17,
+    "date": "2026-10-16",
+    "image": "/images/blog/decorative-local-seo-checklist-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "local-seo-audit",
+    "url": "/blog/local-seo-audit",
+    "file": "blog-local-seo-audit.html",
+    "title": "GBP and NAP First: An AI Ready Local SEO Audit That Wins Maps",
+    "category": "Google Business Profile",
+    "excerpt": "Run an agency grade local SEO audit that fixes GBP and NAP first, tests LLM prompts for AI visibility, and delivers a prioritized fix list.",
+    "read_min": 11,
+    "date": "2026-10-16",
+    "image": "/images/blog/decorative-local-seo-audit-title-card.webp",
+    "auto": true
   }
 ]
