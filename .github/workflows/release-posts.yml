@@ -2,8 +2,14 @@ name: Release queued blog posts
 
 on:
   schedule:
+    # GitHub starts scheduled runs late or skips them when busy, so there are backups.
+    # release_posts.py skips any run after the day's posts are out, so these never double-publish.
     # 13:07 UTC = 8:07am Central (CDT) / 7:07am (CST)
     - cron: '7 13 * * *'
+    # backup: 9:37am CDT / 8:37am CST
+    - cron: '37 14 * * *'
+    # backup: 11:07am CDT / 10:07am CST
+    - cron: '7 16 * * *'
   workflow_dispatch:
     inputs:
       count:
