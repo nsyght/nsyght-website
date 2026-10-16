@@ -55,6 +55,7 @@
   <!-- LEGAL -->
   <url><loc>https://nsyght.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://nsyght.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nsyght.com/ai-instructions/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
   <!-- BLOG POSTS (auto-published) -->
   <!-- AUTO-POSTS -->
