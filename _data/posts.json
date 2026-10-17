@@ -151,5 +151,29 @@
     "date": "2026-10-16",
     "image": "/images/blog/decorative-local-seo-audit-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-business-profile-optimization",
+    "url": "/blog/google-business-profile-optimization",
+    "file": "blog-google-business-profile-optimization.html",
+    "title": "Google Business Profile: Fixes to Drive Calls for Local Businesses",
+    "category": "Google Business Profile",
+    "excerpt": "Practical playbook for busy local businesses: verify listing, fix categories, earn reviews, post photos, and track insights to drive calls.",
+    "read_min": 16,
+    "date": "2026-10-17",
+    "image": "/images/blog/google-business-profile-optimization-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "remove-fake-google-reviews",
+    "url": "/blog/remove-fake-google-reviews",
+    "file": "blog-remove-fake-google-reviews.html",
+    "title": "6 Steps: Evidence Based Removal of Fake Google Reviews for Businesses",
+    "category": "Google Business Profile",
+    "excerpt": "Evidence first playbook for business owners: collect the proof Google needs, report and escalate fake reviews, and restore your rating.",
+    "read_min": 9,
+    "date": "2026-10-17",
+    "image": "/images/blog/decorative-fake-review-removal-title-card.webp",
+    "auto": true
   }
 ]

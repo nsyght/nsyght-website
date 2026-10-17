@@ -193,6 +193,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/remove-fake-google-reviews"
+  to = "/blog-remove-fake-google-reviews.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-business-profile-optimization"
+  to = "/blog-google-business-profile-optimization.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/local-seo-audit"
   to = "/blog-local-seo-audit.html"
   status = 200

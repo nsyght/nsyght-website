@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-16",
+  "last_release_date": "2026-10-17",
   "posts": [
-    {
-      "slug": "google-business-profile-optimization",
-      "title": "Google Business Profile: Fixes to Drive Calls for Local Businesses",
-      "category": "Google Business Profile",
-      "excerpt": "Practical playbook for busy local businesses: verify listing, fix categories, earn reviews, post photos, and track insights to drive calls.",
-      "read_min": 16,
-      "file": "_queue/blog-google-business-profile-optimization.html",
-      "blg_id": 805260,
-      "blg_date": "2026-09-04"
-    },
-    {
-      "slug": "remove-fake-google-reviews",
-      "title": "6 Steps: Evidence Based Removal of Fake Google Reviews for Businesses",
-      "category": "Google Business Profile",
-      "excerpt": "Evidence first playbook for business owners: collect the proof Google needs, report and escalate fake reviews, and restore your rating.",
-      "read_min": 9,
-      "file": "_queue/blog-remove-fake-google-reviews.html",
-      "blg_id": 810436,
-      "blg_date": "2026-09-05"
-    },
     {
       "slug": "google-business-hours",
       "title": "Fix Google Business Hours in Under 10 Minutes for Small Businesses",
@@ -442,6 +422,14 @@
     {
       "slug": "local-seo-audit",
       "date": "2026-10-16"
+    },
+    {
+      "slug": "google-business-profile-optimization",
+      "date": "2026-10-17"
+    },
+    {
+      "slug": "remove-fake-google-reviews",
+      "date": "2026-10-17"
     }
   ]
 }
