@@ -98,6 +98,27 @@
   to = "/industries-roofing-keywords.html"
   status = 200
 
+# ── INDUSTRY SUBPAGES ──
+[[redirects]]
+  from = "/industries/home-services/plumbers"
+  to = "/industries-home-services-plumbers.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/home-services/hvac"
+  to = "/industries-home-services-hvac.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/home-services/electricians"
+  to = "/industries-home-services-electricians.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/law-firms/family-law"
+  to = "/industries-law-firms-family-law.html"
+  status = 200
+
 # ── MAIN PAGES ──
 [[redirects]]
   from = "/contact"
