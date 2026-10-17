@@ -1,6 +1,92 @@
 [build]
   publish = "."
 
+
+# ── LEGACY WORDPRESS URLS (old site, 404s in GSC) ──
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/expertse"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/facebook-ads"
+  to = "/services/facebook-ads"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social-media"
+  to = "/services/social-media"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/social-media-marketing"
+  to = "/services/social-media"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/web-design"
+  to = "/services/web-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/paid-ads"
+  to = "/services/google-ads"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/google-ads"
+  to = "/services/google-ads"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/digital-marketing-services"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/video-marketing"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms-of-use"
+  to = "/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hello-world"
+  to = "/blog"
+  status = 301
+  force = true
+
+# ── DUI LAWYER INDUSTRY PAGE ──
+[[redirects]]
+  from = "/industries/dui-lawyers"
+  to = "/industries-dui-lawyers.html"
+  status = 200
+
 # ── MAIN PAGES ──
 [[redirects]]
   from = "/contact"
