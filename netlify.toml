@@ -87,6 +87,17 @@
   to = "/industries-dui-lawyers.html"
   status = 200
 
+# ── AUSTIN LOCAL PAGE + ROOFING SUBPAGES ──
+[[redirects]]
+  from = "/austin-seo"
+  to = "/austin-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries/roofing/keywords"
+  to = "/industries-roofing-keywords.html"
+  status = 200
+
 # ── MAIN PAGES ──
 [[redirects]]
   from = "/contact"
