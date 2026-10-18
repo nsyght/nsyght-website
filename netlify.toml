@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/home-services-seo"
+  to = "/blog-home-services-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-seo-pricing"
+  to = "/blog-local-seo-pricing.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/remove-fake-google-reviews"
   to = "/blog-remove-fake-google-reviews.html"
   status = 200

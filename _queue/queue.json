@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-17",
+  "last_release_date": "2026-10-18",
   "posts": [
-    {
-      "slug": "local-seo-pricing",
-      "title": "Local SEO Pricing in 2026: What Each Budget Actually Buys",
-      "category": "Local SEO",
-      "excerpt": "Practical 2026 U.S. local SEO pricing: what $500–$9,500/month buys, the deliverables to demand, and the procurement questions to ask before signing.",
-      "read_min": 13,
-      "file": "_queue/blog-local-seo-pricing.html",
-      "blg_id": 890813,
-      "blg_date": "2026-09-25"
-    },
-    {
-      "slug": "home-services-seo",
-      "title": "Home Services SEO: A 90-Day Plan for Contractors",
-      "category": "Industry Tips",
-      "excerpt": "Contractors: 90 day plan to finish Google Business Profile, start steady reviews, and build service/city pages that earn local and AI citations.",
-      "read_min": 21,
-      "file": "_queue/blog-home-services-seo.html",
-      "blg_id": 859748,
-      "blg_date": "2026-09-17"
-    },
     {
       "slug": "law-firm-seo-strategy",
       "title": "Law Firm SEO Strategy: 90 Days to Local Pack and AI Wins",
@@ -420,6 +400,14 @@
     {
       "slug": "remove-fake-google-reviews",
       "date": "2026-10-17"
+    },
+    {
+      "slug": "local-seo-pricing",
+      "date": "2026-10-18"
+    },
+    {
+      "slug": "home-services-seo",
+      "date": "2026-10-18"
     }
   ],
   "held": [
