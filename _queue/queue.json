@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-18",
+  "last_release_date": "2026-10-19",
   "posts": [
-    {
-      "slug": "law-firm-seo-strategy",
-      "title": "Law Firm SEO Strategy: 90 Days to Local Pack and AI Wins",
-      "category": "Industry Tips",
-      "excerpt": "Agency tested entity first law firm SEO: fix GBP, add attorney byline pages with schema, and win local pack rankings and AI citations.",
-      "read_min": 16,
-      "file": "_queue/blog-law-firm-seo-strategy.html",
-      "blg_id": 867631,
-      "blg_date": "2026-09-19"
-    },
-    {
-      "slug": "service-area-business-seo",
-      "title": "Service Area Business SEO: A 90-Day Map Pack Plan",
-      "category": "Local SEO",
-      "excerpt": "Operations first playbook for service-area businesses: fix GBP, publish evidence-backed city pages, add areaServed schema, and follow a 30/90/180 plan.",
-      "read_min": 10,
-      "file": "_queue/blog-service-area-business-seo.html",
-      "blg_id": 825913,
-      "blg_date": "2026-09-09"
-    },
     {
       "slug": "google-maps-ranking",
       "title": "How to Rank Higher on Google Maps: A 30/60/90-Day Plan",
@@ -408,6 +388,14 @@
     {
       "slug": "home-services-seo",
       "date": "2026-10-18"
+    },
+    {
+      "slug": "law-firm-seo-strategy",
+      "date": "2026-10-19"
+    },
+    {
+      "slug": "service-area-business-seo",
+      "date": "2026-10-19"
     }
   ],
   "held": [

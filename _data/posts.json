@@ -199,5 +199,29 @@
     "date": "2026-10-18",
     "image": "/images/blog/home-services-seo-title-card-illustration.webp",
     "auto": true
+  },
+  {
+    "slug": "law-firm-seo-strategy",
+    "url": "/blog/law-firm-seo-strategy",
+    "file": "blog-law-firm-seo-strategy.html",
+    "title": "Law Firm SEO Strategy: 90 Days to Local Pack and AI Wins",
+    "category": "Industry Tips",
+    "excerpt": "Agency tested entity first law firm SEO: fix GBP, add attorney byline pages with schema, and win local pack rankings and AI citations.",
+    "read_min": 16,
+    "date": "2026-10-19",
+    "image": "/images/blog/decorative-law-firm-seo-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "service-area-business-seo",
+    "url": "/blog/service-area-business-seo",
+    "file": "blog-service-area-business-seo.html",
+    "title": "Service Area Business SEO: A 90-Day Map Pack Plan",
+    "category": "Local SEO",
+    "excerpt": "Operations first playbook for service-area businesses: fix GBP, publish evidence-backed city pages, add areaServed schema, and follow a 30/90/180 plan.",
+    "read_min": 10,
+    "date": "2026-10-19",
+    "image": "/images/blog/service-area-seo-plan-title-card.webp",
+    "auto": true
   }
 ]

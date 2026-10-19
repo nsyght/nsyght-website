@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/service-area-business-seo"
+  to = "/blog-service-area-business-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/law-firm-seo-strategy"
+  to = "/blog-law-firm-seo-strategy.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/home-services-seo"
   to = "/blog-home-services-seo.html"
   status = 200
