@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-19",
+  "last_release_date": "2026-10-20",
   "posts": [
-    {
-      "slug": "google-maps-ranking",
-      "title": "How to Rank Higher on Google Maps: A 30/60/90-Day Plan",
-      "category": "Local SEO",
-      "excerpt": "30/60/90 day playbook to lift local business Google Maps ranking with entity first profile setup, review and citation steps.",
-      "read_min": 20,
-      "file": "_queue/blog-google-maps-ranking.html",
-      "blg_id": 913639,
-      "blg_date": "2026-10-01"
-    },
-    {
-      "slug": "local-seo-reporting",
-      "title": "Local SEO Reporting: How to Prove Your SEO Is Working",
-      "category": "Local SEO",
-      "excerpt": "Download a starter template and agency workflow to build local SEO reports tying GBP, Search Console, and GA4 to calls and bookings.",
-      "read_min": 12,
-      "file": "_queue/blog-local-seo-reporting.html",
-      "blg_id": 887531,
-      "blg_date": "2026-09-24"
-    },
     {
       "slug": "nap-consistency-seo",
       "title": "NAP Consistency: Fix Your Business Listings Fast",
@@ -396,6 +376,14 @@
     {
       "slug": "service-area-business-seo",
       "date": "2026-10-19"
+    },
+    {
+      "slug": "google-maps-ranking",
+      "date": "2026-10-20"
+    },
+    {
+      "slug": "local-seo-reporting",
+      "date": "2026-10-20"
     }
   ],
   "held": [

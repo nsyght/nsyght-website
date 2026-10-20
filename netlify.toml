@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/local-seo-reporting"
+  to = "/blog-local-seo-reporting.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-maps-ranking"
+  to = "/blog-google-maps-ranking.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/service-area-business-seo"
   to = "/blog-service-area-business-seo.html"
   status = 200

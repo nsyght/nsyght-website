@@ -223,5 +223,29 @@
     "date": "2026-10-19",
     "image": "/images/blog/service-area-seo-plan-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-maps-ranking",
+    "url": "/blog/google-maps-ranking",
+    "file": "blog-google-maps-ranking.html",
+    "title": "How to Rank Higher on Google Maps: A 30/60/90-Day Plan",
+    "category": "Local SEO",
+    "excerpt": "30/60/90 day playbook to lift local business Google Maps ranking with entity first profile setup, review and citation steps.",
+    "read_min": 20,
+    "date": "2026-10-20",
+    "image": "/images/blog/decorative-google-maps-ranking-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "local-seo-reporting",
+    "url": "/blog/local-seo-reporting",
+    "file": "blog-local-seo-reporting.html",
+    "title": "Local SEO Reporting: How to Prove Your SEO Is Working",
+    "category": "Local SEO",
+    "excerpt": "Download a starter template and agency workflow to build local SEO reports tying GBP, Search Console, and GA4 to calls and bookings.",
+    "read_min": 12,
+    "date": "2026-10-20",
+    "image": "/images/blog/decorative-local-seo-reporting-title-card.webp",
+    "auto": true
   }
 ]
