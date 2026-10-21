@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-business-profile-suspension"
+  to = "/blog-google-business-profile-suspension.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/nap-consistency-seo"
+  to = "/blog-nap-consistency-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/local-seo-reporting"
   to = "/blog-local-seo-reporting.html"
   status = 200

@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-20",
+  "last_release_date": "2026-10-21",
   "posts": [
-    {
-      "slug": "nap-consistency-seo",
-      "title": "NAP Consistency: Fix Your Business Listings Fast",
-      "category": "Local SEO",
-      "excerpt": "Run a prioritized NAP consistency audit, correct listings, and set an ongoing maintenance routine. Learn when to DIY and when to hire help.",
-      "read_min": 8,
-      "file": "_queue/blog-nap-consistency-seo.html",
-      "blg_id": 933339,
-      "blg_date": "2026-10-06"
-    },
-    {
-      "slug": "google-business-profile-suspension",
-      "title": "Google Business Profile Suspended? 6 Fixes Before You Appeal",
-      "category": "Google Business Profile",
-      "excerpt": "Fix six compliance triggers, gather the documents Google accepts, and submit a focused appeal to reinstate your Google Business Profile.",
-      "read_min": 11,
-      "file": "_queue/blog-google-business-profile-suspension.html",
-      "blg_id": 843110,
-      "blg_date": "2026-09-13"
-    },
     {
       "slug": "google-reviews-strategy",
       "title": "How to Get More Google Reviews Without Breaking the Rules",
@@ -384,6 +364,14 @@
     {
       "slug": "local-seo-reporting",
       "date": "2026-10-20"
+    },
+    {
+      "slug": "nap-consistency-seo",
+      "date": "2026-10-21"
+    },
+    {
+      "slug": "google-business-profile-suspension",
+      "date": "2026-10-21"
     }
   ],
   "held": [

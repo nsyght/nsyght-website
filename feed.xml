@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>NAP Consistency: Fix Your Business Listings Fast</title>
+      <link>https://nsyght.com/blog/nap-consistency-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/nap-consistency-seo</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Run a prioritized NAP consistency audit, correct listings, and set an ongoing maintenance routine. Learn when to DIY and when to hire help.</description>
+    </item>
+    <item>
+      <title>Google Business Profile Suspended? 6 Fixes Before You Appeal</title>
+      <link>https://nsyght.com/blog/google-business-profile-suspension</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-suspension</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Fix six compliance triggers, gather the documents Google accepts, and submit a focused appeal to reinstate your Google Business Profile.</description>
+    </item>
     <item>
       <title>How to Rank Higher on Google Maps: A 30/60/90-Day Plan</title>
       <link>https://nsyght.com/blog/google-maps-ranking</link>
@@ -165,22 +183,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>AI visibility is real, volatile, and misunderstood. Here is what the data says, what NSYGHT believes, and what local service businesses should actually be doing about it right now.</description>
-    </item>
-    <item>
-      <title>Local SEO Checklist 2026 + SEO vs GEO vs AEO vs AIO Explained</title>
-      <link>https://nsyght.com/local-seo-checklist</link>
-      <guid isPermaLink="true">https://nsyght.com/local-seo-checklist</guid>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>The complete local SEO checklist for 2026: 40 actionable items across 8 categories, plus a plain-English comparison of SEO, GEO, AEO, and AIO with a side-by-side table.</description>
-    </item>
-    <item>
-      <title>Local SEO for Roofing Companies in Houston</title>
-      <link>https://nsyght.com/blog/houston-roofing-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/houston-roofing-seo</guid>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Industry Tips</category>
-      <description>What the Houston roofing search landscape looks like in 2026, what it takes to rank in it, and how one Houston roofer doubled inbound calls in 90 days.</description>
     </item>
   </channel>
 </rss>
