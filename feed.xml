@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>How to Get More Google Reviews Without Breaking the Rules</title>
+      <link>https://nsyght.com/blog/google-reviews-strategy</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-reviews-strategy</guid>
+      <pubDate>Thu, 22 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Compliance first Google reviews playbook built on five operational pillars. Get practical ask tactics, reply templates, KPIs, and governance to scale safely.</description>
+    </item>
+    <item>
+      <title>Review Gating: Why It Is Banned and How to Fix Your Funnel</title>
+      <link>https://nsyght.com/blog/review-gating</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/review-gating</guid>
+      <pubDate>Thu, 22 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Why Google, Yelp, and the FTC ban review gating, what the penalties look like, and the audit steps businesses should take to fix their review funnel.</description>
+    </item>
     <item>
       <title>NAP Consistency: Fix Your Business Listings Fast</title>
       <link>https://nsyght.com/blog/nap-consistency-seo</link>
@@ -167,22 +185,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Everyone talks about local SEO. Very few people talk honestly about what it actually requires, how long it takes, and what separates the businesses that see results from the ones that do not. Don lays it out plainly.</description>
-    </item>
-    <item>
-      <title>Why Your GBP Is More Important Than Your Website</title>
-      <link>https://nsyght.com/blog/google-business-profile-guide</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-guide</guid>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Most local businesses spend thousands on a website and ignore the one asset that drives the most local search traffic. Here is why your Google Business Profile deserves more attention than almost anything else.</description>
-    </item>
-    <item>
-      <title>The Local Business Owner&#x27;s Guide to AI Search in 2026</title>
-      <link>https://nsyght.com/blog/ai-search-guide-2026</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/ai-search-guide-2026</guid>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>AI visibility is real, volatile, and misunderstood. Here is what the data says, what NSYGHT believes, and what local service businesses should actually be doing about it right now.</description>
     </item>
   </channel>
 </rss>

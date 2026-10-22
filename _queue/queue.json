@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-21",
+  "last_release_date": "2026-10-22",
   "posts": [
-    {
-      "slug": "google-reviews-strategy",
-      "title": "How to Get More Google Reviews Without Breaking the Rules",
-      "category": "Google Business Profile",
-      "excerpt": "Compliance first Google reviews playbook built on five operational pillars. Get practical ask tactics, reply templates, KPIs, and governance to scale safely.",
-      "read_min": 10,
-      "file": "_queue/blog-google-reviews-strategy.html",
-      "blg_id": 929445,
-      "blg_date": "2026-10-05"
-    },
-    {
-      "slug": "review-gating",
-      "title": "Review Gating: Why It Is Banned and How to Fix Your Funnel",
-      "category": "Google Business Profile",
-      "excerpt": "Why Google, Yelp, and the FTC ban review gating, what the penalties look like, and the audit steps businesses should take to fix their review funnel.",
-      "read_min": 8,
-      "file": "_queue/blog-review-gating.html",
-      "blg_id": 817155,
-      "blg_date": "2026-09-07"
-    },
     {
       "slug": "local-link-building",
       "title": "Local Link Building: A 90-Day Community-First Plan",
@@ -372,6 +352,14 @@
     {
       "slug": "google-business-profile-suspension",
       "date": "2026-10-21"
+    },
+    {
+      "slug": "google-reviews-strategy",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "review-gating",
+      "date": "2026-10-22"
     }
   ],
   "held": [

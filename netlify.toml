@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/review-gating"
+  to = "/blog-review-gating.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-reviews-strategy"
+  to = "/blog-google-reviews-strategy.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-business-profile-suspension"
   to = "/blog-google-business-profile-suspension.html"
   status = 200

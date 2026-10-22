@@ -271,5 +271,29 @@
     "date": "2026-10-21",
     "image": "/images/blog/compliance-appeal-title-card-illustration.webp",
     "auto": true
+  },
+  {
+    "slug": "google-reviews-strategy",
+    "url": "/blog/google-reviews-strategy",
+    "file": "blog-google-reviews-strategy.html",
+    "title": "How to Get More Google Reviews Without Breaking the Rules",
+    "category": "Google Business Profile",
+    "excerpt": "Compliance first Google reviews playbook built on five operational pillars. Get practical ask tactics, reply templates, KPIs, and governance to scale safely.",
+    "read_min": 10,
+    "date": "2026-10-22",
+    "image": "/images/blog/decorative-google-reviews-strategy-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "review-gating",
+    "url": "/blog/review-gating",
+    "file": "blog-review-gating.html",
+    "title": "Review Gating: Why It Is Banned and How to Fix Your Funnel",
+    "category": "Google Business Profile",
+    "excerpt": "Why Google, Yelp, and the FTC ban review gating, what the penalties look like, and the audit steps businesses should take to fix their review funnel.",
+    "read_min": 8,
+    "date": "2026-10-22",
+    "image": "/images/blog/decorative-review-compliance-title-card.webp",
+    "auto": true
   }
 ]
