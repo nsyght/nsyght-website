@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-22",
+  "last_release_date": "2026-10-23",
   "posts": [
-    {
-      "slug": "local-link-building",
-      "title": "Local Link Building: A 90-Day Community-First Plan",
-      "category": "Local SEO",
-      "excerpt": "A prioritized 90 day plan for local businesses to earn community-trusted backlinks, fix GBP and structured data, and track local ranking and referral gains.",
-      "read_min": 11,
-      "file": "_queue/blog-local-link-building.html",
-      "blg_id": 898616,
-      "blg_date": "2026-09-27"
-    },
-    {
-      "slug": "seo-website-redesign",
-      "title": "Website Redesign SEO: Keep Your Rankings With a Redirect Map",
-      "category": "Local SEO",
-      "excerpt": "Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.",
-      "read_min": 18,
-      "file": "_queue/blog-seo-website-redesign.html",
-      "blg_id": 851622,
-      "blg_date": "2026-09-15"
-    },
     {
       "slug": "answer-engine-optimization",
       "title": "Answer Engine Optimization: Get Your Business Cited by AI",
@@ -360,6 +340,14 @@
     {
       "slug": "review-gating",
       "date": "2026-10-22"
+    },
+    {
+      "slug": "local-link-building",
+      "date": "2026-10-23"
+    },
+    {
+      "slug": "seo-website-redesign",
+      "date": "2026-10-23"
     }
   ],
   "held": [

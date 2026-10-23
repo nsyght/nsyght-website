@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Local Link Building: A 90-Day Community-First Plan</title>
+      <link>https://nsyght.com/blog/local-link-building</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-link-building</guid>
+      <pubDate>Fri, 23 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>A prioritized 90 day plan for local businesses to earn community-trusted backlinks, fix GBP and structured data, and track local ranking and referral gains.</description>
+    </item>
+    <item>
+      <title>Website Redesign SEO: Keep Your Rankings With a Redirect Map</title>
+      <link>https://nsyght.com/blog/seo-website-redesign</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/seo-website-redesign</guid>
+      <pubDate>Fri, 23 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.</description>
+    </item>
     <item>
       <title>How to Get More Google Reviews Without Breaking the Rules</title>
       <link>https://nsyght.com/blog/google-reviews-strategy</link>
@@ -168,23 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Scale multi location visibility with one page per site, a centralized master data repository, and optimized Google Business Profiles for AI.</description>
-    </item>
-    <item>
-      <title>Why We Rebuilt NSYGHT.com and What We Released With It</title>
-      <link>https://nsyght.com/blog/nsyght-website-relaunch-2026</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/nsyght-website-relaunch-2026</guid>
-      <pubDate>Tue, 14 Apr 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Agency News</category>
-      <description>Don Phelps explains the full site rebuild, the free 40-point local SEO checklist, the four-discipline stack comparison, and what went into building a site that practices what the agency teaches.</description>
-    </item>
-    <item>
-      <title>What Local SEO Actually Takes in 2026</title>
-      <link>https://nsyght.com/blog/local-seo-2026</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-2026</guid>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Everyone talks about local SEO. Very few people talk honestly about what it actually requires, how long it takes, and what separates the businesses that see results from the ones that do not. Don lays it out plainly.</description>
     </item>
   </channel>
 </rss>

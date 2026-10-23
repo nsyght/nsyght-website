@@ -295,5 +295,29 @@
     "date": "2026-10-22",
     "image": "/images/blog/decorative-review-compliance-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "local-link-building",
+    "url": "/blog/local-link-building",
+    "file": "blog-local-link-building.html",
+    "title": "Local Link Building: A 90-Day Community-First Plan",
+    "category": "Local SEO",
+    "excerpt": "A prioritized 90 day plan for local businesses to earn community-trusted backlinks, fix GBP and structured data, and track local ranking and referral gains.",
+    "read_min": 11,
+    "date": "2026-10-23",
+    "image": "/images/blog/decorative-local-link-building-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "seo-website-redesign",
+    "url": "/blog/seo-website-redesign",
+    "file": "blog-seo-website-redesign.html",
+    "title": "Website Redesign SEO: Keep Your Rankings With a Redirect Map",
+    "category": "Local SEO",
+    "excerpt": "Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.",
+    "read_min": 18,
+    "date": "2026-10-23",
+    "image": "/images/blog/seo-redesign-redirect-map-title-card.webp",
+    "auto": true
   }
 ]

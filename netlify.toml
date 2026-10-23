@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/seo-website-redesign"
+  to = "/blog-seo-website-redesign.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-link-building"
+  to = "/blog-local-link-building.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/review-gating"
   to = "/blog-review-gating.html"
   status = 200
