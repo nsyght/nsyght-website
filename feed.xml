@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Answer Engine Optimization: Get Your Business Cited by AI</title>
+      <link>https://nsyght.com/blog/answer-engine-optimization</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/answer-engine-optimization</guid>
+      <pubDate>Sat, 24 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Turn your top pages into AI citable chunks in 90 days. Learn BLUF first structuring, precise schema choices, and how to allocate your AEO budget.</description>
+    </item>
+    <item>
+      <title>Generative Engine Optimization: A Workflow to Get Cited by AI</title>
+      <link>https://nsyght.com/blog/generative-engine-optimization</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/generative-engine-optimization</guid>
+      <pubDate>Sat, 24 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.</description>
+    </item>
     <item>
       <title>Local Link Building: A 90-Day Community-First Plan</title>
       <link>https://nsyght.com/blog/local-link-building</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Ads</category>
       <description>When to run Google Ads and when to invest in SEO. Start with a two-week Ads test to find high-converting keywords, then build a 90-day SEO plan.</description>
-    </item>
-    <item>
-      <title>Make LSA Spend Pay: Google Local Ads for Service Businesses</title>
-      <link>https://nsyght.com/blog/google-ads-local</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-ads-local</guid>
-      <pubDate>Wed, 14 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Ads</category>
-      <description>Verify your Google Business Profile, apply for Local Services Ads, and align paid ads with entity driven SEO. Action-first steps for service businesses.</description>
-    </item>
-    <item>
-      <title>Multi-Location SEO: 3 Moves to Win Maps and AI Answers</title>
-      <link>https://nsyght.com/blog/multi-location-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/multi-location-seo</guid>
-      <pubDate>Wed, 14 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Scale multi location visibility with one page per site, a centralized master data repository, and optimized Google Business Profiles for AI.</description>
     </item>
   </channel>
 </rss>

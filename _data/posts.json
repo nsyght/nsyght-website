@@ -319,5 +319,29 @@
     "date": "2026-10-23",
     "image": "/images/blog/seo-redesign-redirect-map-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "answer-engine-optimization",
+    "url": "/blog/answer-engine-optimization",
+    "file": "blog-answer-engine-optimization.html",
+    "title": "Answer Engine Optimization: Get Your Business Cited by AI",
+    "category": "AI Search",
+    "excerpt": "Turn your top pages into AI citable chunks in 90 days. Learn BLUF first structuring, precise schema choices, and how to allocate your AEO budget.",
+    "read_min": 9,
+    "date": "2026-10-24",
+    "image": "/images/blog/decorative-aeo-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "generative-engine-optimization",
+    "url": "/blog/generative-engine-optimization",
+    "file": "blog-generative-engine-optimization.html",
+    "title": "Generative Engine Optimization: A Workflow to Get Cited by AI",
+    "category": "AI Search",
+    "excerpt": "A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.",
+    "read_min": 8,
+    "date": "2026-10-24",
+    "image": "/images/blog/decorative-geo-workflow-title-card.webp",
+    "auto": true
   }
 ]

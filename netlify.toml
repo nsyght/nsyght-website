@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/generative-engine-optimization"
+  to = "/blog-generative-engine-optimization.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/answer-engine-optimization"
+  to = "/blog-answer-engine-optimization.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/seo-website-redesign"
   to = "/blog-seo-website-redesign.html"
   status = 200

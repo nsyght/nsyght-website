@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-23",
+  "last_release_date": "2026-10-24",
   "posts": [
-    {
-      "slug": "answer-engine-optimization",
-      "title": "Answer Engine Optimization: Get Your Business Cited by AI",
-      "category": "AI Search",
-      "excerpt": "Turn your top pages into AI citable chunks in 90 days. Learn BLUF first structuring, precise schema choices, and how to allocate your AEO budget.",
-      "read_min": 9,
-      "file": "_queue/blog-answer-engine-optimization.html",
-      "blg_id": 855466,
-      "blg_date": "2026-09-16"
-    },
-    {
-      "slug": "generative-engine-optimization",
-      "title": "Generative Engine Optimization: A Workflow to Get Cited by AI",
-      "category": "AI Search",
-      "excerpt": "A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.",
-      "read_min": 8,
-      "file": "_queue/blog-generative-engine-optimization.html",
-      "blg_id": 941387,
-      "blg_date": "2026-10-08"
-    },
     {
       "slug": "ai-search-visibility",
       "title": "AI Search Visibility: How to Track It and Earn Citations",
@@ -348,6 +328,14 @@
     {
       "slug": "seo-website-redesign",
       "date": "2026-10-23"
+    },
+    {
+      "slug": "answer-engine-optimization",
+      "date": "2026-10-24"
+    },
+    {
+      "slug": "generative-engine-optimization",
+      "date": "2026-10-24"
     }
   ],
   "held": [
