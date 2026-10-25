@@ -343,5 +343,29 @@
     "date": "2026-10-24",
     "image": "/images/blog/decorative-geo-workflow-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "ai-search-visibility",
+    "url": "/blog/ai-search-visibility",
+    "file": "blog-ai-search-visibility.html",
+    "title": "AI Search Visibility: How to Track It and Earn Citations",
+    "category": "AI Search",
+    "excerpt": "A marketer-first plan to measure and improve AI search visibility: set up prompt sampling and a simple dashboard, restructure key sections, earn citations.",
+    "read_min": 14,
+    "date": "2026-10-25",
+    "image": "/images/blog/ai-search-visibility-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "rank-in-chatgpt",
+    "url": "/blog/rank-in-chatgpt",
+    "file": "blog-rank-in-chatgpt.html",
+    "title": "How to Rank in ChatGPT: Start With a 1-Hour Audit",
+    "category": "AI Search",
+    "excerpt": "AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.",
+    "read_min": 8,
+    "date": "2026-10-25",
+    "image": "/images/blog/technical-audit-title-card-illustration.webp",
+    "auto": true
   }
 ]

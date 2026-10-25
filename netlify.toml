@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/rank-in-chatgpt"
+  to = "/blog-rank-in-chatgpt.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/ai-search-visibility"
+  to = "/blog-ai-search-visibility.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/generative-engine-optimization"
   to = "/blog-generative-engine-optimization.html"
   status = 200

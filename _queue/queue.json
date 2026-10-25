@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-24",
+  "last_release_date": "2026-10-25",
   "posts": [
-    {
-      "slug": "ai-search-visibility",
-      "title": "AI Search Visibility: How to Track It and Earn Citations",
-      "category": "AI Search",
-      "excerpt": "A marketer-first plan to measure and improve AI search visibility: set up prompt sampling and a simple dashboard, restructure key sections, earn citations.",
-      "read_min": 14,
-      "file": "_queue/blog-ai-search-visibility.html",
-      "blg_id": 863559,
-      "blg_date": "2026-09-18"
-    },
-    {
-      "slug": "rank-in-chatgpt",
-      "title": "How to Rank in ChatGPT: Start With a 1-Hour Audit",
-      "category": "AI Search",
-      "excerpt": "AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.",
-      "read_min": 8,
-      "file": "_queue/blog-rank-in-chatgpt.html",
-      "blg_id": 901680,
-      "blg_date": "2026-09-28"
-    },
     {
       "slug": "location-landing-pages",
       "title": "Location Pages SEO: Landing Pages That Rank and Get Cited",
@@ -336,6 +316,14 @@
     {
       "slug": "generative-engine-optimization",
       "date": "2026-10-24"
+    },
+    {
+      "slug": "ai-search-visibility",
+      "date": "2026-10-25"
+    },
+    {
+      "slug": "rank-in-chatgpt",
+      "date": "2026-10-25"
     }
   ],
   "held": [

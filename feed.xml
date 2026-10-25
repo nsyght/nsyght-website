@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>AI Search Visibility: How to Track It and Earn Citations</title>
+      <link>https://nsyght.com/blog/ai-search-visibility</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/ai-search-visibility</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>A marketer-first plan to measure and improve AI search visibility: set up prompt sampling and a simple dashboard, restructure key sections, earn citations.</description>
+    </item>
+    <item>
+      <title>How to Rank in ChatGPT: Start With a 1-Hour Audit</title>
+      <link>https://nsyght.com/blog/rank-in-chatgpt</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/rank-in-chatgpt</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.</description>
+    </item>
     <item>
       <title>Answer Engine Optimization: Get Your Business Cited by AI</title>
       <link>https://nsyght.com/blog/answer-engine-optimization</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>Run an agency grade local SEO audit that fixes GBP and NAP first, tests LLM prompts for AI visibility, and delivers a prioritized fix list.</description>
-    </item>
-    <item>
-      <title>SEO for Dentists: 3 GBP-First Moves to Win Local Search</title>
-      <link>https://nsyght.com/blog/seo-for-dentists</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/seo-for-dentists</guid>
-      <pubDate>Thu, 15 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Industry Tips</category>
-      <description>GBP first local SEO for dental practices: optimize your Google Business Profile, request HIPAA safe reviews, and publish a page for each treatment.</description>
-    </item>
-    <item>
-      <title>SEO vs Google Ads: Use a 2-Week Ad Test to Pick Your Targets</title>
-      <link>https://nsyght.com/blog/seo-vs-google-ads</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/seo-vs-google-ads</guid>
-      <pubDate>Thu, 15 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Ads</category>
-      <description>When to run Google Ads and when to invest in SEO. Start with a two-week Ads test to find high-converting keywords, then build a 90-day SEO plan.</description>
     </item>
   </channel>
 </rss>
