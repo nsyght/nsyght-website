@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Location Pages SEO: Landing Pages That Rank and Get Cited</title>
+      <link>https://nsyght.com/blog/location-landing-pages</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/location-landing-pages</guid>
+      <pubDate>Mon, 26 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Build entity first location landing pages that match your Google Business Profile, convert local visitors, and earn AI citations with answer-ready FAQs.</description>
+    </item>
+    <item>
+      <title>Google Q&amp;A Is Gone: How to Fix Your Ask Maps Answers</title>
+      <link>https://nsyght.com/blog/google-business-qa</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-qa</guid>
+      <pubDate>Mon, 26 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Google retired Business Profile Q&amp;A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.</description>
+    </item>
     <item>
       <title>AI Search Visibility: How to Track It and Earn Citations</title>
       <link>https://nsyght.com/blog/ai-search-visibility</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>Evidence first playbook for business owners: collect the proof Google needs, report and escalate fake reviews, and restore your rating.</description>
-    </item>
-    <item>
-      <title>Near Me SEO: A 10-Point Checklist for Local Businesses</title>
-      <link>https://nsyght.com/blog/near-me-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/near-me-seo</guid>
-      <pubDate>Fri, 16 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>A prioritized 10 point checklist to fix your Google Business Profile, location pages, schema, reviews, and tracking so near me searches turn into calls.</description>
-    </item>
-    <item>
-      <title>Local SEO Audit: A GBP-First Checklist That Wins the Map Pack</title>
-      <link>https://nsyght.com/blog/local-seo-audit</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-audit</guid>
-      <pubDate>Fri, 16 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Run an agency grade local SEO audit that fixes GBP and NAP first, tests LLM prompts for AI visibility, and delivers a prioritized fix list.</description>
     </item>
   </channel>
 </rss>

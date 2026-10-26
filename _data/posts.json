@@ -367,5 +367,29 @@
     "date": "2026-10-25",
     "image": "/images/blog/technical-audit-title-card-illustration.webp",
     "auto": true
+  },
+  {
+    "slug": "location-landing-pages",
+    "url": "/blog/location-landing-pages",
+    "file": "blog-location-landing-pages.html",
+    "title": "Location Pages SEO: Landing Pages That Rank and Get Cited",
+    "category": "AI Search",
+    "excerpt": "Build entity first location landing pages that match your Google Business Profile, convert local visitors, and earn AI citations with answer-ready FAQs.",
+    "read_min": 12,
+    "date": "2026-10-26",
+    "image": "/images/blog/decorative-location-page-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "google-business-qa",
+    "url": "/blog/google-business-qa",
+    "file": "blog-google-business-qa.html",
+    "title": "Google Q&A Is Gone: How to Fix Your Ask Maps Answers",
+    "category": "Google Business Profile",
+    "excerpt": "Google retired Business Profile Q&A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.",
+    "read_min": 8,
+    "date": "2026-10-26",
+    "image": "/images/blog/decorative-ask-maps-q-a-title-card.webp",
+    "auto": true
   }
 ]

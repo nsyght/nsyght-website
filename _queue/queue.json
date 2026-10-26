@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-25",
+  "last_release_date": "2026-10-26",
   "posts": [
-    {
-      "slug": "location-landing-pages",
-      "title": "Location Pages SEO: Landing Pages That Rank and Get Cited",
-      "category": "AI Search",
-      "excerpt": "Build entity first location landing pages that match your Google Business Profile, convert local visitors, and earn AI citations with answer-ready FAQs.",
-      "read_min": 12,
-      "file": "_queue/blog-location-landing-pages.html",
-      "blg_id": 874599,
-      "blg_date": "2026-09-21"
-    },
-    {
-      "slug": "google-business-qa",
-      "title": "Google Q&A Is Gone: How to Fix Your Ask Maps Answers",
-      "category": "Google Business Profile",
-      "excerpt": "Google retired Business Profile Q&A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.",
-      "read_min": 8,
-      "file": "_queue/blog-google-business-qa.html",
-      "blg_id": 838717,
-      "blg_date": "2026-09-12"
-    },
     {
       "slug": "google-business-profile-posts",
       "title": "Google Business Profile Posts: A Weekly Plan That Works",
@@ -324,6 +304,14 @@
     {
       "slug": "rank-in-chatgpt",
       "date": "2026-10-25"
+    },
+    {
+      "slug": "location-landing-pages",
+      "date": "2026-10-26"
+    },
+    {
+      "slug": "google-business-qa",
+      "date": "2026-10-26"
     }
   ],
   "held": [

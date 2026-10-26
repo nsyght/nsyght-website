@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-business-qa"
+  to = "/blog-google-business-qa.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/location-landing-pages"
+  to = "/blog-location-landing-pages.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/rank-in-chatgpt"
   to = "/blog-rank-in-chatgpt.html"
   status = 200
