@@ -391,5 +391,29 @@
     "date": "2026-10-26",
     "image": "/images/blog/decorative-ask-maps-q-a-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-business-profile-posts",
+    "url": "/blog/google-business-profile-posts",
+    "file": "blog-google-business-profile-posts.html",
+    "title": "Google Business Profile Posts: A Weekly Plan That Works",
+    "category": "Google Business Profile",
+    "excerpt": "Build a weekly system for Google Business Profile posts with native scheduling, recurring posts, and multi-location publishing. Batch, tag, and measure.",
+    "read_min": 14,
+    "date": "2026-10-27",
+    "image": "/images/blog/decorative-google-business-profile-post-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "google-business-categories",
+    "url": "/blog/google-business-categories",
+    "file": "blog-google-business-categories.html",
+    "title": "Google Business Categories: How to Choose the Right Ones",
+    "category": "Google Business Profile",
+    "excerpt": "Pick one primary and 2 to 3 secondary Google Business categories, align site content, run 30 to 60 day tests, and apply copyable category sets.",
+    "read_min": 15,
+    "date": "2026-10-27",
+    "image": "/images/blog/decorative-google-business-category-title-card.webp",
+    "auto": true
   }
 ]

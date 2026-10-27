@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Google Business Profile Posts: A Weekly Plan That Works</title>
+      <link>https://nsyght.com/blog/google-business-profile-posts</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-posts</guid>
+      <pubDate>Tue, 27 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Build a weekly system for Google Business Profile posts with native scheduling, recurring posts, and multi-location publishing. Batch, tag, and measure.</description>
+    </item>
+    <item>
+      <title>Google Business Categories: How to Choose the Right Ones</title>
+      <link>https://nsyght.com/blog/google-business-categories</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-categories</guid>
+      <pubDate>Tue, 27 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Pick one primary and 2 to 3 secondary Google Business categories, align site content, run 30 to 60 day tests, and apply copyable category sets.</description>
+    </item>
     <item>
       <title>Location Pages SEO: Landing Pages That Rank and Get Cited</title>
       <link>https://nsyght.com/blog/location-landing-pages</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Industry Tips</category>
       <description>Contractors: 90 day plan to finish Google Business Profile, start steady reviews, and build service/city pages that earn local and AI citations.</description>
-    </item>
-    <item>
-      <title>Google Business Profile Optimization: Fixes That Drive Calls</title>
-      <link>https://nsyght.com/blog/google-business-profile-optimization</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-optimization</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Practical playbook for busy local businesses: verify listing, fix categories, earn reviews, post photos, and track insights to drive calls.</description>
-    </item>
-    <item>
-      <title>How to Remove Fake Google Reviews: 6 Evidence-Based Steps</title>
-      <link>https://nsyght.com/blog/remove-fake-google-reviews</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/remove-fake-google-reviews</guid>
-      <pubDate>Sat, 17 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Evidence first playbook for business owners: collect the proof Google needs, report and escalate fake reviews, and restore your rating.</description>
     </item>
   </channel>
 </rss>
