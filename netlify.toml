@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-business-photos"
+  to = "/blog-google-business-photos.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-business-hours"
+  to = "/blog-google-business-hours.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-business-categories"
   to = "/blog-google-business-categories.html"
   status = 200

@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Google Business Hours: How to Set and Fix Them Fast</title>
+      <link>https://nsyght.com/blog/google-business-hours</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-hours</guid>
+      <pubDate>Wed, 28 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.</description>
+    </item>
+    <item>
+      <title>Google Business Photos: Get Them Approved and Live Fast</title>
+      <link>https://nsyght.com/blog/google-business-photos</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-photos</guid>
+      <pubDate>Wed, 28 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.</description>
+    </item>
     <item>
       <title>Google Business Profile Posts: A Weekly Plan That Works</title>
       <link>https://nsyght.com/blog/google-business-profile-posts</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Operations first playbook for service-area businesses: fix GBP, publish evidence-backed city pages, add areaServed schema, and follow a 30/90/180 plan.</description>
-    </item>
-    <item>
-      <title>Local SEO Pricing in 2026: What Each Budget Actually Buys</title>
-      <link>https://nsyght.com/blog/local-seo-pricing</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-pricing</guid>
-      <pubDate>Sun, 18 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Practical 2026 U.S. local SEO pricing: what $500–$9,500/month buys, the deliverables to demand, and the procurement questions to ask before signing.</description>
-    </item>
-    <item>
-      <title>Home Services SEO: A 90-Day Plan for Contractors</title>
-      <link>https://nsyght.com/blog/home-services-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/home-services-seo</guid>
-      <pubDate>Sun, 18 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Industry Tips</category>
-      <description>Contractors: 90 day plan to finish Google Business Profile, start steady reviews, and build service/city pages that earn local and AI citations.</description>
     </item>
   </channel>
 </rss>

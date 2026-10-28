@@ -415,5 +415,29 @@
     "date": "2026-10-27",
     "image": "/images/blog/decorative-google-business-category-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-business-hours",
+    "url": "/blog/google-business-hours",
+    "file": "blog-google-business-hours.html",
+    "title": "Google Business Hours: How to Set and Fix Them Fast",
+    "category": "Google Business Profile",
+    "excerpt": "Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.",
+    "read_min": 8,
+    "date": "2026-10-28",
+    "image": "/images/blog/google-business-hours-article-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "google-business-photos",
+    "url": "/blog/google-business-photos",
+    "file": "blog-google-business-photos.html",
+    "title": "Google Business Photos: Get Them Approved and Live Fast",
+    "category": "Google Business Profile",
+    "excerpt": "How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.",
+    "read_min": 7,
+    "date": "2026-10-28",
+    "image": "/images/blog/hand-drawn-google-business-photo-title-card.webp",
+    "auto": true
   }
 ]

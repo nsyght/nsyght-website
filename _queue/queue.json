@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-27",
+  "last_release_date": "2026-10-28",
   "posts": [
-    {
-      "slug": "google-business-hours",
-      "title": "Google Business Hours: How to Set and Fix Them Fast",
-      "category": "Google Business Profile",
-      "excerpt": "Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.",
-      "read_min": 8,
-      "file": "_queue/blog-google-business-hours.html",
-      "blg_id": 813531,
-      "blg_date": "2026-09-06"
-    },
-    {
-      "slug": "google-business-photos",
-      "title": "Google Business Photos: Get Them Approved and Live Fast",
-      "category": "Google Business Profile",
-      "excerpt": "How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.",
-      "read_min": 7,
-      "file": "_queue/blog-google-business-photos.html",
-      "blg_id": 925406,
-      "blg_date": "2026-10-04"
-    },
     {
       "slug": "faq-schema-seo",
       "title": "FAQ Schema in 2026: Why It Still Matters for AI Answers",
@@ -300,6 +280,14 @@
     {
       "slug": "google-business-categories",
       "date": "2026-10-27"
+    },
+    {
+      "slug": "google-business-hours",
+      "date": "2026-10-28"
+    },
+    {
+      "slug": "google-business-photos",
+      "date": "2026-10-28"
     }
   ],
   "held": [
