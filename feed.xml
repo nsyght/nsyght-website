@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>FAQ Schema in 2026: Why It Still Matters for AI Answers</title>
+      <link>https://nsyght.com/blog/faq-schema-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/faq-schema-seo</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Google removed FAQ rich results, but FAQPage schema can still support AI Overviews and answer engines. Learn what to keep, update, and test.</description>
+    </item>
+    <item>
+      <title>LocalBusiness Schema: Help Google and AI Understand You</title>
+      <link>https://nsyght.com/blog/local-business-schema</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-business-schema</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Implement LocalBusiness schema as an entity signal for local and AI search. NSYGHT tips for multi location and a working JSON-LD to adapt.</description>
+    </item>
     <item>
       <title>Google Business Hours: How to Set and Fix Them Fast</title>
       <link>https://nsyght.com/blog/google-business-hours</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Download a starter template and agency workflow to build local SEO reports tying GBP, Search Console, and GA4 to calls and bookings.</description>
-    </item>
-    <item>
-      <title>Law Firm SEO Strategy: 90 Days to Local Pack and AI Wins</title>
-      <link>https://nsyght.com/blog/law-firm-seo-strategy</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/law-firm-seo-strategy</guid>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Industry Tips</category>
-      <description>Agency tested entity first law firm SEO: fix GBP, add attorney byline pages with schema, and win local pack rankings and AI citations.</description>
-    </item>
-    <item>
-      <title>Service Area Business SEO: A 90-Day Map Pack Plan</title>
-      <link>https://nsyght.com/blog/service-area-business-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/service-area-business-seo</guid>
-      <pubDate>Mon, 19 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Operations first playbook for service-area businesses: fix GBP, publish evidence-backed city pages, add areaServed schema, and follow a 30/90/180 plan.</description>
     </item>
   </channel>
 </rss>

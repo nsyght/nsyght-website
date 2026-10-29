@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/local-business-schema"
+  to = "/blog-local-business-schema.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/faq-schema-seo"
+  to = "/blog-faq-schema-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-business-photos"
   to = "/blog-google-business-photos.html"
   status = 200

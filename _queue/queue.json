@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-28",
+  "last_release_date": "2026-10-29",
   "posts": [
-    {
-      "slug": "faq-schema-seo",
-      "title": "FAQ Schema in 2026: Why It Still Matters for AI Answers",
-      "category": "AI Search",
-      "excerpt": "Google removed FAQ rich results, but FAQPage schema can still support AI Overviews and answer engines. Learn what to keep, update, and test.",
-      "read_min": 11,
-      "file": "_queue/blog-faq-schema-seo.html",
-      "blg_id": 949408,
-      "blg_date": "2026-10-10"
-    },
-    {
-      "slug": "local-business-schema",
-      "title": "LocalBusiness Schema: Help Google and AI Understand You",
-      "category": "AI Search",
-      "excerpt": "Implement LocalBusiness schema as an entity signal for local and AI search. NSYGHT tips for multi location and a working JSON-LD to adapt.",
-      "read_min": 11,
-      "file": "_queue/blog-local-business-schema.html",
-      "blg_id": 945546,
-      "blg_date": "2026-10-09"
-    },
     {
       "slug": "entity-seo",
       "title": "Entity SEO for Local Businesses: Get Recognized and Cited by AI",
@@ -288,6 +268,14 @@
     {
       "slug": "google-business-photos",
       "date": "2026-10-28"
+    },
+    {
+      "slug": "faq-schema-seo",
+      "date": "2026-10-29"
+    },
+    {
+      "slug": "local-business-schema",
+      "date": "2026-10-29"
     }
   ],
   "held": [
