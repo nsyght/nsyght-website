@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/duplicate-content-seo"
+  to = "/blog-duplicate-content-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/entity-seo"
+  to = "/blog-entity-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/local-business-schema"
   to = "/blog-local-business-schema.html"
   status = 200

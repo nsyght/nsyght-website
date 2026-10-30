@@ -463,5 +463,29 @@
     "date": "2026-10-29",
     "image": "/images/blog/sketch-illustration-framing-a-localbusiness-schema-title.webp",
     "auto": true
+  },
+  {
+    "slug": "entity-seo",
+    "url": "/blog/entity-seo",
+    "file": "blog-entity-seo.html",
+    "title": "Entity SEO for Local Businesses: Get Recognized and Cited by AI",
+    "category": "AI Search",
+    "excerpt": "Practical steps teams can run now to map canonical entity pages, add schema, earn authoritative mentions, and get cited in AI Overviews and Knowledge Panels.",
+    "read_min": 11,
+    "date": "2026-10-30",
+    "image": "/images/blog/decorative-entity-seo-title-card-illustration.webp",
+    "auto": true
+  },
+  {
+    "slug": "duplicate-content-seo",
+    "url": "/blog/duplicate-content-seo",
+    "file": "blog-duplicate-content-seo.html",
+    "title": "Duplicate Content SEO: 5 Causes and How to Fix Them",
+    "category": "Local SEO",
+    "excerpt": "A canonical first playbook for SEOs and site owners. Use GSC signals, faceted navigation triage, and redirects or rel=canonical to reclaim link equity.",
+    "read_min": 15,
+    "date": "2026-10-30",
+    "image": "/images/blog/duplicate-content-seo-title-card-illustration.webp",
+    "auto": true
   }
 ]

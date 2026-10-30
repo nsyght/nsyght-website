@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-29",
+  "last_release_date": "2026-10-30",
   "posts": [
-    {
-      "slug": "entity-seo",
-      "title": "Entity SEO for Local Businesses: Get Recognized and Cited by AI",
-      "category": "AI Search",
-      "excerpt": "Practical steps teams can run now to map canonical entity pages, add schema, earn authoritative mentions, and get cited in AI Overviews and Knowledge Panels.",
-      "read_min": 11,
-      "file": "_queue/blog-entity-seo.html",
-      "blg_id": 834793,
-      "blg_date": "2026-09-11"
-    },
-    {
-      "slug": "duplicate-content-seo",
-      "title": "Duplicate Content SEO: 5 Causes and How to Fix Them",
-      "category": "Local SEO",
-      "excerpt": "A canonical first playbook for SEOs and site owners. Use GSC signals, faceted navigation triage, and redirects or rel=canonical to reclaim link equity.",
-      "read_min": 15,
-      "file": "_queue/blog-duplicate-content-seo.html",
-      "blg_id": 882527,
-      "blg_date": "2026-09-23"
-    },
     {
       "slug": "service-page-seo",
       "title": "Service Page SEO: Build Pages That Rank and Get Cited",
@@ -276,6 +256,14 @@
     {
       "slug": "local-business-schema",
       "date": "2026-10-29"
+    },
+    {
+      "slug": "entity-seo",
+      "date": "2026-10-30"
+    },
+    {
+      "slug": "duplicate-content-seo",
+      "date": "2026-10-30"
     }
   ],
   "held": [
