@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/seo-site-architecture"
+  to = "/blog-seo-site-architecture.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/service-page-seo"
+  to = "/blog-service-page-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/duplicate-content-seo"
   to = "/blog-duplicate-content-seo.html"
   status = 200

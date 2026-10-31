@@ -487,5 +487,29 @@
     "date": "2026-10-30",
     "image": "/images/blog/duplicate-content-seo-title-card-illustration.webp",
     "auto": true
+  },
+  {
+    "slug": "service-page-seo",
+    "url": "/blog/service-page-seo",
+    "file": "blog-service-page-seo.html",
+    "title": "Service Page SEO: Build Pages That Rank and Get Cited",
+    "category": "Local SEO",
+    "excerpt": "A 90 day playbook for service marketers to rank and convert, using entity signals, AEO aware schema, and single keyword pages that get cited by AI.",
+    "read_min": 13,
+    "date": "2026-10-31",
+    "image": "/images/blog/decorative-ai-citation-seo-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "seo-site-architecture",
+    "url": "/blog/seo-site-architecture",
+    "file": "blog-seo-site-architecture.html",
+    "title": "SEO Site Architecture: A 6-Step Audit for Local Websites",
+    "category": "Local SEO",
+    "excerpt": "Run a six step site architecture audit to fix orphan pages, standardize URLs, and keep priority content within four clicks for AI ready SEO.",
+    "read_min": 12,
+    "date": "2026-10-31",
+    "image": "/images/blog/seo-site-architecture-audit-title-card.webp",
+    "auto": true
   }
 ]

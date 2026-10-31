@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-30",
+  "last_release_date": "2026-10-31",
   "posts": [
-    {
-      "slug": "service-page-seo",
-      "title": "Service Page SEO: Build Pages That Rank and Get Cited",
-      "category": "Local SEO",
-      "excerpt": "A 90 day playbook for service marketers to rank and convert, using entity signals, AEO aware schema, and single keyword pages that get cited by AI.",
-      "read_min": 13,
-      "file": "_queue/blog-service-page-seo.html",
-      "blg_id": 871036,
-      "blg_date": "2026-09-20"
-    },
-    {
-      "slug": "seo-site-architecture",
-      "title": "SEO Site Architecture: A 6-Step Audit for Local Websites",
-      "category": "Local SEO",
-      "excerpt": "Run a six step site architecture audit to fix orphan pages, standardize URLs, and keep priority content within four clicks for AI ready SEO.",
-      "read_min": 12,
-      "file": "_queue/blog-seo-site-architecture.html",
-      "blg_id": 878150,
-      "blg_date": "2026-09-22"
-    },
     {
       "slug": "ai-content-for-seo",
       "title": "Is AI Content Bad for SEO? How to Use It Without Penalties",
@@ -264,6 +244,14 @@
     {
       "slug": "duplicate-content-seo",
       "date": "2026-10-30"
+    },
+    {
+      "slug": "service-page-seo",
+      "date": "2026-10-31"
+    },
+    {
+      "slug": "seo-site-architecture",
+      "date": "2026-10-31"
     }
   ],
   "held": [
