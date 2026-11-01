@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Is AI Content Bad for SEO? How to Use It Without Penalties</title>
+      <link>https://nsyght.com/blog/ai-content-for-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/ai-content-for-seo</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Compliance first playbook for SEO teams: Google&#x27;s AI content policy, AEO and GEO aware templates, sampling, fact check gates, and audit steps.</description>
+    </item>
+    <item>
+      <title>Knowledge Graph SEO: Help Google Recognize Your Business</title>
+      <link>https://nsyght.com/blog/knowledge-graph-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/knowledge-graph-seo</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Actionable steps for SEO teams to implement canonical @id and sameAs, build entity hub pages, and measure Knowledge Panel and AI citations.</description>
+    </item>
     <item>
       <title>Service Page SEO: Build Pages That Rank and Get Cited</title>
       <link>https://nsyght.com/blog/service-page-seo</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.</description>
-    </item>
-    <item>
-      <title>How to Get More Google Reviews Without Breaking the Rules</title>
-      <link>https://nsyght.com/blog/google-reviews-strategy</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-reviews-strategy</guid>
-      <pubDate>Thu, 22 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Compliance first Google reviews playbook built on five operational pillars. Get practical ask tactics, reply templates, KPIs, and governance to scale safely.</description>
-    </item>
-    <item>
-      <title>Review Gating: Why It Is Banned and How to Fix Your Funnel</title>
-      <link>https://nsyght.com/blog/review-gating</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/review-gating</guid>
-      <pubDate>Thu, 22 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Why Google, Yelp, and the FTC ban review gating, what the penalties look like, and the audit steps businesses should take to fix their review funnel.</description>
     </item>
   </channel>
 </rss>

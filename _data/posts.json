@@ -511,5 +511,29 @@
     "date": "2026-10-31",
     "image": "/images/blog/seo-site-architecture-audit-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "ai-content-for-seo",
+    "url": "/blog/ai-content-for-seo",
+    "file": "blog-ai-content-for-seo.html",
+    "title": "Is AI Content Bad for SEO? How to Use It Without Penalties",
+    "category": "AI Search",
+    "excerpt": "Compliance first playbook for SEO teams: Google's AI content policy, AEO and GEO aware templates, sampling, fact check gates, and audit steps.",
+    "read_min": 8,
+    "date": "2026-11-01",
+    "image": "/images/blog/ai-content-compliance-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "knowledge-graph-seo",
+    "url": "/blog/knowledge-graph-seo",
+    "file": "blog-knowledge-graph-seo.html",
+    "title": "Knowledge Graph SEO: Help Google Recognize Your Business",
+    "category": "AI Search",
+    "excerpt": "Actionable steps for SEO teams to implement canonical @id and sameAs, build entity hub pages, and measure Knowledge Panel and AI citations.",
+    "read_min": 14,
+    "date": "2026-11-01",
+    "image": "/images/blog/decorative-knowledge-graph-seo-title-card.webp",
+    "auto": true
   }
 ]

@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-10-31",
+  "last_release_date": "2026-11-01",
   "posts": [
-    {
-      "slug": "ai-content-for-seo",
-      "title": "Is AI Content Bad for SEO? How to Use It Without Penalties",
-      "category": "AI Search",
-      "excerpt": "Compliance first playbook for SEO teams: Google's AI content policy, AEO and GEO aware templates, sampling, fact check gates, and audit steps.",
-      "read_min": 8,
-      "file": "_queue/blog-ai-content-for-seo.html",
-      "blg_id": 905448,
-      "blg_date": "2026-09-29"
-    },
-    {
-      "slug": "knowledge-graph-seo",
-      "title": "Knowledge Graph SEO: Help Google Recognize Your Business",
-      "category": "AI Search",
-      "excerpt": "Actionable steps for SEO teams to implement canonical @id and sameAs, build entity hub pages, and measure Knowledge Panel and AI citations.",
-      "read_min": 14,
-      "file": "_queue/blog-knowledge-graph-seo.html",
-      "blg_id": 847183,
-      "blg_date": "2026-09-14"
-    },
     {
       "slug": "sameas-schema-seo",
       "title": "sameAs Schema: Connect Your Business Profiles for SEO",
@@ -252,6 +232,14 @@
     {
       "slug": "seo-site-architecture",
       "date": "2026-10-31"
+    },
+    {
+      "slug": "ai-content-for-seo",
+      "date": "2026-11-01"
+    },
+    {
+      "slug": "knowledge-graph-seo",
+      "date": "2026-11-01"
     }
   ],
   "held": [

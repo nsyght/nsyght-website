@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/knowledge-graph-seo"
+  to = "/blog-knowledge-graph-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/ai-content-for-seo"
+  to = "/blog-ai-content-for-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/seo-site-architecture"
   to = "/blog-seo-site-architecture.html"
   status = 200

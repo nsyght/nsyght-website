@@ -66,6 +66,8 @@
 
   <!-- BLOG POSTS (auto-published) -->
   <!-- AUTO-POSTS -->
+  <url><loc>https://nsyght.com/blog/knowledge-graph-seo</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/ai-content-for-seo</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/seo-site-architecture</loc><lastmod>2026-10-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/service-page-seo</loc><lastmod>2026-10-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/duplicate-content-seo</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
