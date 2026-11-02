@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>sameAs Schema: Connect Your Business Profiles for SEO</title>
+      <link>https://nsyght.com/blog/sameas-schema-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/sameas-schema-seo</guid>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Learn to add sameAs schema with structured data, follow Google and Schema.org guidance, and avoid identity errors when scaling across locations.</description>
+    </item>
+    <item>
+      <title>Internal Linking Strategy: Keep Every Page Within Reach</title>
+      <link>https://nsyght.com/blog/internal-linking-strategy</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/internal-linking-strategy</guid>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Build an internal linking strategy that connects topic clusters, finds orphaned pages, and supports AI discovery through human review and clear rules.</description>
+    </item>
     <item>
       <title>Is AI Content Bad for SEO? How to Use It Without Penalties</title>
       <link>https://nsyght.com/blog/ai-content-for-seo</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.</description>
-    </item>
-    <item>
-      <title>Local Link Building: A 90-Day Community-First Plan</title>
-      <link>https://nsyght.com/blog/local-link-building</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-link-building</guid>
-      <pubDate>Fri, 23 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>A prioritized 90 day plan for local businesses to earn community-trusted backlinks, fix GBP and structured data, and track local ranking and referral gains.</description>
-    </item>
-    <item>
-      <title>Website Redesign SEO: Keep Your Rankings With a Redirect Map</title>
-      <link>https://nsyght.com/blog/seo-website-redesign</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/seo-website-redesign</guid>
-      <pubDate>Fri, 23 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Keep traffic steady during an SEO website redesign with a 1:1 redirect map, a priority risk checklist, and a staged post-launch monitoring plan.</description>
     </item>
   </channel>
 </rss>

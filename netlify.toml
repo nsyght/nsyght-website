@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/internal-linking-strategy"
+  to = "/blog-internal-linking-strategy.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/sameas-schema-seo"
+  to = "/blog-sameas-schema-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/knowledge-graph-seo"
   to = "/blog-knowledge-graph-seo.html"
   status = 200

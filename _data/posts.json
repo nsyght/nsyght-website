@@ -535,5 +535,29 @@
     "date": "2026-11-01",
     "image": "/images/blog/decorative-knowledge-graph-seo-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "sameas-schema-seo",
+    "url": "/blog/sameas-schema-seo",
+    "file": "blog-sameas-schema-seo.html",
+    "title": "sameAs Schema: Connect Your Business Profiles for SEO",
+    "category": "AI Search",
+    "excerpt": "Learn to add sameAs schema with structured data, follow Google and Schema.org guidance, and avoid identity errors when scaling across locations.",
+    "read_min": 7,
+    "date": "2026-11-02",
+    "image": "/images/blog/hand-drawn-title-card-with-schema-and-location-motifs.webp",
+    "auto": true
+  },
+  {
+    "slug": "internal-linking-strategy",
+    "url": "/blog/internal-linking-strategy",
+    "file": "blog-internal-linking-strategy.html",
+    "title": "Internal Linking Strategy: Keep Every Page Within Reach",
+    "category": "Local SEO",
+    "excerpt": "Build an internal linking strategy that connects topic clusters, finds orphaned pages, and supports AI discovery through human review and clear rules.",
+    "read_min": 13,
+    "date": "2026-11-02",
+    "image": "/images/blog/sketch-title-card-for-internal-linking-strategy.webp",
+    "auto": true
   }
 ]

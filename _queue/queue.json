@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-01",
+  "last_release_date": "2026-11-02",
   "posts": [
-    {
-      "slug": "sameas-schema-seo",
-      "title": "sameAs Schema: Connect Your Business Profiles for SEO",
-      "category": "AI Search",
-      "excerpt": "Learn to add sameAs schema with structured data, follow Google and Schema.org guidance, and avoid identity errors when scaling across locations.",
-      "read_min": 7,
-      "file": "_queue/blog-sameas-schema-seo.html",
-      "blg_id": 957451,
-      "blg_date": "2026-10-12"
-    },
-    {
-      "slug": "internal-linking-strategy",
-      "title": "Internal Linking Strategy: Keep Every Page Within Reach",
-      "category": "Local SEO",
-      "excerpt": "Build an internal linking strategy that connects topic clusters, finds orphaned pages, and supports AI discovery through human review and clear rules.",
-      "read_min": 13,
-      "file": "_queue/blog-internal-linking-strategy.html",
-      "blg_id": 961262,
-      "blg_date": "2026-10-13"
-    },
     {
       "slug": "chatgpt-citations",
       "title": "Using ChatGPT to Build Local Citations Without Errors",
@@ -240,6 +220,14 @@
     {
       "slug": "knowledge-graph-seo",
       "date": "2026-11-01"
+    },
+    {
+      "slug": "sameas-schema-seo",
+      "date": "2026-11-02"
+    },
+    {
+      "slug": "internal-linking-strategy",
+      "date": "2026-11-02"
     }
   ],
   "held": [
