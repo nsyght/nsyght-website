@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/perplexity-seo"
+  to = "/blog-perplexity-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/chatgpt-citations"
+  to = "/blog-chatgpt-citations.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/internal-linking-strategy"
   to = "/blog-internal-linking-strategy.html"
   status = 200

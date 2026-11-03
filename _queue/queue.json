@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-02",
+  "last_release_date": "2026-11-03",
   "posts": [
-    {
-      "slug": "chatgpt-citations",
-      "title": "Using ChatGPT to Build Local Citations Without Errors",
-      "category": "AI Search",
-      "excerpt": "Scale local citations with ChatGPT and protect GBP verification. Agencies can standardize NAP data, adapt directory copy, and verify every listing.",
-      "read_min": 8,
-      "file": "_queue/blog-chatgpt-citations.html",
-      "blg_id": 953262,
-      "blg_date": "2026-10-11"
-    },
-    {
-      "slug": "perplexity-seo",
-      "title": "Perplexity SEO: How to Get Your Business Cited",
-      "category": "AI Search",
-      "excerpt": "For engineers: Perplexity SEO tactics. Put evidence first in page leads, refresh facts quarterly, and use NSYGHT entity structure to win AI citations.",
-      "read_min": 7,
-      "file": "_queue/blog-perplexity-seo.html",
-      "blg_id": 917425,
-      "blg_date": "2026-10-02"
-    },
     {
       "slug": "google-gemini-seo",
       "title": "Gemini SEO: A 90-Day Plan to Protect Your Search Traffic",
@@ -228,6 +208,14 @@
     {
       "slug": "internal-linking-strategy",
       "date": "2026-11-02"
+    },
+    {
+      "slug": "chatgpt-citations",
+      "date": "2026-11-03"
+    },
+    {
+      "slug": "perplexity-seo",
+      "date": "2026-11-03"
     }
   ],
   "held": [

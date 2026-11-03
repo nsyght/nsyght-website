@@ -66,6 +66,8 @@
 
   <!-- BLOG POSTS (auto-published) -->
   <!-- AUTO-POSTS -->
+  <url><loc>https://nsyght.com/blog/perplexity-seo</loc><lastmod>2026-11-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nsyght.com/blog/chatgpt-citations</loc><lastmod>2026-11-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/internal-linking-strategy</loc><lastmod>2026-11-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/sameas-schema-seo</loc><lastmod>2026-11-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nsyght.com/blog/knowledge-graph-seo</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

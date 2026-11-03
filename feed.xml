@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Using ChatGPT to Build Local Citations Without Errors</title>
+      <link>https://nsyght.com/blog/chatgpt-citations</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/chatgpt-citations</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Scale local citations with ChatGPT and protect GBP verification. Agencies can standardize NAP data, adapt directory copy, and verify every listing.</description>
+    </item>
+    <item>
+      <title>Perplexity SEO: How to Get Your Business Cited</title>
+      <link>https://nsyght.com/blog/perplexity-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/perplexity-seo</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>For engineers: Perplexity SEO tactics. Put evidence first in page leads, refresh facts quarterly, and use NSYGHT entity structure to win AI citations.</description>
+    </item>
     <item>
       <title>sameAs Schema: Connect Your Business Profiles for SEO</title>
       <link>https://nsyght.com/blog/sameas-schema-seo</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.</description>
-    </item>
-    <item>
-      <title>Answer Engine Optimization: Get Your Business Cited by AI</title>
-      <link>https://nsyght.com/blog/answer-engine-optimization</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/answer-engine-optimization</guid>
-      <pubDate>Sat, 24 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Turn your top pages into AI citable chunks in 90 days. Learn BLUF first structuring, precise schema choices, and how to allocate your AEO budget.</description>
-    </item>
-    <item>
-      <title>Generative Engine Optimization: A Workflow to Get Cited by AI</title>
-      <link>https://nsyght.com/blog/generative-engine-optimization</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/generative-engine-optimization</guid>
-      <pubDate>Sat, 24 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>A research-backed, engine-aware workflow to get your pages cited by AI, with practical GEO steps, measurement tactics, and NSYGHT Stack actions.</description>
     </item>
   </channel>
 </rss>
