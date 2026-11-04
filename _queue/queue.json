@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-03",
+  "last_release_date": "2026-11-04",
   "posts": [
-    {
-      "slug": "google-gemini-seo",
-      "title": "Gemini SEO: A 90-Day Plan to Protect Your Search Traffic",
-      "category": "AI Search",
-      "excerpt": "Adapt SEO for Google Gemini in 90 days: prioritize answer first pages, measure with GA4 and Search Console, and protect conversions.",
-      "read_min": 14,
-      "file": "_queue/blog-google-gemini-seo.html",
-      "blg_id": 921604,
-      "blg_date": "2026-10-03"
-    },
-    {
-      "slug": "site-speed-seo",
-      "title": "Site Speed and Local SEO: Fix What Customers Actually Feel",
-      "category": "Local SEO",
-      "excerpt": "Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.",
-      "read_min": 8,
-      "file": "_queue/blog-site-speed-seo.html",
-      "blg_id": 935202,
-      "blg_date": "2026-10-07"
-    },
     {
       "slug": "technical-seo-audit",
       "title": "Technical SEO Audit for Local Websites: Scans and Manual Checks",
@@ -216,6 +196,14 @@
     {
       "slug": "perplexity-seo",
       "date": "2026-11-03"
+    },
+    {
+      "slug": "google-gemini-seo",
+      "date": "2026-11-04"
+    },
+    {
+      "slug": "site-speed-seo",
+      "date": "2026-11-04"
     }
   ],
   "held": [

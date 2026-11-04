@@ -583,5 +583,29 @@
     "date": "2026-11-03",
     "image": "/images/blog/evidence-first-perplexity-seo-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-gemini-seo",
+    "url": "/blog/google-gemini-seo",
+    "file": "blog-google-gemini-seo.html",
+    "title": "Gemini SEO: A 90-Day Plan to Protect Your Search Traffic",
+    "category": "AI Search",
+    "excerpt": "Adapt SEO for Google Gemini in 90 days: prioritize answer first pages, measure with GA4 and Search Console, and protect conversions.",
+    "read_min": 14,
+    "date": "2026-11-04",
+    "image": "/images/blog/decorative-gemini-seo-plan-title-card.webp",
+    "auto": true
+  },
+  {
+    "slug": "site-speed-seo",
+    "url": "/blog/site-speed-seo",
+    "file": "blog-site-speed-seo.html",
+    "title": "Site Speed and Local SEO: Fix What Customers Actually Feel",
+    "category": "Local SEO",
+    "excerpt": "Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.",
+    "read_min": 8,
+    "date": "2026-11-04",
+    "image": "/images/blog/decorative-site-speed-seo-title-card.webp",
+    "auto": true
   }
 ]

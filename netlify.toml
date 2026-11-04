@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/site-speed-seo"
+  to = "/blog-site-speed-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-gemini-seo"
+  to = "/blog-google-gemini-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/perplexity-seo"
   to = "/blog-perplexity-seo.html"
   status = 200

@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Gemini SEO: A 90-Day Plan to Protect Your Search Traffic</title>
+      <link>https://nsyght.com/blog/google-gemini-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-gemini-seo</guid>
+      <pubDate>Wed, 04 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Adapt SEO for Google Gemini in 90 days: prioritize answer first pages, measure with GA4 and Search Console, and protect conversions.</description>
+    </item>
+    <item>
+      <title>Site Speed and Local SEO: Fix What Customers Actually Feel</title>
+      <link>https://nsyght.com/blog/site-speed-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/site-speed-seo</guid>
+      <pubDate>Wed, 04 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.</description>
+    </item>
     <item>
       <title>Using ChatGPT to Build Local Citations Without Errors</title>
       <link>https://nsyght.com/blog/chatgpt-citations</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>Google retired Business Profile Q&amp;A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.</description>
-    </item>
-    <item>
-      <title>AI Search Visibility: How to Track It and Earn Citations</title>
-      <link>https://nsyght.com/blog/ai-search-visibility</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/ai-search-visibility</guid>
-      <pubDate>Sun, 25 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>A marketer-first plan to measure and improve AI search visibility: set up prompt sampling and a simple dashboard, restructure key sections, earn citations.</description>
-    </item>
-    <item>
-      <title>How to Rank in ChatGPT: Start With a 1-Hour Audit</title>
-      <link>https://nsyght.com/blog/rank-in-chatgpt</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/rank-in-chatgpt</guid>
-      <pubDate>Sun, 25 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>AEO playbook for marketers: run a 1 hour technical audit, rewrite pages into answer first blocks, earn third party mentions, and measure ChatGPT citations.</description>
     </item>
   </channel>
 </rss>
