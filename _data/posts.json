@@ -607,5 +607,17 @@
     "date": "2026-11-04",
     "image": "/images/blog/decorative-site-speed-seo-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "technical-seo-audit",
+    "url": "/blog/technical-seo-audit",
+    "file": "blog-technical-seo-audit.html",
+    "title": "Technical SEO Audit for Local Websites: Scans and Manual Checks",
+    "category": "Local SEO",
+    "excerpt": "Run a technical SEO audit that combines automated scans with manual Search Console and log file checks, then turn findings into developer-ready fixes.",
+    "read_min": 10,
+    "date": "2026-11-05",
+    "image": "/images/blog/technical-seo-audit-title-card-illustration.webp",
+    "auto": true
   }
 ]

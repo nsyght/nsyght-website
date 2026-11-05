@@ -5,18 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-04",
+  "last_release_date": "2026-11-05",
   "posts": [
-    {
-      "slug": "technical-seo-audit",
-      "title": "Technical SEO Audit for Local Websites: Scans and Manual Checks",
-      "category": "Local SEO",
-      "excerpt": "Run a technical SEO audit that combines automated scans with manual Search Console and log file checks, then turn findings into developer-ready fixes.",
-      "read_min": 10,
-      "file": "_queue/blog-technical-seo-audit.html",
-      "blg_id": 909085,
-      "blg_date": "2026-09-30"
-    },
     {
       "slug": "wikidata-for-seo",
       "title": "Wikidata for SEO: 9 Checks for Better AI Visibility",
@@ -204,6 +194,10 @@
     {
       "slug": "site-speed-seo",
       "date": "2026-11-04"
+    },
+    {
+      "slug": "technical-seo-audit",
+      "date": "2026-11-05"
     }
   ],
   "held": [

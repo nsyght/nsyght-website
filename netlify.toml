@@ -311,6 +311,11 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/technical-seo-audit"
+  to = "/blog-technical-seo-audit.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/site-speed-seo"
   to = "/blog-site-speed-seo.html"
   status = 200
