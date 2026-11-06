@@ -6,7 +6,16 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Wikidata for SEO: 9 Checks for Better AI Visibility</title>
+      <link>https://nsyght.com/blog/wikidata-for-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/wikidata-for-seo</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Wikidata supports SEO and AI visibility. Use the nine point checklist, connect entities with sameAs schema, and track impact without assuming rankings.</description>
+    </item>
     <item>
       <title>Technical SEO Audit for Local Websites: Scans and Manual Checks</title>
       <link>https://nsyght.com/blog/technical-seo-audit</link>
@@ -177,15 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>Pick one primary and 2 to 3 secondary Google Business categories, align site content, run 30 to 60 day tests, and apply copyable category sets.</description>
-    </item>
-    <item>
-      <title>Location Pages SEO: Landing Pages That Rank and Get Cited</title>
-      <link>https://nsyght.com/blog/location-landing-pages</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/location-landing-pages</guid>
-      <pubDate>Mon, 26 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Build entity first location landing pages that match your Google Business Profile, convert local visitors, and earn AI citations with answer-ready FAQs.</description>
     </item>
   </channel>
 </rss>

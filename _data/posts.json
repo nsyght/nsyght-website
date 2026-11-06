@@ -619,5 +619,17 @@
     "date": "2026-11-05",
     "image": "/images/blog/technical-seo-audit-title-card-illustration.webp",
     "auto": true
+  },
+  {
+    "slug": "wikidata-for-seo",
+    "url": "/blog/wikidata-for-seo",
+    "file": "blog-wikidata-for-seo.html",
+    "title": "Wikidata for SEO: 9 Checks for Better AI Visibility",
+    "category": "AI Search",
+    "excerpt": "Wikidata supports SEO and AI visibility. Use the nine point checklist, connect entities with sameAs schema, and track impact without assuming rankings.",
+    "read_min": 10,
+    "date": "2026-11-06",
+    "image": "/images/blog/hand-drawn-wikidata-seo-title-card.webp",
+    "auto": true
   }
 ]

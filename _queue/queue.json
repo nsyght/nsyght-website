@@ -5,19 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-05",
-  "posts": [
-    {
-      "slug": "wikidata-for-seo",
-      "title": "Wikidata for SEO: 9 Checks for Better AI Visibility",
-      "category": "AI Search",
-      "excerpt": "Wikidata supports SEO and AI visibility. Use the nine point checklist, connect entities with sameAs schema, and track impact without assuming rankings.",
-      "read_min": 10,
-      "file": "_queue/blog-wikidata-for-seo.html",
-      "blg_id": 965177,
-      "blg_date": "2026-10-14"
-    }
-  ],
+  "last_release_date": "2026-11-06",
+  "posts": [],
   "published": [
     {
       "slug": "google-ads-local",
@@ -198,6 +187,10 @@
     {
       "slug": "technical-seo-audit",
       "date": "2026-11-05"
+    },
+    {
+      "slug": "wikidata-for-seo",
+      "date": "2026-11-06"
     }
   ],
   "held": [

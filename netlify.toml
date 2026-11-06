@@ -311,6 +311,11 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/wikidata-for-seo"
+  to = "/blog-wikidata-for-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/technical-seo-audit"
   to = "/blog-technical-seo-audit.html"
   status = 200
