@@ -5,12 +5,14 @@ Run by .github/workflows/release-posts.yml before the daily release, and on dema
 For each BabyLoveGrowth article that is not already on the site or in the queue it:
 1. builds a full NSYGHT post page from a published post used as the template
    (same header, footer, sidebar and schema as every other post)
-2. cleans the article: no em dashes, ids on every H2, NSYGHT links made relative,
-   outside links open in a new tab
+2. cleans the article the same way as the first 47 posts: no em dashes, "Nsyght" spelled
+   NSYGHT, BabyLoveGrowth promo links removed, off-site "local SEO checklist" links sent to
+   /local-seo-checklist, meta descriptions kept under 160 characters, images converted to
+   WebP and hosted in /images/blog, ids on every H2, outside links open in a new tab
 3. adds internal links to the matching NSYGHT service or industry page when the
    topic overlaps one (rules in _queue/blg_rules.json)
 4. holds off-topic articles instead of queueing them (also in blg_rules.json)
-5. saves the cover image to /images/blog and appends the post to _queue/queue.json
+5. appends the post to _queue/queue.json
 
 The release script then publishes from the queue as usual.
 
@@ -95,6 +97,23 @@ def no_dashes(s):
     return re.sub(r',\s*,', ',', s)
 
 
+def brand(s):
+    """'Nsyght' -> NSYGHT in visible text, never inside URLs or attributes."""
+    return re.sub(r'(?<![/.\w@-])Nsyght(?![\w.-]*\.(?:com|html))', 'NSYGHT', s)
+
+
+def meta_160(s):
+    s = re.sub(r'\s+', ' ', s).strip().rstrip('.').strip()
+    if len(s) <= 158:
+        return s + '.'
+    cut = s[:158]
+    for stop in ('. ', '; ', ', '):
+        i = cut.rfind(stop)
+        if i > 90:
+            return cut[:i].rstrip(',;') + '.'
+    return cut.rsplit(' ', 1)[0].rstrip(',;') + '.'
+
+
 def text_of(h):
     return html.unescape(re.sub(r'<[^>]+>', '', h)).strip()
 
@@ -124,7 +143,12 @@ def held_reason(a, rules):
 def clean_body(body, links):
     body = re.sub(r'<(script|style)\b.*?</\1>', '', body, flags=re.S | re.I)
     body = re.sub(r'<h1\b[^>]*>.*?</h1>', '', body, flags=re.S | re.I)
-    body = no_dashes(body)
+    body = no_dashes(brand(body))
+    # BabyLoveGrowth promo links: keep the words, drop the link
+    body = re.sub(r'<a\b[^>]*href="https?://(?:www\.)?babylovegrowth\.ai[^"]*"[^>]*>(.*?)</a>', r'\1', body, flags=re.S | re.I)
+    # "local SEO checklist" links that point off-site go to our own checklist
+    body = re.sub(r'<a\b[^>]*href="https?://(?!(?:www\.)?nsyght\.com)[^"]*"[^>]*>((?:(?!</a>).)*?local seo checklist(?:(?!</a>).)*?)</a>',
+                  r'<a href="/local-seo-checklist">\1</a>', body, flags=re.S | re.I)
     # NSYGHT links relative, outside links in a new tab
     body = re.sub(r'href="https?://(?:www\.)?nsyght\.com(/[^"]*)?"', lambda m: f'href="{m.group(1) or "/"}"', body)
 
@@ -175,8 +199,8 @@ def faq_block(faq):
         return ''
     rows = []
     for q in items:
-        name = no_dashes(html.escape(text_of(q.get('name', ''))))
-        ans = no_dashes(html.escape(text_of((q.get('acceptedAnswer') or {}).get('text', ''))))
+        name = brand(no_dashes(html.escape(text_of(q.get('name', '')))))
+        ans = brand(no_dashes(html.escape(text_of((q.get('acceptedAnswer') or {}).get('text', '')))))
         if name and ans:
             rows.append(f'      <div class="faq-open-item">\n        <div class="faq-open-q">{name}</div>\n'
                         f'        <p class="faq-open-a">{ans}</p>\n      </div>')
@@ -185,35 +209,57 @@ def faq_block(faq):
     return '<h2 id="faq">Frequently Asked Questions</h2>\n    <div class="faq-open">\n' + '\n'.join(rows) + '\n    </div>'
 
 
-def save_cover(url, slug, dry):
-    if not url:
-        return None
-    ext = os.path.splitext(url.split('?')[0])[1].lower()
-    if ext not in ('.webp', '.jpg', '.jpeg', '.png', '.gif', '.avif'):
-        ext = '.jpg'
-    rel = f'images/blog/{slug}-cover{ext}'
-    if dry:
-        return '/' + rel
+def save_image(url, name):
+    """Download an image, convert it to WebP (max 1600px wide) and host it in /images/blog.
+    Returns the site path, or the original URL if anything fails."""
+    if not url or not url.startswith('http'):
+        return url
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'nsyght-blog-sync/1.0'})
         with urllib.request.urlopen(req, timeout=60) as r:
             data = r.read()
+        import io
+        try:
+            from PIL import Image
+            im = Image.open(io.BytesIO(data))
+            im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') else 'RGB')
+            if im.width > 1600:
+                im = im.resize((1600, round(im.height * 1600 / im.width)))
+            buf = io.BytesIO()
+            im.save(buf, 'WEBP', quality=82, method=6)
+            data, ext = buf.getvalue(), '.webp'
+        except ImportError:
+            ext = os.path.splitext(url.split('?')[0])[1].lower()
+            if ext not in ('.webp', '.jpg', '.jpeg', '.png', '.gif'):
+                ext = '.jpg'
+        rel = f'images/blog/{name}{ext}'
         full = os.path.join(ROOT, rel)
         os.makedirs(os.path.dirname(full), exist_ok=True)
         with open(full, 'wb') as f:
             f.write(data)
         return '/' + rel
     except Exception as err:
-        print(f'   cover image not saved ({err}); using the original URL')
+        print(f'   image not saved ({err}); keeping the original URL')
         return url
 
 
-def build_page(tpl, a, slug, category, cover, links, rules):
-    title = no_dashes(text_of(a['title']))
-    desc = no_dashes(text_of(a.get('meta_description') or a.get('excerpt') or ''))[:300]
+def host_body_images(body, slug):
+    n = [0]
+
+    def swap(m):
+        n[0] += 1
+        return m.group(1) + save_image(m.group(2), f'{slug}-{n[0]}') + m.group(3)
+    return re.sub(r'(<img\b[^>]*\bsrc=")(https?://[^"]+)(")', swap, body, flags=re.I)
+
+
+def build_page(tpl, a, slug, category, cover, links, rules, dry=False):
+    title = brand(no_dashes(text_of(a['title'])))
+    desc = meta_160(brand(no_dashes(text_of(a.get('meta_description') or a.get('excerpt') or ''))))
     url = f'{SITE}/blog/{slug}'
     img_abs = cover if cover.startswith('http') else SITE + cover
     body = clean_body(a.get('content_html') or '', links)
+    if not dry:
+        body = host_body_images(body, slug)
     if not re.search(r'<h2[^>]*>[^<]*(FAQ|Frequently)', body, re.I):
         body += '\n' + faq_block(a.get('faqJsonLd'))
     n_words = len(text_of(body).split())
@@ -248,7 +294,7 @@ def build_page(tpl, a, slug, category, cover, links, rules):
         {'@type': 'ListItem', 'position': 3, 'name': title, 'item': url}]}
     faq = a.get('faqJsonLd') if (a.get('faqJsonLd') or {}).get('mainEntity') else None
     if faq:
-        faq = json.loads(no_dashes(json.dumps(faq, ensure_ascii=False)))
+        faq = json.loads(brand(no_dashes(json.dumps(faq, ensure_ascii=False))))
 
     def ld(obj):
         return '<script type="application/ld+json">\n' + json.dumps(obj, indent=2, ensure_ascii=False) + '\n</script>'
@@ -351,7 +397,7 @@ def main():
             continue
         category = pick_category(full, rules)
         links = matching_links(full, rules)
-        cover = save_cover(full.get('hero_image_url'), slug, False) or rules['fallback_image']
+        cover = save_image(full.get('hero_image_url'), f'{slug}-cover') or rules['fallback_image']
         page, ptitle, excerpt, read_min = build_page(tpl, full, slug, category, cover, links, rules)
         f = f'_queue/blog-{slug}.html'
         write(f, page)
