@@ -1,0 +1,40 @@
+{
+  "_readme": "Settings for scripts/pull_blg.py, which pulls new BabyLoveGrowth articles into the blog queue. 'enabled' turns the daily pull on or off. 'hold' keeps matching articles out of the queue (they go to the held list in queue.json). 'internal_links' adds a link and a short callout to the matching NSYGHT page when an article's title or keyword overlaps it. Matching is lowercase and checks the title and target keyword.",
+  "enabled": false,
+  "template": "blog-wikidata-for-seo.html",
+  "fallback_image": "/images/blog/hand-drawn-wikidata-seo-title-card.webp",
+  "only_created_after": "",
+  "default_category": "Local SEO",
+  "categories": [
+    ["Industry Tips", ["roofing", "roofer", "plumb", "hvac", "electrician", "pest control", "dentist", "dental", "orthodont", "law firm", "lawyer", "attorney", "criminal defense", "personal injury", "plastic surgeon", "medical spa", "med spa", "urgent care", "real estate"]],
+    ["Google Ads", ["google ads", "ppc", "target cpa", "roas", "broad match", "phrase match", "call only", "lead form", "facebook lead ads", "local services ads"]],
+    ["Google Business Profile", ["google business", "gbp", "google maps", "reviews"]],
+    ["AI Search", ["ai ", "ai seo", "llm", "chatgpt", "perplexity", "gemini", "ai overview", "citation", "knowledge panel", "knowledge graph", "semantic seo", "information gain", "schema for ai", "entity"]]
+  ],
+  "hold": [
+    {"match": ["spam call", "spam text", "report local spam"], "reason": "Off topic for an SEO agency blog. Held on Don's instruction."},
+    {"match": ["google business products"], "reason": "Not an SEO topic. Held on Don's instruction."}
+  ],
+  "internal_links": [
+    {"match": ["roofing", "roofer"], "url": "/industries/roofing", "label": "Roofing SEO Services", "phrases": ["roofing SEO", "roofing companies", "roofers"], "callout": "NSYGHT runs SEO for roofing companies. See our <a href=\"/industries/roofing\">roofing SEO services</a> and the <a href=\"/industries/roofing/keywords\">roofing keyword list</a>."},
+    {"match": ["plumb"], "url": "/industries/home-services/plumbers", "label": "SEO for Plumbers", "phrases": ["plumbing SEO", "plumbers", "plumbing companies"], "callout": "See how NSYGHT handles <a href=\"/industries/home-services/plumbers\">SEO for plumbers</a>."},
+    {"match": ["hvac"], "url": "/industries/home-services/hvac", "label": "HVAC SEO Services", "phrases": ["HVAC SEO", "HVAC companies", "HVAC contractors"], "callout": "See how NSYGHT handles <a href=\"/industries/home-services/hvac\">HVAC SEO</a>."},
+    {"match": ["electrician"], "url": "/industries/home-services/electricians", "label": "SEO for Electricians", "phrases": ["electrician SEO", "electricians", "electrical contractors"], "callout": "See how NSYGHT handles <a href=\"/industries/home-services/electricians\">SEO for electricians</a>."},
+    {"match": ["pest control"], "url": "/industries/home-services", "label": "Home Services SEO", "phrases": ["pest control companies", "home service businesses", "home services"], "callout": "Pest control is part of our <a href=\"/industries/home-services\">home services SEO</a> work."},
+    {"match": ["dentist", "dental", "orthodont"], "url": "/industries/dental", "label": "Dental SEO Services", "phrases": ["dental SEO", "orthodontists", "dental practices", "dentists"], "callout": "See how NSYGHT handles <a href=\"/industries/dental\">SEO for dental and orthodontic practices</a>."},
+    {"match": ["dui"], "url": "/industries/dui-lawyers", "label": "SEO for DUI Lawyers", "phrases": ["DUI lawyers", "DUI attorneys"], "callout": "See our <a href=\"/industries/dui-lawyers\">SEO for DUI lawyers</a>."},
+    {"match": ["family law"], "url": "/industries/law-firms/family-law", "label": "Family Law SEO", "phrases": ["family law firms", "family law"], "callout": "See our <a href=\"/industries/law-firms/family-law\">family law SEO</a>."},
+    {"match": ["law firm", "lawyer", "attorney", "criminal defense", "personal injury"], "url": "/industries/law-firms", "label": "Law Firm SEO Services", "phrases": ["law firm SEO", "law firms", "attorneys", "lawyers"], "callout": "See how NSYGHT handles <a href=\"/industries/law-firms\">SEO for law firms</a>."},
+    {"match": ["google ads", "ppc", "target cpa", "roas", "broad match", "phrase match", "call only", "lead form", "local services ads"], "url": "/services/google-ads", "label": "Google Ads Management", "phrases": ["Google Ads management", "Google Ads", "PPC"], "callout": "Prefer to hand it off? See our <a href=\"/services/google-ads\">Google Ads management</a>."},
+    {"match": ["facebook"], "url": "/services/facebook-ads", "label": "Facebook Ads Management", "phrases": ["Facebook ads", "Facebook lead ads"], "callout": "See our <a href=\"/services/facebook-ads\">Facebook Ads management</a>."},
+    {"match": ["google business", "gbp"], "url": "/local-gbp-management", "label": "Google Business Profile Management", "phrases": ["Google Business Profile", "GBP"], "callout": "Want your profile managed for you? See our <a href=\"/local-gbp-management\">Google Business Profile management</a>."},
+    {"match": ["web design"], "url": "/services/web-design", "label": "SEO Web Design", "phrases": ["web design", "website design"], "callout": "See our <a href=\"/services/web-design\">SEO-first web design</a>."}
+  ],
+  "related_defaults": {
+    "AI Search": [["/blog/ai-search-guide-2026", "The Local Business Owner's Guide to AI Search in 2026"], ["/the-stack", "The NSYGHT Stack, How SEO, GEO, AEO & AIO Work Together"], ["/geo", "What Is Generative Engine Optimization (GEO)?"], ["/aio", "What Is AI Optimization (AIO)?"]],
+    "Google Ads": [["/services/google-ads", "Google Ads Management"], ["/blog/seo-vs-google-ads", "SEO vs Google Ads"], ["/services", "All NSYGHT Services"], ["/results", "Client Results"]],
+    "Google Business Profile": [["/local-gbp-management", "Google Business Profile Management"], ["/local-seo-checklist", "Local SEO Checklist 2026, 40 Items Across 8 Categories"], ["/services/seo", "SEO Services"], ["/results", "Client Results"]],
+    "Industry Tips": [["/industries", "Industries We Serve"], ["/services/seo", "SEO Services"], ["/local-seo-checklist", "Local SEO Checklist 2026, 40 Items Across 8 Categories"], ["/results", "Client Results"]],
+    "_": [["/local-seo-checklist", "Local SEO Checklist 2026, 40 Items Across 8 Categories"], ["/services/seo", "SEO Services"], ["/the-stack", "The NSYGHT Stack, How SEO, GEO, AEO & AIO Work Together"], ["/results", "Client Results"]]
+  }
+}
