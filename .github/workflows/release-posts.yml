@@ -1,4 +1,6 @@
 name: Release queued blog posts
+# Each run first pulls any new BabyLoveGrowth articles into _queue (scripts/pull_blg.py),
+# then publishes from the queue (scripts/release_posts.py).
 
 on:
   schedule:
@@ -16,6 +18,10 @@ on:
         description: 'How many posts to publish now (blank = follow the queue rules)'
         required: false
         default: ''
+      preview_pull:
+        description: 'Preview only: list what would be pulled from BabyLoveGrowth, publish nothing (true/false)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -30,7 +36,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Pull new BabyLoveGrowth articles into the queue
+        # A BabyLoveGrowth outage should never stop the day's release.
+        continue-on-error: true
+        env:
+          BLG_API_KEY: ${{ secrets.BLG_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.preview_pull }}" = "true" ]; then
+            python3 scripts/pull_blg.py --dry-run
+          else
+            python3 scripts/pull_blg.py
+          fi
+
       - name: Publish next posts
+        if: github.event.inputs.preview_pull != 'true'
         run: |
           if [ -n "${{ github.event.inputs.count }}" ]; then
             python3 scripts/release_posts.py --force --count "${{ github.event.inputs.count }}"
@@ -39,9 +58,11 @@ jobs:
           fi
 
       - name: Rebuild blog index, topic hubs, Keep Reading, and RSS
+        if: github.event.inputs.preview_pull != 'true'
         run: python3 scripts/build_blog.py
 
       - name: Commit and push
+        if: github.event.inputs.preview_pull != 'true'
         run: |
           git config user.name "nsyght-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
