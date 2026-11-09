@@ -36,6 +36,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install image tools (for converting article images to WebP)
+        continue-on-error: true
+        run: pip install --quiet pillow
+
       - name: Pull new BabyLoveGrowth articles into the queue
         # A BabyLoveGrowth outage should never stop the day's release.
         continue-on-error: true
