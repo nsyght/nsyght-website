@@ -317,8 +317,9 @@
 
 [[redirects]]
   from = "/blog/google-business-q-a"
-  to = "/blog-google-business-q-a.html"
-  status = 200
+  to = "/blog/google-business-qa"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/wikidata-for-seo"
