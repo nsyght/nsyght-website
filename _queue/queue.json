@@ -5,8 +5,279 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-06",
-  "posts": [],
+  "last_release_date": "2026-11-13",
+  "posts": [
+    {
+      "slug": "franchise-seo-strategy",
+      "file": "_queue/blog-franchise-seo-strategy.html",
+      "title": "Franchise SEO Strategy for Thousands of Locations on One Domain",
+      "category": "AI Search",
+      "excerpt": "Use one domain, unique pages, and shared listing controls to coordinate franchise SEO across thousands of locations. Assign clear roles to both corporate.",
+      "read_min": 15,
+      "source": "babylovegrowth",
+      "blg_id": "973485"
+    },
+    {
+      "slug": "local-on-page-seo",
+      "file": "_queue/blog-local-on-page-seo.html",
+      "title": "On Page SEO for Local Businesses: 5 Fixes for Pages That Convert",
+      "category": "Local SEO",
+      "excerpt": "Prioritize location page details, mobile speed, and Google Business Profile links to help local businesses turn nearby searches into calls and visits.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "977067"
+    },
+    {
+      "slug": "authority-building-seo",
+      "file": "_queue/blog-authority-building-seo.html",
+      "title": "Authority Building for SEO: A Practical Playbook",
+      "category": "Local SEO",
+      "excerpt": "How to build SEO authority that lasts: topical depth, trusted links, consistent entity signals and reviews, plus a 90-day plan for local service businesses.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "981504"
+    },
+    {
+      "slug": "call-tracking-seo",
+      "file": "_queue/blog-call-tracking-seo.html",
+      "title": "Call Tracking and SEO: How to Track Calls Without Hurting Rankings",
+      "category": "Local SEO",
+      "excerpt": "Call tracking won't hurt your SEO if you set it up right. Learn how to use tracking numbers with your site and Google Business Profile and keep NAP consistent.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "985523"
+    },
+    {
+      "slug": "organization-schema-seo",
+      "file": "_queue/blog-organization-schema-seo.html",
+      "title": "Organization Schema for SEO: What to Add and Where",
+      "category": "Local SEO",
+      "excerpt": "Organization schema markup explained for local businesses: which properties matter, where to place it, when LocalBusiness is the better type, with JSON-LD.",
+      "read_min": 10,
+      "source": "babylovegrowth",
+      "blg_id": "989315"
+    },
+    {
+      "slug": "bing-copilot-seo",
+      "file": "_queue/blog-bing-copilot-seo.html",
+      "title": "Bing Copilot SEO: How to Get Cited in Microsoft's AI Answers",
+      "category": "AI Search",
+      "excerpt": "Copilot answers come from the Bing index. Here is how to get crawled, structured and cited by Bing Copilot, and how to track it in Bing Webmaster Tools.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "994986"
+    },
+    {
+      "slug": "local-algorithm-update",
+      "file": "_queue/blog-local-algorithm-update.html",
+      "title": "Local Algorithm Update: What Changed and What to Do",
+      "category": "Local SEO",
+      "excerpt": "There is no separate Google local algorithm update. Learn what 2026's core and spam updates did to local rankings, and how to respond without panicking.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "997517"
+    },
+    {
+      "slug": "local-marketing-attribution",
+      "file": "_queue/blog-local-marketing-attribution.html",
+      "title": "Local Marketing Attribution: How to Prove Which Channels Bring Customers",
+      "category": "Google Ads",
+      "excerpt": "Local marketing attribution for service businesses: track calls, directions and offline sales back to the ads and listings that earned them, step by step.",
+      "read_min": 14,
+      "source": "babylovegrowth",
+      "blg_id": "1002035"
+    },
+    {
+      "slug": "core-web-vitals-seo",
+      "file": "_queue/blog-core-web-vitals-seo.html",
+      "title": "Core Web Vitals and SEO: What Matters for Local Sites",
+      "category": "Local SEO",
+      "excerpt": "Core Web Vitals and SEO explained for local business owners: the three thresholds, how much they affect rankings, and a fix order that works.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1006272"
+    },
+    {
+      "slug": "google-ads-for-dentists",
+      "file": "_queue/blog-google-ads-for-dentists.html",
+      "title": "Google Ads for Dentists: A 2026 Guide to Getting Booked Patients",
+      "category": "Industry Tips",
+      "excerpt": "How Google Ads works for dental practices: campaign structure, keywords, ad examples, call tracking, compliance and budget.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1010712"
+    },
+    {
+      "slug": "local-digital-pr",
+      "file": "_queue/blog-local-digital-pr.html",
+      "title": "Local Digital PR: How to Earn Local Links and Coverage",
+      "category": "Local SEO",
+      "excerpt": "Local digital PR earns links and coverage from local outlets. See how it differs from PR and link building, how to run a campaign, and how to measure it.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1014565"
+    },
+    {
+      "slug": "ppc-budget-local",
+      "file": "_queue/blog-ppc-budget-local.html",
+      "title": "Local PPC Budget: How Much to Spend and How to Plan It",
+      "category": "Google Ads",
+      "excerpt": "Plan a local PPC budget that works: a lead-based formula with a worked example, cost benchmarks, seasonal and multi-location tips, and when to hire help.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1018281"
+    },
+    {
+      "slug": "local-seo-content-strategy",
+      "file": "_queue/blog-local-seo-content-strategy.html",
+      "title": "Local SEO Content Strategy: A Practical Plan for Service Businesses",
+      "category": "Local SEO",
+      "excerpt": "Build a local SEO content strategy that earns map pack and AI answer visibility: what to publish, how to organize a hub, plan a calendar and measure results.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1023092"
+    },
+    {
+      "slug": "log-file-seo",
+      "file": "_queue/blog-log-file-seo.html",
+      "title": "Log File SEO: How to Read What Googlebot Really Does",
+      "category": "Local SEO",
+      "excerpt": "Log file SEO shows which URLs Googlebot and AI bots actually request. Learn what logs record, how to analyze them, and which fixes matter for your site.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1026990"
+    },
+    {
+      "slug": "local-seo-roi",
+      "file": "_queue/blog-local-seo-roi.html",
+      "title": "Local SEO ROI: How to Calculate and Prove Your Return",
+      "category": "Local SEO",
+      "excerpt": "Learn how to calculate local SEO ROI, which metrics matter, how to trace calls and bookings to search, and how long to wait before judging the return.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1029488"
+    },
+    {
+      "slug": "knowledge-panel-optimization",
+      "file": "_queue/blog-knowledge-panel-optimization.html",
+      "title": "Knowledge Panel Optimization: How to Claim, Edit and Strengthen Yours",
+      "category": "AI Search",
+      "excerpt": "Learn how Google knowledge panels work, how to claim and verify one, how to suggest edits, and which entity signals help your business earn an accurate panel.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1034588"
+    },
+    {
+      "slug": "indexing-issues-seo",
+      "file": "_queue/blog-indexing-issues-seo.html",
+      "title": "Indexing Issues in SEO: How to Find and Fix Them",
+      "category": "Local SEO",
+      "excerpt": "Pages missing from Google? Learn how to check index status in Search Console, read each status, fix real indexing problems and skip the ones you should ignore.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1038571"
+    },
+    {
+      "slug": "google-business-utm",
+      "file": "_queue/blog-google-business-utm.html",
+      "title": "Google Business Profile UTM Tracking: Setup Guide",
+      "category": "Google Business Profile",
+      "excerpt": "Add UTM parameters to your Google Business Profile links, get the exact tag values, and read the traffic in GA4 without breaking attribution or local rankings.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1042813"
+    },
+    {
+      "slug": "seo-web-design-cost",
+      "file": "_queue/blog-seo-web-design-cost.html",
+      "title": "SEO Web Design Cost: What You'll Pay in the US",
+      "category": "Local SEO",
+      "excerpt": "What SEO web design costs in the US: build price ranges, what SEO work belongs in the quote, ongoing retainer costs, and how to compare proposals.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1049221"
+    },
+    {
+      "slug": "criminal-defense-seo",
+      "file": "_queue/blog-criminal-defense-seo.html",
+      "title": "Criminal Defense SEO: How Defense Firms Get Found",
+      "category": "Industry Tips",
+      "excerpt": "Criminal defense SEO explained for firm owners: local pack, Google Business Profile, content, AI search, ethics rules and how to measure signed cases.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1055925"
+    },
+    {
+      "slug": "plastic-surgeon-seo",
+      "file": "_queue/blog-plastic-surgeon-seo.html",
+      "title": "Plastic Surgeon SEO: How to Get Found by Patients in 2026",
+      "category": "Industry Tips",
+      "excerpt": "Plastic surgeon SEO explained: local visibility, procedure pages, reviews, credibility, AI search and how to measure consultations, not just rankings.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1060605"
+    },
+    {
+      "slug": "personal-injury-seo",
+      "file": "_queue/blog-personal-injury-seo.html",
+      "title": "Personal Injury SEO: How PI Firms Win Cases From Search",
+      "category": "Industry Tips",
+      "excerpt": "Personal injury SEO explained for law firm owners: how local rankings, practice pages, reviews and AI answers turn searches into signed cases.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1064755"
+    },
+    {
+      "slug": "google-ads-lead-forms",
+      "file": "_queue/blog-google-ads-lead-forms.html",
+      "title": "Google Ads Lead Forms: Setup, Quality and Follow-Up",
+      "category": "Google Ads",
+      "excerpt": "How Google Ads lead forms work, who can use them, how to set one up, and how to raise lead quality and follow up fast so submissions turn into customers.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1074050"
+    },
+    {
+      "slug": "broad-match-vs-phrase-match",
+      "file": "_queue/blog-broad-match-vs-phrase-match.html",
+      "title": "Broad Match vs Phrase Match in Google Ads: Which to Use",
+      "category": "Google Ads",
+      "excerpt": "Broad match vs phrase match in Google Ads: how each works now, real examples, when to use which, and a simple rollout plan for local service advertisers.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1078784"
+    },
+    {
+      "slug": "target-cpa-vs-target-roas",
+      "file": "_queue/blog-target-cpa-vs-target-roas.html",
+      "title": "Target CPA vs Target ROAS: How to Choose in Google Ads",
+      "category": "Google Ads",
+      "excerpt": "Target CPA or Target ROAS? Learn the difference, how to calculate break-even numbers, and which bid strategy fits lead-gen or value-driven Google Ads.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1083417"
+    },
+    {
+      "slug": "google-ads-for-law-firms",
+      "file": "_queue/blog-google-ads-for-law-firms.html",
+      "title": "Google Ads for Law Firms: A Practical Guide for 2026",
+      "category": "Industry Tips",
+      "excerpt": "How law firms should run Google Ads: campaign setup, budgets, keywords, ad copy, landing pages, ethics rules and tracking, plus what management costs.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1087779"
+    },
+    {
+      "slug": "urgent-care-seo",
+      "file": "_queue/blog-urgent-care-seo.html",
+      "title": "Urgent Care SEO: How Clinics Win Near-Me Searches",
+      "category": "Industry Tips",
+      "excerpt": "Urgent care SEO explained: how clinics earn map pack visibility, build trustworthy profiles and pages, stay HIPAA-safe, and measure completed visits.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1092542"
+    }
+  ],
   "published": [
     {
       "slug": "google-ads-local",
@@ -191,6 +462,14 @@
     {
       "slug": "wikidata-for-seo",
       "date": "2026-11-06"
+    },
+    {
+      "slug": "google-business-q-a",
+      "date": "2026-11-13"
+    },
+    {
+      "slug": "keyword-cannibalization-local",
+      "date": "2026-11-13"
     }
   ],
   "held": [
@@ -198,6 +477,28 @@
       "slug": "google-business-messaging",
       "file": "_queue/blog-google-business-messaging.html",
       "reason": "Google discontinued Business Messages on July 31, 2024. Post presents it as a live feature. Rewrite or delete before publishing."
+    },
+    {
+      "slug": "report-local-spam",
+      "file": "_queue/blog-report-local-spam.html",
+      "title": "How to Report Local Spam Calls and Texts in the US",
+      "category": "Local SEO",
+      "excerpt": "Report spam calls and texts in the US: who takes the report (FCC, FTC, state AG), what to include, how to block more.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1047184",
+      "reason": "Off topic for an SEO agency blog. Held on Don's instruction."
+    },
+    {
+      "slug": "google-business-products",
+      "file": "_queue/blog-google-business-products.html",
+      "title": "Google Business Products: What Each One Does and Costs",
+      "category": "Google Business Profile",
+      "excerpt": "A plain guide to Google's business products: Workspace, Business Profile, Ads, Merchant Center and Analytics, with current U.S. prices and who needs which.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1069506",
+      "reason": "Not an SEO topic. Held on Don's instruction."
     }
   ]
 }

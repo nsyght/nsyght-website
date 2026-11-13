@@ -1,0 +1,207 @@
+{
+  "imported": {
+    "838717": {
+      "slug": "google-business-q-a",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "969328": {
+      "slug": "keyword-cannibalization-local",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "973485": {
+      "slug": "franchise-seo-strategy",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "977067": {
+      "slug": "local-on-page-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "981504": {
+      "slug": "authority-building-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "985523": {
+      "slug": "call-tracking-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "989315": {
+      "slug": "organization-schema-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "994986": {
+      "slug": "bing-copilot-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "997517": {
+      "slug": "local-algorithm-update",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1002035": {
+      "slug": "local-marketing-attribution",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1006272": {
+      "slug": "core-web-vitals-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1010712": {
+      "slug": "google-ads-for-dentists",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1014565": {
+      "slug": "local-digital-pr",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1018281": {
+      "slug": "ppc-budget-local",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1023092": {
+      "slug": "local-seo-content-strategy",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1026990": {
+      "slug": "log-file-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1029488": {
+      "slug": "local-seo-roi",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1034588": {
+      "slug": "knowledge-panel-optimization",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1038571": {
+      "slug": "indexing-issues-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1042813": {
+      "slug": "google-business-utm",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1047184": {
+      "slug": "report-local-spam",
+      "date": "2026-11-13",
+      "held": true
+    },
+    "1049221": {
+      "slug": "seo-web-design-cost",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1055925": {
+      "slug": "criminal-defense-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1060605": {
+      "slug": "plastic-surgeon-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1064755": {
+      "slug": "personal-injury-seo",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1069506": {
+      "slug": "google-business-products",
+      "date": "2026-11-13",
+      "held": true
+    },
+    "1074050": {
+      "slug": "google-ads-lead-forms",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1078784": {
+      "slug": "broad-match-vs-phrase-match",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1083417": {
+      "slug": "target-cpa-vs-target-roas",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1087779": {
+      "slug": "google-ads-for-law-firms",
+      "date": "2026-11-13",
+      "held": false
+    },
+    "1092542": {
+      "slug": "urgent-care-seo",
+      "date": "2026-11-13",
+      "held": false
+    }
+  },
+  "skipped": {
+    "788613": "already on the site",
+    "788614": "already on the site",
+    "794167": "already on the site",
+    "805816": "already on the site",
+    "802127": "already on the site",
+    "803388": "already on the site",
+    "805260": "already on the site",
+    "810436": "already on the site",
+    "813531": "already on the site",
+    "817155": "already on the site",
+    "821745": "already on the site",
+    "825913": "already on the site",
+    "830154": "already on the site",
+    "834793": "already on the site",
+    "843110": "already on the site",
+    "847183": "already on the site",
+    "851622": "already on the site",
+    "855466": "already on the site",
+    "859748": "already on the site",
+    "863559": "already on the site",
+    "867631": "already on the site",
+    "871036": "already on the site",
+    "874599": "already on the site",
+    "878150": "already on the site",
+    "882527": "already on the site",
+    "887531": "already on the site",
+    "890813": "already on the site",
+    "892754": "already on the site",
+    "898616": "already on the site",
+    "901680": "already on the site",
+    "905448": "already on the site",
+    "909085": "already on the site",
+    "913639": "already on the site",
+    "917425": "already on the site",
+    "921604": "already on the site",
+    "925406": "already on the site",
+    "929445": "already on the site",
+    "933339": "already on the site",
+    "935202": "already on the site",
+    "941387": "already on the site",
+    "945546": "already on the site",
+    "949408": "already on the site",
+    "953262": "already on the site",
+    "957451": "already on the site",
+    "961262": "already on the site",
+    "965177": "already on the site"
+  }
+}

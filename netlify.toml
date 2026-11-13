@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/keyword-cannibalization-local"
+  to = "/blog-keyword-cannibalization-local.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-business-q-a"
+  to = "/blog-google-business-q-a.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/wikidata-for-seo"
   to = "/blog-wikidata-for-seo.html"
   status = 200

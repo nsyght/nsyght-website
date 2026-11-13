@@ -631,5 +631,29 @@
     "date": "2026-11-06",
     "image": "/images/blog/hand-drawn-wikidata-seo-title-card.webp",
     "auto": true
+  },
+  {
+    "slug": "google-business-q-a",
+    "url": "/blog/google-business-q-a",
+    "file": "blog-google-business-q-a.html",
+    "title": "Local Businesses: Fix Ask Maps Answers Within a Month After Google Q&A",
+    "category": "Google Business Profile",
+    "excerpt": "Google retired Business Profile Q&A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.",
+    "read_min": 9,
+    "date": "2026-11-13",
+    "image": "/images/blog/google-business-q-a-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "keyword-cannibalization-local",
+    "url": "/blog/keyword-cannibalization-local",
+    "file": "blog-keyword-cannibalization-local.html",
+    "title": "Keyword Cannibalization in Local SEO: Check Search Console First",
+    "category": "Local SEO",
+    "excerpt": "Use Search Console’s Queries and Pages reports to spot competing local URLs, then choose a fix based on intent and Google Business Profile alignment.",
+    "read_min": 12,
+    "date": "2026-11-13",
+    "image": "/images/blog/keyword-cannibalization-local-cover.webp",
+    "auto": true
   }
 ]
