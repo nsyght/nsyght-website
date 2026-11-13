@@ -8,15 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Nov 2026 08:00:00 -0600</lastBuildDate>
     <item>
-      <title>Local Businesses: Fix Ask Maps Answers Within a Month After Google Q&amp;A</title>
-      <link>https://nsyght.com/blog/google-business-q-a</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-q-a</guid>
-      <pubDate>Fri, 13 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Google retired Business Profile Q&amp;A. Local businesses: fix Ask Maps answers, complete your GBP, add FAQ schema, and prompt detailed reviews.</description>
-    </item>
-    <item>
       <title>Keyword Cannibalization in Local SEO: Check Search Console First</title>
       <link>https://nsyght.com/blog/keyword-cannibalization-local</link>
       <guid isPermaLink="true">https://nsyght.com/blog/keyword-cannibalization-local</guid>
@@ -186,6 +177,15 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.</description>
+    </item>
+    <item>
+      <title>Google Business Profile Posts: A Weekly Plan That Works</title>
+      <link>https://nsyght.com/blog/google-business-profile-posts</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-posts</guid>
+      <pubDate>Tue, 27 Oct 2026 08:00:00 -0500</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Business Profile</category>
+      <description>Build a weekly system for Google Business Profile posts with native scheduling, recurring posts, and multi-location publishing. Batch, tag, and measure.</description>
     </item>
   </channel>
 </rss>
