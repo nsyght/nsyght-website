@@ -1,6 +1,6 @@
 {
   "_readme": "Settings for scripts/pull_blg.py, which pulls new BabyLoveGrowth articles into the blog queue. 'enabled' turns the daily pull on or off. 'hold' keeps matching articles out of the queue (they go to the held list in queue.json). 'internal_links' adds a link and a short callout to the matching NSYGHT page when an article's title or keyword overlaps it. Matching is lowercase and checks the title and target keyword.",
-  "enabled": false,
+  "enabled": true,
   "template": "blog-wikidata-for-seo.html",
   "fallback_image": "/images/blog/hand-drawn-wikidata-seo-title-card.webp",
   "only_created_after": "",
