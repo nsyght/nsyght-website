@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/local-on-page-seo"
+  to = "/blog-local-on-page-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/franchise-seo-strategy"
+  to = "/blog-franchise-seo-strategy.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/keyword-cannibalization-local"
   to = "/blog-keyword-cannibalization-local.html"
   status = 200

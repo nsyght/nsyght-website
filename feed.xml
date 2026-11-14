@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Franchise SEO Strategy for Thousands of Locations on One Domain</title>
+      <link>https://nsyght.com/blog/franchise-seo-strategy</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/franchise-seo-strategy</guid>
+      <pubDate>Sat, 14 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Use one domain, unique pages, and shared listing controls to coordinate franchise SEO across thousands of locations. Assign clear roles to both corporate.</description>
+    </item>
+    <item>
+      <title>On Page SEO for Local Businesses: 5 Fixes for Pages That Convert</title>
+      <link>https://nsyght.com/blog/local-on-page-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-on-page-seo</guid>
+      <pubDate>Sat, 14 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Prioritize location page details, mobile speed, and Google Business Profile links to help local businesses turn nearby searches into calls and visits.</description>
+    </item>
     <item>
       <title>Keyword Cannibalization in Local SEO: Check Search Console First</title>
       <link>https://nsyght.com/blog/keyword-cannibalization-local</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Google Business Profile</category>
       <description>Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.</description>
-    </item>
-    <item>
-      <title>Google Business Photos: Get Them Approved and Live Fast</title>
-      <link>https://nsyght.com/blog/google-business-photos</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-photos</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>How small businesses should upload Google Business photos: start with exterior, interior, and logo; follow specs and fix rejections fast.</description>
-    </item>
-    <item>
-      <title>Google Business Profile Posts: A Weekly Plan That Works</title>
-      <link>https://nsyght.com/blog/google-business-profile-posts</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-profile-posts</guid>
-      <pubDate>Tue, 27 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Build a weekly system for Google Business Profile posts with native scheduling, recurring posts, and multi-location publishing. Batch, tag, and measure.</description>
     </item>
   </channel>
 </rss>

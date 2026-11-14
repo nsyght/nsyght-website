@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-13",
+  "last_release_date": "2026-11-14",
   "posts": [
-    {
-      "slug": "franchise-seo-strategy",
-      "file": "_queue/blog-franchise-seo-strategy.html",
-      "title": "Franchise SEO Strategy for Thousands of Locations on One Domain",
-      "category": "AI Search",
-      "excerpt": "Use one domain, unique pages, and shared listing controls to coordinate franchise SEO across thousands of locations. Assign clear roles to both corporate.",
-      "read_min": 15,
-      "source": "babylovegrowth",
-      "blg_id": "973485"
-    },
-    {
-      "slug": "local-on-page-seo",
-      "file": "_queue/blog-local-on-page-seo.html",
-      "title": "On Page SEO for Local Businesses: 5 Fixes for Pages That Convert",
-      "category": "Local SEO",
-      "excerpt": "Prioritize location page details, mobile speed, and Google Business Profile links to help local businesses turn nearby searches into calls and visits.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "977067"
-    },
     {
       "slug": "authority-building-seo",
       "file": "_queue/blog-authority-building-seo.html",
@@ -276,6 +256,16 @@
       "read_min": 13,
       "source": "babylovegrowth",
       "blg_id": "1092542"
+    },
+    {
+      "slug": "orthodontist-seo",
+      "file": "_queue/blog-orthodontist-seo.html",
+      "title": "Orthodontist SEO: How to Win Local Search for New Patients",
+      "category": "Industry Tips",
+      "excerpt": "Orthodontist SEO explained for practice owners: the Google Business Profile, location pages.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1097355"
     }
   ],
   "published": [
@@ -470,6 +460,14 @@
     {
       "slug": "keyword-cannibalization-local",
       "date": "2026-11-13"
+    },
+    {
+      "slug": "franchise-seo-strategy",
+      "date": "2026-11-14"
+    },
+    {
+      "slug": "local-on-page-seo",
+      "date": "2026-11-14"
     }
   ],
   "held": [

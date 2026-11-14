@@ -655,5 +655,29 @@
     "date": "2026-11-13",
     "image": "/images/blog/keyword-cannibalization-local-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "franchise-seo-strategy",
+    "url": "/blog/franchise-seo-strategy",
+    "file": "blog-franchise-seo-strategy.html",
+    "title": "Franchise SEO Strategy for Thousands of Locations on One Domain",
+    "category": "AI Search",
+    "excerpt": "Use one domain, unique pages, and shared listing controls to coordinate franchise SEO across thousands of locations. Assign clear roles to both corporate.",
+    "read_min": 15,
+    "date": "2026-11-14",
+    "image": "/images/blog/franchise-seo-strategy-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "local-on-page-seo",
+    "url": "/blog/local-on-page-seo",
+    "file": "blog-local-on-page-seo.html",
+    "title": "On Page SEO for Local Businesses: 5 Fixes for Pages That Convert",
+    "category": "Local SEO",
+    "excerpt": "Prioritize location page details, mobile speed, and Google Business Profile links to help local businesses turn nearby searches into calls and visits.",
+    "read_min": 11,
+    "date": "2026-11-14",
+    "image": "/images/blog/local-on-page-seo-cover.webp",
+    "auto": true
   }
 ]
