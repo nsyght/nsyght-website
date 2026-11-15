@@ -18,6 +18,17 @@ with tempfile.TemporaryDirectory(prefix='ryze-check-') as tmp:
     page = (site / 'blog/ryze-integration-check/index.html').read_text()
     assert article['body_html'] in page and '[object Object]' not in page
     assert '<h1>Publishing integration check</h1>' in page
+    schemas = [json.loads(s) for s in __import__('re').findall(r'<script type="application/ld\+json">(.*?)</script>', page, __import__('re').S)]
+    breadcrumbs = [s for s in schemas if s.get('@type') == 'BreadcrumbList']
+    assert len(breadcrumbs) == 1
+    assert breadcrumbs[0]['itemListElement'] == [
+        {'@type':'ListItem','position':1,'name':'Home','item':'https://nsyght.com/'},
+        {'@type':'ListItem','position':2,'name':'Resources','item':'https://nsyght.com/blog'},
+        {'@type':'ListItem','position':3,'name':article['title'],'item':'https://nsyght.com/blog/'+article['slug']}
+    ]
+    assert '<span aria-current="page">Publishing integration check</span>' in page
+    article_schemas = [s for s in schemas if s.get('@type') == 'Article']
+    assert len(article_schemas) == 1 and article_schemas[0]['author']['name'] == 'Don Phelps'
     assert not (site / 'blog/ryze-draft-check/index.html').exists()
     posts = json.loads((site / '_data/posts.json').read_text())
     entry = next(p for p in posts if p['slug'] == article['slug'])
