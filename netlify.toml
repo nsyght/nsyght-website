@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/call-tracking-seo"
+  to = "/blog-call-tracking-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/authority-building-seo"
+  to = "/blog-authority-building-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/local-on-page-seo"
   to = "/blog-local-on-page-seo.html"
   status = 200

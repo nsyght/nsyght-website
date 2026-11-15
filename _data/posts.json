@@ -679,5 +679,29 @@
     "date": "2026-11-14",
     "image": "/images/blog/local-on-page-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "authority-building-seo",
+    "url": "/blog/authority-building-seo",
+    "file": "blog-authority-building-seo.html",
+    "title": "Authority Building for SEO: A Practical Playbook",
+    "category": "Local SEO",
+    "excerpt": "How to build SEO authority that lasts: topical depth, trusted links, consistent entity signals and reviews, plus a 90-day plan for local service businesses.",
+    "read_min": 11,
+    "date": "2026-11-15",
+    "image": "/images/blog/authority-building-seo-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "call-tracking-seo",
+    "url": "/blog/call-tracking-seo",
+    "file": "blog-call-tracking-seo.html",
+    "title": "Call Tracking and SEO: How to Track Calls Without Hurting Rankings",
+    "category": "Local SEO",
+    "excerpt": "Call tracking won't hurt your SEO if you set it up right. Learn how to use tracking numbers with your site and Google Business Profile and keep NAP consistent.",
+    "read_min": 12,
+    "date": "2026-11-15",
+    "image": "/images/blog/call-tracking-seo-cover.webp",
+    "auto": true
   }
 ]

@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Authority Building for SEO: A Practical Playbook</title>
+      <link>https://nsyght.com/blog/authority-building-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/authority-building-seo</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>How to build SEO authority that lasts: topical depth, trusted links, consistent entity signals and reviews, plus a 90-day plan for local service businesses.</description>
+    </item>
+    <item>
+      <title>Call Tracking and SEO: How to Track Calls Without Hurting Rankings</title>
+      <link>https://nsyght.com/blog/call-tracking-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/call-tracking-seo</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Call tracking won&#x27;t hurt your SEO if you set it up right. Learn how to use tracking numbers with your site and Google Business Profile and keep NAP consistent.</description>
+    </item>
     <item>
       <title>Franchise SEO Strategy for Thousands of Locations on One Domain</title>
       <link>https://nsyght.com/blog/franchise-seo-strategy</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>Google removed FAQ rich results, but FAQPage schema can still support AI Overviews and answer engines. Learn what to keep, update, and test.</description>
-    </item>
-    <item>
-      <title>LocalBusiness Schema: Help Google and AI Understand You</title>
-      <link>https://nsyght.com/blog/local-business-schema</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-business-schema</guid>
-      <pubDate>Thu, 29 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Implement LocalBusiness schema as an entity signal for local and AI search. NSYGHT tips for multi location and a working JSON-LD to adapt.</description>
-    </item>
-    <item>
-      <title>Google Business Hours: How to Set and Fix Them Fast</title>
-      <link>https://nsyght.com/blog/google-business-hours</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-hours</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Set and update Google Business hours from Search or Maps. Includes split shift and holiday examples plus a 10 minute audit small teams can run.</description>
     </item>
   </channel>
 </rss>

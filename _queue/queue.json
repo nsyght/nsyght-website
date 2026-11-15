@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-14",
+  "last_release_date": "2026-11-15",
   "posts": [
-    {
-      "slug": "authority-building-seo",
-      "file": "_queue/blog-authority-building-seo.html",
-      "title": "Authority Building for SEO: A Practical Playbook",
-      "category": "Local SEO",
-      "excerpt": "How to build SEO authority that lasts: topical depth, trusted links, consistent entity signals and reviews, plus a 90-day plan for local service businesses.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "981504"
-    },
-    {
-      "slug": "call-tracking-seo",
-      "file": "_queue/blog-call-tracking-seo.html",
-      "title": "Call Tracking and SEO: How to Track Calls Without Hurting Rankings",
-      "category": "Local SEO",
-      "excerpt": "Call tracking won't hurt your SEO if you set it up right. Learn how to use tracking numbers with your site and Google Business Profile and keep NAP consistent.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "985523"
-    },
     {
       "slug": "organization-schema-seo",
       "file": "_queue/blog-organization-schema-seo.html",
@@ -266,6 +246,16 @@
       "read_min": 11,
       "source": "babylovegrowth",
       "blg_id": "1097355"
+    },
+    {
+      "slug": "roofing-google-ads",
+      "file": "_queue/blog-roofing-google-ads.html",
+      "title": "Roofing Google Ads: How to Run Campaigns That Book Jobs",
+      "category": "Industry Tips",
+      "excerpt": "How roofing Google Ads work: campaign setup, keywords, ad examples, budget math and the numbers that show whether your ad spend turns into signed roofing jobs.",
+      "read_min": 10,
+      "source": "babylovegrowth",
+      "blg_id": "1102145"
     }
   ],
   "published": [
@@ -468,6 +458,14 @@
     {
       "slug": "local-on-page-seo",
       "date": "2026-11-14"
+    },
+    {
+      "slug": "authority-building-seo",
+      "date": "2026-11-15"
+    },
+    {
+      "slug": "call-tracking-seo",
+      "date": "2026-11-15"
     }
   ],
   "held": [
