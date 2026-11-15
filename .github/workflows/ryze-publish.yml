@@ -4,10 +4,13 @@ on:
     paths:
       - 'blog/data/**'
       - 'scripts/ryze-convert.mjs'
+      - 'scripts/ryze-test.py'
       - '.github/workflows/ryze-publish.yml'
   workflow_dispatch:
 permissions:
   contents: write
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
 concurrency:
   group: ryze-publish-${{ github.ref }}
   cancel-in-progress: false
@@ -25,8 +28,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test full blog integration in an isolated copy
+        run: python3 scripts/ryze-test.py
       - name: Validate and convert approved articles
         run: |
+          mkdir -p blog/data
           node --check scripts/ryze-convert.mjs
           node scripts/ryze-convert.mjs
       - name: Verify generated pages and idempotence
