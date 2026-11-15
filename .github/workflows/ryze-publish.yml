@@ -1,0 +1,69 @@
+name: Ryze publish
+on:
+  push:
+    paths:
+      - 'blog/data/**'
+      - 'scripts/ryze-convert.mjs'
+      - 'scripts/ryze-test.py'
+      - '.github/workflows/ryze-publish.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: ryze-publish-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test full blog integration in an isolated copy
+        run: python3 scripts/ryze-test.py
+      - name: Validate and convert approved articles
+        run: |
+          mkdir -p blog/data
+          node --check scripts/ryze-convert.mjs
+          node scripts/ryze-convert.mjs
+      - name: Verify generated pages and idempotence
+        run: |
+          git add blog _data/posts.json images/blog blog.html 'blog-category-*.html' feed.xml sitemap.xml
+          git diff --cached --binary > /tmp/ryze-first.diff
+          node scripts/ryze-convert.mjs
+          git add blog _data/posts.json images/blog blog.html 'blog-category-*.html' feed.xml sitemap.xml
+          git diff --cached --binary > /tmp/ryze-second.diff
+          cmp /tmp/ryze-first.diff /tmp/ryze-second.diff
+          python3 - <<'PY'
+          import json, pathlib, re
+          for src in pathlib.Path('blog/data').glob('*.json'):
+              a = json.loads(src.read_text())
+              if a.get('status') != 'published':
+                  continue
+              page = pathlib.Path('blog', a['slug'], 'index.html').read_text()
+              assert '[object Object]' not in page
+              assert a['body_html'] in page
+              assert 'https://nsyght.com/blog/' + a['slug'] in page
+              assert '<h1>' in page and '<meta name="description"' in page
+              if a.get('image'):
+                  image = re.search(r'<meta property="og:image" content="https://nsyght.com([^"]+)"', page)
+                  assert image and pathlib.Path('.' + image.group(1)).is_file()
+          PY
+      - name: Commit generated output
+        run: |
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'nsyght-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Render approved Ryze articles'
+          git push origin HEAD:"$BRANCH"
+        env:
+          BRANCH: ${{ github.ref_name }}
