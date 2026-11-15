@@ -612,14 +612,32 @@
       body: new URLSearchParams(data).toString()
     })
     .then(response => {
-      if (response.ok || response.status === 200 || response.redirected) {
-        window.location.href = '/thank-you';
-      } else {
-        window.location.href = '/thank-you';
+      if (!response.ok) {
+        throw new Error('Submission was not accepted');
       }
+      window.location.href = '/thank-you';
     })
     .catch(() => {
-      window.location.href = '/thank-you';
+      let message = document.getElementById('contact-submit-error');
+      if (!message) {
+        message = document.createElement('p');
+        message.id = 'contact-submit-error';
+        message.setAttribute('role', 'alert');
+        message.setAttribute('tabindex', '-1');
+        message.appendChild(document.createTextNode('Your message could not be sent. Your details are still here. Please try again, call '));
+        const phone = document.createElement('a');
+        phone.href = 'tel:+15122402206';
+        phone.textContent = '(512) 240-2206';
+        message.appendChild(phone);
+        message.appendChild(document.createTextNode(', or email '));
+        const email = document.createElement('a');
+        email.href = 'mailto:info@nsyght.com';
+        email.textContent = 'info@nsyght.com';
+        message.appendChild(email);
+        message.appendChild(document.createTextNode('.'));
+        form.appendChild(message);
+      }
+      message.focus();
     });
   }
 </script>
