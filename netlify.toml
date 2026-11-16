@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/bing-copilot-seo"
+  to = "/blog-bing-copilot-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/organization-schema-seo"
+  to = "/blog-organization-schema-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/call-tracking-seo"
   to = "/blog-call-tracking-seo.html"
   status = 200

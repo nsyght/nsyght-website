@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-15",
+  "last_release_date": "2026-11-16",
   "posts": [
-    {
-      "slug": "organization-schema-seo",
-      "file": "_queue/blog-organization-schema-seo.html",
-      "title": "Organization Schema for SEO: What to Add and Where",
-      "category": "Local SEO",
-      "excerpt": "Organization schema markup explained for local businesses: which properties matter, where to place it, when LocalBusiness is the better type, with JSON-LD.",
-      "read_min": 10,
-      "source": "babylovegrowth",
-      "blg_id": "989315"
-    },
-    {
-      "slug": "bing-copilot-seo",
-      "file": "_queue/blog-bing-copilot-seo.html",
-      "title": "Bing Copilot SEO: How to Get Cited in Microsoft's AI Answers",
-      "category": "AI Search",
-      "excerpt": "Copilot answers come from the Bing index. Here is how to get crawled, structured and cited by Bing Copilot, and how to track it in Bing Webmaster Tools.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "994986"
-    },
     {
       "slug": "local-algorithm-update",
       "file": "_queue/blog-local-algorithm-update.html",
@@ -256,6 +236,16 @@
       "read_min": 10,
       "source": "babylovegrowth",
       "blg_id": "1102145"
+    },
+    {
+      "slug": "semantic-seo",
+      "file": "_queue/blog-semantic-seo.html",
+      "title": "Semantic SEO: A Local Business Guide to Ranking on Meaning",
+      "category": "AI Search",
+      "excerpt": "Semantic SEO explained for local service businesses: how Google reads meaning, how to build topic and entity clarity, and how to measure results by location.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1106792"
     }
   ],
   "published": [
@@ -466,6 +456,14 @@
     {
       "slug": "call-tracking-seo",
       "date": "2026-11-15"
+    },
+    {
+      "slug": "organization-schema-seo",
+      "date": "2026-11-16"
+    },
+    {
+      "slug": "bing-copilot-seo",
+      "date": "2026-11-16"
     }
   ],
   "held": [

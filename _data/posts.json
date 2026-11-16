@@ -703,5 +703,29 @@
     "date": "2026-11-15",
     "image": "/images/blog/call-tracking-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "organization-schema-seo",
+    "url": "/blog/organization-schema-seo",
+    "file": "blog-organization-schema-seo.html",
+    "title": "Organization Schema for SEO: What to Add and Where",
+    "category": "Local SEO",
+    "excerpt": "Organization schema markup explained for local businesses: which properties matter, where to place it, when LocalBusiness is the better type, with JSON-LD.",
+    "read_min": 10,
+    "date": "2026-11-16",
+    "image": "/images/blog/organization-schema-seo-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "bing-copilot-seo",
+    "url": "/blog/bing-copilot-seo",
+    "file": "blog-bing-copilot-seo.html",
+    "title": "Bing Copilot SEO: How to Get Cited in Microsoft's AI Answers",
+    "category": "AI Search",
+    "excerpt": "Copilot answers come from the Bing index. Here is how to get crawled, structured and cited by Bing Copilot, and how to track it in Bing Webmaster Tools.",
+    "read_min": 11,
+    "date": "2026-11-16",
+    "image": "/images/blog/bing-copilot-seo-cover.webp",
+    "auto": true
   }
 ]
