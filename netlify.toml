@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/local-marketing-attribution"
+  to = "/blog-local-marketing-attribution.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-algorithm-update"
+  to = "/blog-local-algorithm-update.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/bing-copilot-seo"
   to = "/blog-bing-copilot-seo.html"
   status = 200

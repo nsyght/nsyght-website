@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Local Algorithm Update: What Changed and What to Do</title>
+      <link>https://nsyght.com/blog/local-algorithm-update</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-algorithm-update</guid>
+      <pubDate>Tue, 17 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>There is no separate Google local algorithm update. Learn what 2026&#x27;s core and spam updates did to local rankings, and how to respond without panicking.</description>
+    </item>
+    <item>
+      <title>Local Marketing Attribution: How to Prove Which Channels Bring Customers</title>
+      <link>https://nsyght.com/blog/local-marketing-attribution</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-marketing-attribution</guid>
+      <pubDate>Tue, 17 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Ads</category>
+      <description>Local marketing attribution for service businesses: track calls, directions and offline sales back to the ads and listings that earned them, step by step.</description>
+    </item>
     <item>
       <title>Organization Schema for SEO: What to Add and Where</title>
       <link>https://nsyght.com/blog/organization-schema-seo</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>A 90 day playbook for service marketers to rank and convert, using entity signals, AEO aware schema, and single keyword pages that get cited by AI.</description>
-    </item>
-    <item>
-      <title>SEO Site Architecture: A 6-Step Audit for Local Websites</title>
-      <link>https://nsyght.com/blog/seo-site-architecture</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/seo-site-architecture</guid>
-      <pubDate>Sat, 31 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Run a six step site architecture audit to fix orphan pages, standardize URLs, and keep priority content within four clicks for AI ready SEO.</description>
-    </item>
-    <item>
-      <title>Entity SEO for Local Businesses: Get Recognized and Cited by AI</title>
-      <link>https://nsyght.com/blog/entity-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/entity-seo</guid>
-      <pubDate>Fri, 30 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Practical steps teams can run now to map canonical entity pages, add schema, earn authoritative mentions, and get cited in AI Overviews and Knowledge Panels.</description>
     </item>
   </channel>
 </rss>

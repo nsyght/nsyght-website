@@ -727,5 +727,29 @@
     "date": "2026-11-16",
     "image": "/images/blog/bing-copilot-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "local-algorithm-update",
+    "url": "/blog/local-algorithm-update",
+    "file": "blog-local-algorithm-update.html",
+    "title": "Local Algorithm Update: What Changed and What to Do",
+    "category": "Local SEO",
+    "excerpt": "There is no separate Google local algorithm update. Learn what 2026's core and spam updates did to local rankings, and how to respond without panicking.",
+    "read_min": 11,
+    "date": "2026-11-17",
+    "image": "/images/blog/local-algorithm-update-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "local-marketing-attribution",
+    "url": "/blog/local-marketing-attribution",
+    "file": "blog-local-marketing-attribution.html",
+    "title": "Local Marketing Attribution: How to Prove Which Channels Bring Customers",
+    "category": "Google Ads",
+    "excerpt": "Local marketing attribution for service businesses: track calls, directions and offline sales back to the ads and listings that earned them, step by step.",
+    "read_min": 14,
+    "date": "2026-11-17",
+    "image": "/images/blog/local-marketing-attribution-cover.webp",
+    "auto": true
   }
 ]

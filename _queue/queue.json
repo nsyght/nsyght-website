@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-16",
+  "last_release_date": "2026-11-17",
   "posts": [
-    {
-      "slug": "local-algorithm-update",
-      "file": "_queue/blog-local-algorithm-update.html",
-      "title": "Local Algorithm Update: What Changed and What to Do",
-      "category": "Local SEO",
-      "excerpt": "There is no separate Google local algorithm update. Learn what 2026's core and spam updates did to local rankings, and how to respond without panicking.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "997517"
-    },
-    {
-      "slug": "local-marketing-attribution",
-      "file": "_queue/blog-local-marketing-attribution.html",
-      "title": "Local Marketing Attribution: How to Prove Which Channels Bring Customers",
-      "category": "Google Ads",
-      "excerpt": "Local marketing attribution for service businesses: track calls, directions and offline sales back to the ads and listings that earned them, step by step.",
-      "read_min": 14,
-      "source": "babylovegrowth",
-      "blg_id": "1002035"
-    },
     {
       "slug": "core-web-vitals-seo",
       "file": "_queue/blog-core-web-vitals-seo.html",
@@ -474,6 +454,14 @@
     {
       "slug": "bing-copilot-seo",
       "date": "2026-11-16"
+    },
+    {
+      "slug": "local-algorithm-update",
+      "date": "2026-11-17"
+    },
+    {
+      "slug": "local-marketing-attribution",
+      "date": "2026-11-17"
     }
   ],
   "held": [
