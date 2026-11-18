@@ -53,6 +53,24 @@
       <description>Compare Austin SEO proposals by scope, ownership, reporting, and local search work. Choose an agency with responsibilities and realistic expectations.</description>
     </item>
     <item>
+      <title>Core Web Vitals and SEO: What Matters for Local Sites</title>
+      <link>https://nsyght.com/blog/core-web-vitals-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/core-web-vitals-seo</guid>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Core Web Vitals and SEO explained for local business owners: the three thresholds, how much they affect rankings, and a fix order that works.</description>
+    </item>
+    <item>
+      <title>Google Ads for Dentists: A 2026 Guide to Getting Booked Patients</title>
+      <link>https://nsyght.com/blog/google-ads-for-dentists</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-ads-for-dentists</guid>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Industry Tips</category>
+      <description>How Google Ads works for dental practices: campaign structure, keywords, ad examples, call tracking, compliance and budget.</description>
+    </item>
+    <item>
       <title>Local Algorithm Update: What Changed and What to Do</title>
       <link>https://nsyght.com/blog/local-algorithm-update</link>
       <guid isPermaLink="true">https://nsyght.com/blog/local-algorithm-update</guid>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.</description>
-    </item>
-    <item>
-      <title>Using ChatGPT to Build Local Citations Without Errors</title>
-      <link>https://nsyght.com/blog/chatgpt-citations</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/chatgpt-citations</guid>
-      <pubDate>Tue, 03 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Scale local citations with ChatGPT and protect GBP verification. Agencies can standardize NAP data, adapt directory copy, and verify every listing.</description>
-    </item>
-    <item>
-      <title>Perplexity SEO: How to Get Your Business Cited</title>
-      <link>https://nsyght.com/blog/perplexity-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/perplexity-seo</guid>
-      <pubDate>Tue, 03 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>For engineers: Perplexity SEO tactics. Put evidence first in page leads, refresh facts quarterly, and use NSYGHT entity structure to win AI citations.</description>
     </item>
   </channel>
 </rss>

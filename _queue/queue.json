@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-17",
+  "last_release_date": "2026-11-18",
   "posts": [
-    {
-      "slug": "core-web-vitals-seo",
-      "file": "_queue/blog-core-web-vitals-seo.html",
-      "title": "Core Web Vitals and SEO: What Matters for Local Sites",
-      "category": "Local SEO",
-      "excerpt": "Core Web Vitals and SEO explained for local business owners: the three thresholds, how much they affect rankings, and a fix order that works.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1006272"
-    },
-    {
-      "slug": "google-ads-for-dentists",
-      "file": "_queue/blog-google-ads-for-dentists.html",
-      "title": "Google Ads for Dentists: A 2026 Guide to Getting Booked Patients",
-      "category": "Industry Tips",
-      "excerpt": "How Google Ads works for dental practices: campaign structure, keywords, ad examples, call tracking, compliance and budget.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "1010712"
-    },
     {
       "slug": "local-digital-pr",
       "file": "_queue/blog-local-digital-pr.html",
@@ -236,6 +216,16 @@
       "read_min": 13,
       "source": "babylovegrowth",
       "blg_id": "1111553"
+    },
+    {
+      "slug": "pest-control-seo",
+      "file": "_queue/blog-pest-control-seo.html",
+      "title": "Pest Control SEO: How to Win the Map Pack and AI Answers",
+      "category": "Industry Tips",
+      "excerpt": "Pest control SEO explained for owners: Google Business Profile, service-area pages, reviews, tracking and AI answers, plus how to get leads from each.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1116424"
     }
   ],
   "published": [
@@ -462,6 +452,14 @@
     {
       "slug": "local-marketing-attribution",
       "date": "2026-11-17"
+    },
+    {
+      "slug": "core-web-vitals-seo",
+      "date": "2026-11-18"
+    },
+    {
+      "slug": "google-ads-for-dentists",
+      "date": "2026-11-18"
     }
   ],
   "held": [

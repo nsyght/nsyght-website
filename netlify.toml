@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-ads-for-dentists"
+  to = "/blog-google-ads-for-dentists.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/core-web-vitals-seo"
+  to = "/blog-core-web-vitals-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/local-marketing-attribution"
   to = "/blog-local-marketing-attribution.html"
   status = 200
