@@ -6,7 +6,16 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Small business SEO services: questions to ask before signing</title>
+      <link>https://nsyght.com/blog/small-business-seo-services-questions-to-ask-before-signing</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/small-business-seo-services-questions-to-ask-before-signing</guid>
+      <pubDate>Wed, 18 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Compare small business SEO services with clear questions about ownership, reporting, scope and realistic expectations before you sign an agency agreement.</description>
+    </item>
     <item>
       <title>Local Algorithm Update: What Changed and What to Do</title>
       <link>https://nsyght.com/blog/local-algorithm-update</link>
@@ -177,15 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>Actionable steps for SEO teams to implement canonical @id and sameAs, build entity hub pages, and measure Knowledge Panel and AI citations.</description>
-    </item>
-    <item>
-      <title>Service Page SEO: Build Pages That Rank and Get Cited</title>
-      <link>https://nsyght.com/blog/service-page-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/service-page-seo</guid>
-      <pubDate>Sat, 31 Oct 2026 08:00:00 -0500</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>A 90 day playbook for service marketers to rank and convert, using entity signals, AEO aware schema, and single keyword pages that get cited by AI.</description>
     </item>
   </channel>
 </rss>

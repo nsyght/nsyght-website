@@ -751,5 +751,18 @@
     "date": "2026-11-17",
     "image": "/images/blog/local-marketing-attribution-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "small-business-seo-services-questions-to-ask-before-signing",
+    "url": "/blog/small-business-seo-services-questions-to-ask-before-signing",
+    "file": "blog/small-business-seo-services-questions-to-ask-before-signing/index.html",
+    "title": "Small business SEO services: questions to ask before signing",
+    "category": "Local SEO",
+    "excerpt": "Compare small business SEO services with clear questions about ownership, reporting, scope and realistic expectations before you sign an agency agreement.",
+    "read_min": 11,
+    "date": "2026-11-18",
+    "image": "/images/blog/ryze-small-business-seo-services-questions-to-ask-before-signing-656168dad808.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
