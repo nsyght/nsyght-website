@@ -180,6 +180,8 @@ def clean_body(body, links):
                 before = m.group(1)
                 if before.count('<a ') > before.count('</a>'):
                     return m.group(0)
+                if before.rfind('<') > before.rfind('>'):
+                    return m.group(0)  # inside a tag, e.g. an image alt text
                 return f'{before}<a href="{r["url"]}">{m.group(2)}</a>'
             new = pat.sub(link_first, body, count=1)
             if new != body:
@@ -257,13 +259,13 @@ def build_page(tpl, a, slug, category, cover, links, rules, dry=False):
     desc = meta_160(brand(no_dashes(text_of(a.get('meta_description') or a.get('excerpt') or ''))))
     url = f'{SITE}/blog/{slug}'
     img_abs = cover if cover.startswith('http') else SITE + cover
-    body = clean_body(a.get('content_html') or '', links)
+    raw = a.get('content_html') or ''
     # BabyLoveGrowth repeats the hero image as the first image in the article body.
     # The page already shows it as the cover, so drop the first image that sits above the first H2.
-    first_h2 = re.search(r'<h2\b', body, re.I)
-    lead = body[:first_h2.start()] if first_h2 else body
+    first_h2 = re.search(r'<h2\b', raw, re.I)
+    lead = raw[:first_h2.start()] if first_h2 else raw
     lead2 = re.sub(r'<p>\s*<img\b[^>]*>\s*</p>\s*|<figure\b[^>]*>.*?</figure>\s*|<img\b[^>]*>\s*', '', lead, count=1, flags=re.S | re.I)
-    body = lead2 + body[len(lead):]
+    body = clean_body(lead2 + raw[len(lead):], links)
     if not dry:
         body = host_body_images(body, slug)
     if not re.search(r'<h2[^>]*>[^<]*(FAQ|Frequently)', body, re.I):
