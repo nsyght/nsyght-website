@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { withoutRepeatedCover } from './ryze-cover.mjs';
+const remote = 'https://cdn.example.com/cover.webp?x=1&y=2';
+const local = '/images/blog/cover.webp';
+const other = '<img src="/images/blog/diagram.webp" alt="Different illustration">';
+const heading = '<h2>Article heading</h2><p>Article text.</p>';
+const schema = '<script type="application/ld+json">{"image":"'+remote+'"}</script>';
+const body = '<p><img src="https://cdn.example.com/cover.webp?x=1&amp;y=2"></p>'+heading+'<figure><img src=\''+local+'\'></figure><img src=https://nsyght.com/images/blog/cover.webp>'+other+schema;
+const clean = withoutRepeatedCover(body, [remote, local]);
+assert.equal((clean.match(/<img\b/g)||[]).length, 1);
+assert.ok(clean.includes(heading));
+assert.ok(clean.includes(other));
+assert.ok(clean.includes(schema));
+assert.equal(withoutRepeatedCover(body, []), body);
+assert.equal(withoutRepeatedCover(other, [remote, local]), other);
+assert.equal(withoutRepeatedCover(clean, [remote, local]), clean);
+console.log('PASS: duplicate cover removed; distinct images, article text, schema, no-cover bodies and repeatability preserved');
