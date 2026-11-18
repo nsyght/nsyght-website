@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
+import { withoutRepeatedCover } from './ryze-cover.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 process.chdir(root);
@@ -64,7 +65,8 @@ for (const {a, out} of articles) {
   const hero = `<section class="post-hero"><div class="post-hero-inner"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog">Resources</a> / <span aria-current="page">${esc(a.title)}</span></nav><div class="post-category">${esc(category)}</div><h1>${esc(a.title)}</h1><div class="post-meta"><div class="post-meta-author"><div><div class="post-meta-name">Don Phelps</div><div class="post-meta-title">The SEO Guru, Founder of NSYGHT</div></div></div><div class="post-meta-info"><span>${human}</span><span>${minutes} min read</span></div></div></div></section>`;
   doc = doc.replace(/<section class="post-hero">[\s\S]*?<\/section>/, () => hero);
   const cover = image ? `<img src="${image}" alt="${esc(a.image.alt || a.title)}" width="1200" height="675" fetchpriority="high"/>` : '';
-  doc = doc.replace(/<article class="article-content">[\s\S]*?<\/article>/, () => `<article class="article-content">${marker}\n${cover}\n${a.body_html}\n</article>`);
+  const body = image ? withoutRepeatedCover(a.body_html, [a.image.url, image]) : a.body_html;
+  doc = doc.replace(/<article class="article-content">[\s\S]*?<\/article>/, () => `<article class="article-content">${marker}\n${cover}\n${body}\n</article>`);
   doc = doc.replace('</body>', `<script>(function(){const list=document.getElementById('toc-list');if(!list)return;document.querySelectorAll('.article-content h2').forEach(function(h,i){if(!h.id)h.id='section-'+(i+1);const li=document.createElement('li');const link=document.createElement('a');link.href='#'+h.id;link.textContent=h.textContent;li.appendChild(link);list.appendChild(li);});})();</script>\n</body>`);
   if (doc.includes('[object Object]')) throw Error('Invalid object rendered in article');
   await write(out, doc);
