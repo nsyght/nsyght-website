@@ -1,4 +1,9 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { withoutRepeatedCover } from './ryze-cover.mjs';
 const remote = 'https://cdn.example.com/cover.webp?x=1&y=2';
 const local = '/images/blog/cover.webp';
@@ -14,4 +19,26 @@ assert.ok(clean.includes(schema));
 assert.equal(withoutRepeatedCover(body, []), body);
 assert.equal(withoutRepeatedCover(other, [remote, local]), other);
 assert.equal(withoutRepeatedCover(clean, [remote, local]), clean);
-console.log('PASS: duplicate cover removed; distinct images, article text, schema, no-cover bodies and repeatability preserved');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'ryze-cover-check-'));
+try {
+  const site = path.join(tmp, 'site');
+  await fs.cp(root, site, {recursive:true, filter:src => !src.split(path.sep).includes('.git')});
+  const data = path.join(site,'blog/data');
+  await fs.mkdir(data,{recursive:true});
+  // Stub image downloads only inside this isolated process, never on the live site.
+  await fs.writeFile(path.join(site,'scripts/cover-fetch-fixture.mjs'), 'globalThis.fetch=async()=>new Response(new Uint8Array([137,80,78,71,13,10,26,10]),{headers:{"content-type":"image/png"}});');
+  const article = {slug:'ryze-setup-test',title:'Cover regression check',body_html:'<p><img src="'+remote.replaceAll('&','&amp;')+'"></p>'+heading+other,image:{url:remote,alt:'Main cover'},published_at:'2026-11-18T00:00:00Z',status:'published'};
+  await fs.writeFile(path.join(data,'cover-regression.json'),JSON.stringify(article));
+  execFileSync('node',['--import','./scripts/cover-fetch-fixture.mjs','scripts/ryze-convert.mjs'],{cwd:site,stdio:'pipe'});
+  const page = await fs.readFile(path.join(site,'blog/ryze-setup-test/index.html'),'utf8');
+  const content = page.match(/<article class="article-content">[\s\S]*?<\/article>/)[0];
+  assert.equal((content.match(/<img\b/g)||[]).length,2);
+  assert.ok(content.includes('alt="Main cover"'));
+  assert.ok(content.includes(other));
+  assert.ok(content.includes(heading));
+  assert.ok(!content.includes('cdn.example.com'));
+  assert.ok(page.includes('BreadcrumbList') && page.includes('"@type":"Article"'));
+  console.log('GENERATED ARTICLE PROOF: '+content);
+} finally { await fs.rm(tmp,{recursive:true,force:true}); }
+console.log('PASS: one cover in generated page; distinct images, article text, schema, no-cover bodies and repeatability preserved');
