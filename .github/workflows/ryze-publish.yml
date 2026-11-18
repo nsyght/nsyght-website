@@ -4,6 +4,8 @@ on:
     paths:
       - 'blog/data/**'
       - 'scripts/ryze-convert.mjs'
+      - 'scripts/ryze-cover.mjs'
+      - 'scripts/ryze-cover.test.mjs'
       - 'scripts/ryze-test.py'
       - '.github/workflows/ryze-publish.yml'
   workflow_dispatch:
@@ -28,6 +30,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test cover deduplication and preservation of illustrations
+        run: node scripts/ryze-cover.test.mjs
       - name: Test full blog integration in an isolated copy
         run: python3 scripts/ryze-test.py
       - name: Validate and convert approved articles
@@ -43,21 +47,19 @@ jobs:
           git add blog _data/posts.json images/blog blog.html 'blog-category-*.html' feed.xml sitemap.xml
           git diff --cached --binary > /tmp/ryze-second.diff
           cmp /tmp/ryze-first.diff /tmp/ryze-second.diff
-          python3 - <<'PY'
-          import json, pathlib, re
-          for src in pathlib.Path('blog/data').glob('*.json'):
-              a = json.loads(src.read_text())
-              if a.get('status') != 'published':
-                  continue
-              page = pathlib.Path('blog', a['slug'], 'index.html').read_text()
-              assert '[object Object]' not in page
-              assert a['body_html'] in page
-              assert 'https://nsyght.com/blog/' + a['slug'] in page
-              assert '<h1>' in page and '<meta name="description"' in page
-              if a.get('image'):
-                  image = re.search(r'<meta property="og:image" content="https://nsyght.com([^"]+)"', page)
-                  assert image and pathlib.Path('.' + image.group(1)).is_file()
-          PY
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import { withoutRepeatedCover } from './scripts/ryze-cover.mjs';
+          for (const name of fs.readdirSync('blog/data').filter(x => x.endsWith('.json'))) {
+            const a = JSON.parse(fs.readFileSync('blog/data/'+name, 'utf8'));
+            if (a.status !== 'published') continue;
+            const page = fs.readFileSync('blog/'+a.slug+'/index.html','utf8');
+            const image = page.match(/<meta property="og:image" content="https:\/\/nsyght.com([^"]+)"/);
+            const body = image ? withoutRepeatedCover(a.body_html,[a.image?.url,image[1]]) : a.body_html;
+            if (page.includes('[object Object]') || !page.includes(body) || !page.includes('https://nsyght.com/blog/'+a.slug) || !page.includes('<h1>') || !page.includes('<meta name="description"')) throw Error('Invalid generated page: '+a.slug);
+            if (a.image && (!image || !fs.existsSync('.'+image[1]))) throw Error('Missing cover: '+a.slug);
+          }
+          JS
       - name: Commit generated output
         run: |
           if git diff --cached --quiet; then exit 0; fi
