@@ -258,6 +258,12 @@ def build_page(tpl, a, slug, category, cover, links, rules, dry=False):
     url = f'{SITE}/blog/{slug}'
     img_abs = cover if cover.startswith('http') else SITE + cover
     body = clean_body(a.get('content_html') or '', links)
+    # BabyLoveGrowth repeats the hero image as the first image in the article body.
+    # The page already shows it as the cover, so drop the first image that sits above the first H2.
+    first_h2 = re.search(r'<h2\b', body, re.I)
+    lead = body[:first_h2.start()] if first_h2 else body
+    lead2 = re.sub(r'<p>\s*<img\b[^>]*>\s*</p>\s*|<figure\b[^>]*>.*?</figure>\s*|<img\b[^>]*>\s*', '', lead, count=1, flags=re.S | re.I)
+    body = lead2 + body[len(lead):]
     if not dry:
         body = host_body_images(body, slug)
     if not re.search(r'<h2[^>]*>[^<]*(FAQ|Frequently)', body, re.I):
