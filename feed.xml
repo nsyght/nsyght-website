@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Local Digital PR: How to Earn Local Links and Coverage</title>
+      <link>https://nsyght.com/blog/local-digital-pr</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-digital-pr</guid>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Local digital PR earns links and coverage from local outlets. See how it differs from PR and link building, how to run a campaign, and how to measure it.</description>
+    </item>
+    <item>
+      <title>Local PPC Budget: How Much to Spend and How to Plan It</title>
+      <link>https://nsyght.com/blog/ppc-budget-local</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/ppc-budget-local</guid>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Google Ads</category>
+      <description>Plan a local PPC budget that works: a lead-based formula with a worked example, cost benchmarks, seasonal and multi-location tips, and when to hire help.</description>
+    </item>
     <item>
       <title>Small business SEO services: questions to ask before signing</title>
       <link>https://nsyght.com/blog/small-business-seo-services-questions-to-ask-before-signing</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Run a technical SEO audit that combines automated scans with manual Search Console and log file checks, then turn findings into developer-ready fixes.</description>
-    </item>
-    <item>
-      <title>Gemini SEO: A 90-Day Plan to Protect Your Search Traffic</title>
-      <link>https://nsyght.com/blog/google-gemini-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-gemini-seo</guid>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Adapt SEO for Google Gemini in 90 days: prioritize answer first pages, measure with GA4 and Search Console, and protect conversions.</description>
-    </item>
-    <item>
-      <title>Site Speed and Local SEO: Fix What Customers Actually Feel</title>
-      <link>https://nsyght.com/blog/site-speed-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/site-speed-seo</guid>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Field first Core Web Vitals guidance for local and service businesses. Prioritize 75th percentile LCP and INP fixes that reduce abandonment.</description>
     </item>
   </channel>
 </rss>

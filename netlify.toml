@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/ppc-budget-local"
+  to = "/blog-ppc-budget-local.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-digital-pr"
+  to = "/blog-local-digital-pr.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-ads-for-dentists"
   to = "/blog-google-ads-for-dentists.html"
   status = 200

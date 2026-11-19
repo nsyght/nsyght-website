@@ -840,5 +840,29 @@
     "date": "2026-11-18",
     "image": "/images/blog/google-ads-for-dentists-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "local-digital-pr",
+    "url": "/blog/local-digital-pr",
+    "file": "blog-local-digital-pr.html",
+    "title": "Local Digital PR: How to Earn Local Links and Coverage",
+    "category": "Local SEO",
+    "excerpt": "Local digital PR earns links and coverage from local outlets. See how it differs from PR and link building, how to run a campaign, and how to measure it.",
+    "read_min": 13,
+    "date": "2026-11-19",
+    "image": "/images/blog/local-digital-pr-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "ppc-budget-local",
+    "url": "/blog/ppc-budget-local",
+    "file": "blog-ppc-budget-local.html",
+    "title": "Local PPC Budget: How Much to Spend and How to Plan It",
+    "category": "Google Ads",
+    "excerpt": "Plan a local PPC budget that works: a lead-based formula with a worked example, cost benchmarks, seasonal and multi-location tips, and when to hire help.",
+    "read_min": 12,
+    "date": "2026-11-19",
+    "image": "/images/blog/ppc-budget-local-cover.webp",
+    "auto": true
   }
 ]
