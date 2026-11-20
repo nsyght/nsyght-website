@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-19",
+  "last_release_date": "2026-11-20",
   "posts": [
-    {
-      "slug": "local-seo-content-strategy",
-      "file": "_queue/blog-local-seo-content-strategy.html",
-      "title": "Local SEO Content Strategy: A Practical Plan for Service Businesses",
-      "category": "Local SEO",
-      "excerpt": "Build a local SEO content strategy that earns map pack and AI answer visibility: what to publish, how to organize a hub, plan a calendar and measure results.",
-      "read_min": 13,
-      "source": "babylovegrowth",
-      "blg_id": "1023092"
-    },
-    {
-      "slug": "log-file-seo",
-      "file": "_queue/blog-log-file-seo.html",
-      "title": "Log File SEO: How to Read What Googlebot Really Does",
-      "category": "Local SEO",
-      "excerpt": "Log file SEO shows which URLs Googlebot and AI bots actually request. Learn what logs record, how to analyze them, and which fixes matter for your site.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1026990"
-    },
     {
       "slug": "local-seo-roi",
       "file": "_queue/blog-local-seo-roi.html",
@@ -216,6 +196,16 @@
       "read_min": 11,
       "source": "babylovegrowth",
       "blg_id": "1121372"
+    },
+    {
+      "slug": "information-gain-seo",
+      "file": "_queue/blog-information-gain-seo.html",
+      "title": "Information Gain in SEO: How Local Pages Add What Others Don't",
+      "category": "AI Search",
+      "excerpt": "Information gain in SEO explained for local businesses: what the score means, what Google's patent says.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1125834"
     }
   ],
   "published": [
@@ -458,6 +448,14 @@
     {
       "slug": "ppc-budget-local",
       "date": "2026-11-19"
+    },
+    {
+      "slug": "local-seo-content-strategy",
+      "date": "2026-11-20"
+    },
+    {
+      "slug": "log-file-seo",
+      "date": "2026-11-20"
     }
   ],
   "held": [

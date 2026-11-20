@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Local SEO Content Strategy: A Practical Plan for Service Businesses</title>
+      <link>https://nsyght.com/blog/local-seo-content-strategy</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-content-strategy</guid>
+      <pubDate>Fri, 20 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Build a local SEO content strategy that earns map pack and AI answer visibility: what to publish, how to organize a hub, plan a calendar and measure results.</description>
+    </item>
+    <item>
+      <title>Log File SEO: How to Read What Googlebot Really Does</title>
+      <link>https://nsyght.com/blog/log-file-seo</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/log-file-seo</guid>
+      <pubDate>Fri, 20 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Log file SEO shows which URLs Googlebot and AI bots actually request. Learn what logs record, how to analyze them, and which fixes matter for your site.</description>
+    </item>
     <item>
       <title>Local Digital PR: How to Earn Local Links and Coverage</title>
       <link>https://nsyght.com/blog/local-digital-pr</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Use Search Console’s Queries and Pages reports to spot competing local URLs, then choose a fix based on intent and Google Business Profile alignment.</description>
-    </item>
-    <item>
-      <title>Wikidata for SEO: 9 Checks for Better AI Visibility</title>
-      <link>https://nsyght.com/blog/wikidata-for-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/wikidata-for-seo</guid>
-      <pubDate>Fri, 06 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Wikidata supports SEO and AI visibility. Use the nine point checklist, connect entities with sameAs schema, and track impact without assuming rankings.</description>
-    </item>
-    <item>
-      <title>Technical SEO Audit for Local Websites: Scans and Manual Checks</title>
-      <link>https://nsyght.com/blog/technical-seo-audit</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/technical-seo-audit</guid>
-      <pubDate>Thu, 05 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Run a technical SEO audit that combines automated scans with manual Search Console and log file checks, then turn findings into developer-ready fixes.</description>
     </item>
   </channel>
 </rss>

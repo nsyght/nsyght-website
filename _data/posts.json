@@ -864,5 +864,29 @@
     "date": "2026-11-19",
     "image": "/images/blog/ppc-budget-local-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "local-seo-content-strategy",
+    "url": "/blog/local-seo-content-strategy",
+    "file": "blog-local-seo-content-strategy.html",
+    "title": "Local SEO Content Strategy: A Practical Plan for Service Businesses",
+    "category": "Local SEO",
+    "excerpt": "Build a local SEO content strategy that earns map pack and AI answer visibility: what to publish, how to organize a hub, plan a calendar and measure results.",
+    "read_min": 13,
+    "date": "2026-11-20",
+    "image": "/images/blog/local-seo-content-strategy-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "log-file-seo",
+    "url": "/blog/log-file-seo",
+    "file": "blog-log-file-seo.html",
+    "title": "Log File SEO: How to Read What Googlebot Really Does",
+    "category": "Local SEO",
+    "excerpt": "Log file SEO shows which URLs Googlebot and AI bots actually request. Learn what logs record, how to analyze them, and which fixes matter for your site.",
+    "read_min": 12,
+    "date": "2026-11-20",
+    "image": "/images/blog/log-file-seo-cover.webp",
+    "auto": true
   }
 ]

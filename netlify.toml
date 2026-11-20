@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/log-file-seo"
+  to = "/blog-log-file-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-seo-content-strategy"
+  to = "/blog-local-seo-content-strategy.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/ppc-budget-local"
   to = "/blog-ppc-budget-local.html"
   status = 200
