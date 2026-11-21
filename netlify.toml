@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/knowledge-panel-optimization"
+  to = "/blog-knowledge-panel-optimization.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/local-seo-roi"
+  to = "/blog-local-seo-roi.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/log-file-seo"
   to = "/blog-log-file-seo.html"
   status = 200

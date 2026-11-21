@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Local SEO ROI: How to Calculate and Prove Your Return</title>
+      <link>https://nsyght.com/blog/local-seo-roi</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-roi</guid>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Learn how to calculate local SEO ROI, which metrics matter, how to trace calls and bookings to search, and how long to wait before judging the return.</description>
+    </item>
+    <item>
+      <title>Knowledge Panel Optimization: How to Claim, Edit and Strengthen Yours</title>
+      <link>https://nsyght.com/blog/knowledge-panel-optimization</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/knowledge-panel-optimization</guid>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Learn how Google knowledge panels work, how to claim and verify one, how to suggest edits, and which entity signals help your business earn an accurate panel.</description>
+    </item>
     <item>
       <title>Local SEO Content Strategy: A Practical Plan for Service Businesses</title>
       <link>https://nsyght.com/blog/local-seo-content-strategy</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>AI Search</category>
       <description>Use one domain, unique pages, and shared listing controls to coordinate franchise SEO across thousands of locations. Assign clear roles to both corporate.</description>
-    </item>
-    <item>
-      <title>On Page SEO for Local Businesses: 5 Fixes for Pages That Convert</title>
-      <link>https://nsyght.com/blog/local-on-page-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-on-page-seo</guid>
-      <pubDate>Sat, 14 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Prioritize location page details, mobile speed, and Google Business Profile links to help local businesses turn nearby searches into calls and visits.</description>
-    </item>
-    <item>
-      <title>Keyword Cannibalization in Local SEO: Check Search Console First</title>
-      <link>https://nsyght.com/blog/keyword-cannibalization-local</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/keyword-cannibalization-local</guid>
-      <pubDate>Fri, 13 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Use Search Console’s Queries and Pages reports to spot competing local URLs, then choose a fix based on intent and Google Business Profile alignment.</description>
     </item>
   </channel>
 </rss>

@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-20",
+  "last_release_date": "2026-11-21",
   "posts": [
-    {
-      "slug": "local-seo-roi",
-      "file": "_queue/blog-local-seo-roi.html",
-      "title": "Local SEO ROI: How to Calculate and Prove Your Return",
-      "category": "Local SEO",
-      "excerpt": "Learn how to calculate local SEO ROI, which metrics matter, how to trace calls and bookings to search, and how long to wait before judging the return.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1029488"
-    },
-    {
-      "slug": "knowledge-panel-optimization",
-      "file": "_queue/blog-knowledge-panel-optimization.html",
-      "title": "Knowledge Panel Optimization: How to Claim, Edit and Strengthen Yours",
-      "category": "AI Search",
-      "excerpt": "Learn how Google knowledge panels work, how to claim and verify one, how to suggest edits, and which entity signals help your business earn an accurate panel.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "1034588"
-    },
     {
       "slug": "indexing-issues-seo",
       "file": "_queue/blog-indexing-issues-seo.html",
@@ -206,6 +186,16 @@
       "read_min": 13,
       "source": "babylovegrowth",
       "blg_id": "1125834"
+    },
+    {
+      "slug": "ai-seo-vs-traditional-seo",
+      "file": "_queue/blog-ai-seo-vs-traditional-seo.html",
+      "title": "AI SEO vs. Traditional SEO: What Local Businesses Need in 2026",
+      "category": "AI Search",
+      "excerpt": "AI SEO vs. traditional SEO explained for local and multi-location businesses: what differs, what the data shows, and how to build visibility for both.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1130327"
     }
   ],
   "published": [
@@ -456,6 +446,14 @@
     {
       "slug": "log-file-seo",
       "date": "2026-11-20"
+    },
+    {
+      "slug": "local-seo-roi",
+      "date": "2026-11-21"
+    },
+    {
+      "slug": "knowledge-panel-optimization",
+      "date": "2026-11-21"
     }
   ],
   "held": [

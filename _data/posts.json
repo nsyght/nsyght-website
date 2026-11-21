@@ -888,5 +888,29 @@
     "date": "2026-11-20",
     "image": "/images/blog/log-file-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "local-seo-roi",
+    "url": "/blog/local-seo-roi",
+    "file": "blog-local-seo-roi.html",
+    "title": "Local SEO ROI: How to Calculate and Prove Your Return",
+    "category": "Local SEO",
+    "excerpt": "Learn how to calculate local SEO ROI, which metrics matter, how to trace calls and bookings to search, and how long to wait before judging the return.",
+    "read_min": 12,
+    "date": "2026-11-21",
+    "image": "/images/blog/local-seo-roi-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "knowledge-panel-optimization",
+    "url": "/blog/knowledge-panel-optimization",
+    "file": "blog-knowledge-panel-optimization.html",
+    "title": "Knowledge Panel Optimization: How to Claim, Edit and Strengthen Yours",
+    "category": "AI Search",
+    "excerpt": "Learn how Google knowledge panels work, how to claim and verify one, how to suggest edits, and which entity signals help your business earn an accurate panel.",
+    "read_min": 11,
+    "date": "2026-11-21",
+    "image": "/images/blog/knowledge-panel-optimization-cover.webp",
+    "auto": true
   }
 ]
