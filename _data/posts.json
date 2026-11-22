@@ -975,5 +975,83 @@
     "date": "2026-11-22",
     "image": "/images/blog/google-business-utm-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "dental-seo-services-how-to-attract-the-treatments-you-offer",
+    "url": "/blog/dental-seo-services-how-to-attract-the-treatments-you-offer",
+    "file": "blog/dental-seo-services-how-to-attract-the-treatments-you-offer/index.html",
+    "title": "Dental SEO services: how to attract the treatments you offer",
+    "category": "Local SEO",
+    "excerpt": "Dental SEO services should attract enquiries for treatments you offer. Learn how to align service pages, Google Business Profile, and booking results.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-dental-seo-services-how-to-attract-the-treatments-you-offer-e81e7bd82519.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "generative-engine-optimization-services-how-to-brief-an-agency",
+    "url": "/blog/generative-engine-optimization-services-how-to-brief-an-agency",
+    "file": "blog/generative-engine-optimization-services-how-to-brief-an-agency/index.html",
+    "title": "Generative engine optimization services: how to brief an agency",
+    "category": "AI Search",
+    "excerpt": "Generative engine optimization services need a clear brief. Define your customers, agency scope, access, and reporting before you approve the work.",
+    "read_min": 12,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-generative-engine-optimization-services-how-to-brief-an-agency-80271472726b.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "google-maps-seo-services-what-should-monthly-management-include",
+    "url": "/blog/google-maps-seo-services-what-should-monthly-management-include",
+    "file": "blog/google-maps-seo-services-what-should-monthly-management-include/index.html",
+    "title": "Google Maps SEO services: what should monthly management include?",
+    "category": "Local SEO",
+    "excerpt": "Google Maps SEO services should cover profile accuracy, reviews, website fixes, and lead reporting. Know what to require before signing a monthly plan.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-google-maps-seo-services-what-should-monthly-management-include-626ad14bc77b.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "home-services-seo-how-to-reach-nearby-towns-without-fake-offices",
+    "url": "/blog/home-services-seo-how-to-reach-nearby-towns-without-fake-offices",
+    "file": "blog/home-services-seo-how-to-reach-nearby-towns-without-fake-offices/index.html",
+    "title": "Home services SEO: how to reach nearby towns without fake offices",
+    "category": "Local SEO",
+    "excerpt": "Home services SEO can reach nearby towns without fake offices. Learn how to use honest town pages, accurate service areas, and qualified enquiry tracking.",
+    "read_min": 12,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-home-services-seo-how-to-reach-nearby-towns-without-fake-offices-5a165aeaaa7f.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "law-firm-seo-services-who-owns-your-website-when-you-leave",
+    "url": "/blog/law-firm-seo-services-who-owns-your-website-when-you-leave",
+    "file": "blog/law-firm-seo-services-who-owns-your-website-when-you-leave/index.html",
+    "title": "Law firm SEO services: who owns your website when you leave?",
+    "category": "Local SEO",
+    "excerpt": "Before choosing law firm SEO services, confirm who controls your domain, content, hosting, and accounts so your firm can leave without losing access.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-law-firm-seo-services-who-owns-your-website-when-you-leave-e0f14d38e0f6.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "seo-for-roofers-how-to-handle-seasonal-demand-without-new-sites",
+    "url": "/blog/seo-for-roofers-how-to-handle-seasonal-demand-without-new-sites",
+    "file": "blog/seo-for-roofers-how-to-handle-seasonal-demand-without-new-sites/index.html",
+    "title": "SEO for roofers: how to handle seasonal demand without new sites",
+    "category": "Local SEO",
+    "excerpt": "SEO for roofers works best on one main website. Learn how to update seasonal content, separate repair and replacement searches, and track qualified enquiries.",
+    "read_min": 12,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-seo-for-roofers-how-to-handle-seasonal-demand-without-new-sites-e212d04e7523.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
