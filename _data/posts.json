@@ -951,5 +951,29 @@
     "image": "/images/blog/ryze-small-business-seo-services-what-happens-in-the-first-month-46a70dd38b5e.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "indexing-issues-seo",
+    "url": "/blog/indexing-issues-seo",
+    "file": "blog-indexing-issues-seo.html",
+    "title": "Indexing Issues in SEO: How to Find and Fix Them",
+    "category": "Local SEO",
+    "excerpt": "Pages missing from Google? Learn how to check index status in Search Console, read each status, fix real indexing problems and skip the ones you should ignore.",
+    "read_min": 12,
+    "date": "2026-11-22",
+    "image": "/images/blog/indexing-issues-seo-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "google-business-utm",
+    "url": "/blog/google-business-utm",
+    "file": "blog-google-business-utm.html",
+    "title": "Google Business Profile UTM Tracking: Setup Guide",
+    "category": "Google Business Profile",
+    "excerpt": "Add UTM parameters to your Google Business Profile links, get the exact tag values, and read the traffic in GA4 without breaking attribution or local rankings.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/google-business-utm-cover.webp",
+    "auto": true
   }
 ]

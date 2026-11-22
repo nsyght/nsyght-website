@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-21",
+  "last_release_date": "2026-11-22",
   "posts": [
-    {
-      "slug": "indexing-issues-seo",
-      "file": "_queue/blog-indexing-issues-seo.html",
-      "title": "Indexing Issues in SEO: How to Find and Fix Them",
-      "category": "Local SEO",
-      "excerpt": "Pages missing from Google? Learn how to check index status in Search Console, read each status, fix real indexing problems and skip the ones you should ignore.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1038571"
-    },
-    {
-      "slug": "google-business-utm",
-      "file": "_queue/blog-google-business-utm.html",
-      "title": "Google Business Profile UTM Tracking: Setup Guide",
-      "category": "Google Business Profile",
-      "excerpt": "Add UTM parameters to your Google Business Profile links, get the exact tag values, and read the traffic in GA4 without breaking attribution or local rankings.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "1042813"
-    },
     {
       "slug": "seo-web-design-cost",
       "file": "_queue/blog-seo-web-design-cost.html",
@@ -196,6 +176,16 @@
       "read_min": 12,
       "source": "babylovegrowth",
       "blg_id": "1130327"
+    },
+    {
+      "slug": "medical-spa-seo",
+      "file": "_queue/blog-medical-spa-seo.html",
+      "title": "Medical Spa SEO: How Med Spas Win Local Patients",
+      "category": "Industry Tips",
+      "excerpt": "Medical spa SEO explained in plain terms: treatment pages, Google Business Profile, reviews, AI answers and how to prioritize in a crowded local market.",
+      "read_min": 11,
+      "source": "babylovegrowth",
+      "blg_id": "1135280"
     }
   ],
   "published": [
@@ -454,6 +444,14 @@
     {
       "slug": "knowledge-panel-optimization",
       "date": "2026-11-21"
+    },
+    {
+      "slug": "indexing-issues-seo",
+      "date": "2026-11-22"
+    },
+    {
+      "slug": "google-business-utm",
+      "date": "2026-11-22"
     }
   ],
   "held": [

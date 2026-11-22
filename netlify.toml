@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-business-utm"
+  to = "/blog-google-business-utm.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/indexing-issues-seo"
+  to = "/blog-indexing-issues-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/knowledge-panel-optimization"
   to = "/blog-knowledge-panel-optimization.html"
   status = 200
