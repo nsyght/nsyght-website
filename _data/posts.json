@@ -912,5 +912,44 @@
     "date": "2026-11-21",
     "image": "/images/blog/knowledge-panel-optimization-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "ai-seo-services-how-to-evaluate-promises-before-you-pay",
+    "url": "/blog/ai-seo-services-how-to-evaluate-promises-before-you-pay",
+    "file": "blog/ai-seo-services-how-to-evaluate-promises-before-you-pay/index.html",
+    "title": "AI SEO services: how to evaluate promises before you pay",
+    "category": "Local SEO",
+    "excerpt": "Evaluate AI SEO services before you sign. Learn which promises to question, what proof to request, and how to connect search visibility to real enquiries.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-ai-seo-services-how-to-evaluate-promises-before-you-pay-1ca3b643e9a4.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "chatgpt-seo-why-a-competitor-gets-recommended-instead-of-you",
+    "url": "/blog/chatgpt-seo-why-a-competitor-gets-recommended-instead-of-you",
+    "file": "blog/chatgpt-seo-why-a-competitor-gets-recommended-instead-of-you/index.html",
+    "title": "ChatGPT SEO: why a competitor gets recommended instead of you",
+    "category": "AI Search",
+    "excerpt": "ChatGPT SEO starts with evidence, not guesses. Check competitor mentions, inspect cited sources, and fix gaps that matter to local customer enquiries.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-chatgpt-seo-why-a-competitor-gets-recommended-instead-of-you-c9557564dc2f.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "small-business-seo-services-what-happens-in-the-first-month",
+    "url": "/blog/small-business-seo-services-what-happens-in-the-first-month",
+    "file": "blog/small-business-seo-services-what-happens-in-the-first-month/index.html",
+    "title": "Small business SEO services: what happens in the first month?",
+    "category": "Local SEO",
+    "excerpt": "Small business SEO services should start with access, tracking, and priority fixes. See what to expect in month one and how to judge real progress.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-small-business-seo-services-what-happens-in-the-first-month-46a70dd38b5e.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
