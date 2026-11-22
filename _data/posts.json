@@ -1053,5 +1053,31 @@
     "image": "/images/blog/ryze-seo-for-roofers-how-to-handle-seasonal-demand-without-new-sites-e212d04e7523.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "ai-search-optimization-what-to-do-when-ai-gets-your-business-wrong",
+    "url": "/blog/ai-search-optimization-what-to-do-when-ai-gets-your-business-wrong",
+    "file": "blog/ai-search-optimization-what-to-do-when-ai-gets-your-business-wrong/index.html",
+    "title": "AI search optimization: what to do when AI gets your business wrong",
+    "category": "AI Search",
+    "excerpt": "AI search optimization starts with accurate business facts. Learn how to trace wrong answers, correct source pages, and check what customers see.",
+    "read_min": 11,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-ai-search-optimization-what-to-do-when-ai-gets-your-business-wrong-c88f8ed7729c.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "answer-engine-optimization-services-what-counts-as-success",
+    "url": "/blog/answer-engine-optimization-services-what-counts-as-success",
+    "file": "blog/answer-engine-optimization-services-what-counts-as-success/index.html",
+    "title": "Answer engine optimization services: what counts as success?",
+    "category": "Local SEO",
+    "excerpt": "Judge answer engine optimization services by qualified enquiries, not screenshots. Learn what to measure, what to ask, and how to assess agency results.",
+    "read_min": 12,
+    "date": "2026-11-22",
+    "image": "/images/blog/ryze-answer-engine-optimization-services-what-counts-as-success-43352b30fb8a.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
