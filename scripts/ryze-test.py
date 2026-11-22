@@ -8,7 +8,7 @@ with tempfile.TemporaryDirectory(prefix='ryze-check-') as tmp:
     shutil.copytree(root, site, ignore=shutil.ignore_patterns('.git', '__pycache__'))
     data = site / 'blog/data'
     data.mkdir(parents=True, exist_ok=True)
-    article = dict(slug='ryze-integration-check', title='Publishing integration check', body_markdown='## Check\n\nVerified.', body_html='<h2 id="check">Check</h2><p>Verified.</p>', blocks=[], meta_title='Integration check | NSYGHT', meta_description='Integration check.', excerpt='Integration check.', primary_keyword=None, image=None, published_at='2026-11-15T00:00:00.000Z', updated_at='2026-11-15T00:00:00.000Z', status='published')
+    article = dict(slug='ryze-integration-check', title='Publishing integration check', body_markdown='## Check\n\nVerified.', body_html='<h2 id="check">Check</h2><p>Verified.</p>', blocks=[], meta_title='Integration check | NSYGHT', meta_description='Integration check.', excerpt='Integration check.', primary_keyword=None, image=None, published_at='2099-01-01T00:00:00.000Z', updated_at='2099-01-01T00:00:00.000Z', status='published')
     (data / 'integration-check.json').write_text(json.dumps(article))
     draft = dict(article, slug='ryze-draft-check', status='drafted')
     (data / 'draft-check.json').write_text(json.dumps(draft))
