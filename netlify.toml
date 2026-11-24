@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/personal-injury-seo"
+  to = "/blog-personal-injury-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/plastic-surgeon-seo"
+  to = "/blog-plastic-surgeon-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/criminal-defense-seo"
   to = "/blog-criminal-defense-seo.html"
   status = 200

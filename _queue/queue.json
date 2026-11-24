@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-23",
+  "last_release_date": "2026-11-24",
   "posts": [
-    {
-      "slug": "plastic-surgeon-seo",
-      "file": "_queue/blog-plastic-surgeon-seo.html",
-      "title": "Plastic Surgeon SEO: How to Get Found by Patients in 2026",
-      "category": "Industry Tips",
-      "excerpt": "Plastic surgeon SEO explained: local visibility, procedure pages, reviews, credibility, AI search and how to measure consultations, not just rankings.",
-      "read_min": 13,
-      "source": "babylovegrowth",
-      "blg_id": "1060605"
-    },
-    {
-      "slug": "personal-injury-seo",
-      "file": "_queue/blog-personal-injury-seo.html",
-      "title": "Personal Injury SEO: How PI Firms Win Cases From Search",
-      "category": "Industry Tips",
-      "excerpt": "Personal injury SEO explained for law firm owners: how local rankings, practice pages, reviews and AI answers turn searches into signed cases.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1064755"
-    },
     {
       "slug": "google-ads-lead-forms",
       "file": "_queue/blog-google-ads-lead-forms.html",
@@ -460,6 +440,14 @@
     {
       "slug": "criminal-defense-seo",
       "date": "2026-11-23"
+    },
+    {
+      "slug": "plastic-surgeon-seo",
+      "date": "2026-11-24"
+    },
+    {
+      "slug": "personal-injury-seo",
+      "date": "2026-11-24"
     }
   ],
   "held": [
