@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/criminal-defense-seo"
+  to = "/blog-criminal-defense-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/seo-web-design-cost"
+  to = "/blog-seo-web-design-cost.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-business-utm"
   to = "/blog-google-business-utm.html"
   status = 200

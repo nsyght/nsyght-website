@@ -1118,5 +1118,29 @@
     "image": "/images/blog/ryze-austin-seo-should-a-new-business-target-suburbs-first-5f9955a8b8c6.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "seo-web-design-cost",
+    "url": "/blog/seo-web-design-cost",
+    "file": "blog-seo-web-design-cost.html",
+    "title": "SEO Web Design Cost: What You'll Pay in the US",
+    "category": "Local SEO",
+    "excerpt": "What SEO web design costs in the US: build price ranges, what SEO work belongs in the quote, ongoing retainer costs, and how to compare proposals.",
+    "read_min": 11,
+    "date": "2026-11-23",
+    "image": "/images/blog/seo-web-design-cost-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "criminal-defense-seo",
+    "url": "/blog/criminal-defense-seo",
+    "file": "blog-criminal-defense-seo.html",
+    "title": "Criminal Defense SEO: How Defense Firms Get Found",
+    "category": "Industry Tips",
+    "excerpt": "Criminal defense SEO explained for firm owners: local pack, Google Business Profile, content, AI search, ethics rules and how to measure signed cases.",
+    "read_min": 13,
+    "date": "2026-11-23",
+    "image": "/images/blog/criminal-defense-seo-cover.webp",
+    "auto": true
   }
 ]

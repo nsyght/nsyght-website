@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-22",
+  "last_release_date": "2026-11-23",
   "posts": [
-    {
-      "slug": "seo-web-design-cost",
-      "file": "_queue/blog-seo-web-design-cost.html",
-      "title": "SEO Web Design Cost: What You'll Pay in the US",
-      "category": "Local SEO",
-      "excerpt": "What SEO web design costs in the US: build price ranges, what SEO work belongs in the quote, ongoing retainer costs, and how to compare proposals.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "1049221"
-    },
-    {
-      "slug": "criminal-defense-seo",
-      "file": "_queue/blog-criminal-defense-seo.html",
-      "title": "Criminal Defense SEO: How Defense Firms Get Found",
-      "category": "Industry Tips",
-      "excerpt": "Criminal defense SEO explained for firm owners: local pack, Google Business Profile, content, AI search, ethics rules and how to measure signed cases.",
-      "read_min": 13,
-      "source": "babylovegrowth",
-      "blg_id": "1055925"
-    },
     {
       "slug": "plastic-surgeon-seo",
       "file": "_queue/blog-plastic-surgeon-seo.html",
@@ -186,6 +166,26 @@
       "read_min": 11,
       "source": "babylovegrowth",
       "blg_id": "1135280"
+    },
+    {
+      "slug": "pagination-seo",
+      "file": "_queue/blog-pagination-seo.html",
+      "title": "Pagination SEO: How to Set Up Paged Lists Google Can Crawl",
+      "category": "Local SEO",
+      "excerpt": "Pagination SEO explained in plain English: how to set up crawlable paged lists, handle infinite scroll and filters.",
+      "read_min": 10,
+      "source": "babylovegrowth",
+      "blg_id": "1223383"
+    },
+    {
+      "slug": "google-business-verification",
+      "file": "_queue/blog-google-business-verification.html",
+      "title": "Google Business Verification: How to Verify Your Profile",
+      "category": "Google Business Profile",
+      "excerpt": "How to verify your Google Business Profile: the methods Google offers, what the video must show, how long it takes and what to do when verification fails.",
+      "read_min": 12,
+      "source": "babylovegrowth",
+      "blg_id": "1270826"
     }
   ],
   "published": [
@@ -452,6 +452,14 @@
     {
       "slug": "google-business-utm",
       "date": "2026-11-22"
+    },
+    {
+      "slug": "seo-web-design-cost",
+      "date": "2026-11-23"
+    },
+    {
+      "slug": "criminal-defense-seo",
+      "date": "2026-11-23"
     }
   ],
   "held": [
