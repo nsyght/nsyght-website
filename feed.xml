@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>AI search optimization: which customer questions deserve a page?</title>
+      <link>https://nsyght.com/blog/ai-search-optimization-which-customer-questions-deserve-a-page</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/ai-search-optimization-which-customer-questions-deserve-a-page</guid>
+      <pubDate>Tue, 24 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>Choose customer questions for ai search optimization based on real buying decisions. Learn when to create a page, expand an FAQ, or skip duplicate content.</description>
+    </item>
+    <item>
+      <title>Google Maps SEO services: can an agency guarantee your position?</title>
+      <link>https://nsyght.com/blog/google-maps-seo-services-can-an-agency-guarantee-your-position</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/google-maps-seo-services-can-an-agency-guarantee-your-position</guid>
+      <pubDate>Tue, 24 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Google Maps SEO services cannot guarantee your position. Learn what agencies can control, how to check ranking claims, and what to put in your contract.</description>
+    </item>
     <item>
       <title>Dental SEO services: should associate dentists have separate pages?</title>
       <link>https://nsyght.com/blog/dental-seo-services-should-associate-dentists-have-separate-pages</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Judge answer engine optimization services by qualified enquiries, not screenshots. Learn what to measure, what to ask, and how to assess agency results.</description>
-    </item>
-    <item>
-      <title>Local SEO ROI: How to Calculate and Prove Your Return</title>
-      <link>https://nsyght.com/blog/local-seo-roi</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/local-seo-roi</guid>
-      <pubDate>Sat, 21 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Learn how to calculate local SEO ROI, which metrics matter, how to trace calls and bookings to search, and how long to wait before judging the return.</description>
-    </item>
-    <item>
-      <title>Knowledge Panel Optimization: How to Claim, Edit and Strengthen Yours</title>
-      <link>https://nsyght.com/blog/knowledge-panel-optimization</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/knowledge-panel-optimization</guid>
-      <pubDate>Sat, 21 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>AI Search</category>
-      <description>Learn how Google knowledge panels work, how to claim and verify one, how to suggest edits, and which entity signals help your business earn an accurate panel.</description>
     </item>
   </channel>
 </rss>

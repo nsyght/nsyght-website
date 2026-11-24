@@ -1142,5 +1142,31 @@
     "date": "2026-11-23",
     "image": "/images/blog/criminal-defense-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "ai-search-optimization-which-customer-questions-deserve-a-page",
+    "url": "/blog/ai-search-optimization-which-customer-questions-deserve-a-page",
+    "file": "blog/ai-search-optimization-which-customer-questions-deserve-a-page/index.html",
+    "title": "AI search optimization: which customer questions deserve a page?",
+    "category": "AI Search",
+    "excerpt": "Choose customer questions for ai search optimization based on real buying decisions. Learn when to create a page, expand an FAQ, or skip duplicate content.",
+    "read_min": 11,
+    "date": "2026-11-24",
+    "image": "/images/blog/ryze-ai-search-optimization-which-customer-questions-deserve-a-page-b66a8b371763.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "google-maps-seo-services-can-an-agency-guarantee-your-position",
+    "url": "/blog/google-maps-seo-services-can-an-agency-guarantee-your-position",
+    "file": "blog/google-maps-seo-services-can-an-agency-guarantee-your-position/index.html",
+    "title": "Google Maps SEO services: can an agency guarantee your position?",
+    "category": "Local SEO",
+    "excerpt": "Google Maps SEO services cannot guarantee your position. Learn what agencies can control, how to check ranking claims, and what to put in your contract.",
+    "read_min": 12,
+    "date": "2026-11-24",
+    "image": "/images/blog/ryze-google-maps-seo-services-can-an-agency-guarantee-your-position-6fba31f2dbe8.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
