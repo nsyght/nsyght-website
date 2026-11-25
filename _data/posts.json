@@ -1205,5 +1205,31 @@
     "date": "2026-11-24",
     "image": "/images/blog/personal-injury-seo-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "answer-engine-optimization-services-which-pages-come-first",
+    "url": "/blog/answer-engine-optimization-services-which-pages-come-first",
+    "file": "blog/answer-engine-optimization-services-which-pages-come-first/index.html",
+    "title": "Answer engine optimization services: which pages come first?",
+    "category": "Local SEO",
+    "excerpt": "Answer engine optimization services should start with core service pages. Learn what to fix first, which questions need pages, and how to judge progress.",
+    "read_min": 11,
+    "date": "2026-11-25",
+    "image": "/images/blog/ryze-answer-engine-optimization-services-which-pages-come-first-9ee905995d05.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "chatgpt-seo-should-you-pay-to-be-on-a-best-business-list",
+    "url": "/blog/chatgpt-seo-should-you-pay-to-be-on-a-best-business-list",
+    "file": "blog/chatgpt-seo-should-you-pay-to-be-on-a-best-business-list/index.html",
+    "title": "ChatGPT SEO: should you pay to be on a best-business list?",
+    "category": "AI Search",
+    "excerpt": "ChatGPT SEO does not justify buying a promised recommendation. Check paid business lists for audience fit, clear terms, and measurable customer enquiries.",
+    "read_min": 11,
+    "date": "2026-11-25",
+    "image": "/images/blog/ryze-chatgpt-seo-should-you-pay-to-be-on-a-best-business-list-94f068614deb.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]

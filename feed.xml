@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Answer engine optimization services: which pages come first?</title>
+      <link>https://nsyght.com/blog/answer-engine-optimization-services-which-pages-come-first</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/answer-engine-optimization-services-which-pages-come-first</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Answer engine optimization services should start with core service pages. Learn what to fix first, which questions need pages, and how to judge progress.</description>
+    </item>
+    <item>
+      <title>ChatGPT SEO: should you pay to be on a best-business list?</title>
+      <link>https://nsyght.com/blog/chatgpt-seo-should-you-pay-to-be-on-a-best-business-list</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/chatgpt-seo-should-you-pay-to-be-on-a-best-business-list</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>AI Search</category>
+      <description>ChatGPT SEO does not justify buying a promised recommendation. Check paid business lists for audience fit, clear terms, and measurable customer enquiries.</description>
+    </item>
     <item>
       <title>AI search optimization: which customer questions deserve a page?</title>
       <link>https://nsyght.com/blog/ai-search-optimization-which-customer-questions-deserve-a-page</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Google Maps SEO services should cover profile accuracy, reviews, website fixes, and lead reporting. Know what to require before signing a monthly plan.</description>
-    </item>
-    <item>
-      <title>Home services SEO: how to reach nearby towns without fake offices</title>
-      <link>https://nsyght.com/blog/home-services-seo-how-to-reach-nearby-towns-without-fake-offices</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/home-services-seo-how-to-reach-nearby-towns-without-fake-offices</guid>
-      <pubDate>Sun, 22 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Home services SEO can reach nearby towns without fake offices. Learn how to use honest town pages, accurate service areas, and qualified enquiry tracking.</description>
-    </item>
-    <item>
-      <title>Law firm SEO services: who owns your website when you leave?</title>
-      <link>https://nsyght.com/blog/law-firm-seo-services-who-owns-your-website-when-you-leave</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/law-firm-seo-services-who-owns-your-website-when-you-leave</guid>
-      <pubDate>Sun, 22 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Before choosing law firm SEO services, confirm who controls your domain, content, hosting, and accounts so your firm can leave without losing access.</description>
     </item>
   </channel>
 </rss>
