@@ -1244,5 +1244,29 @@
     "image": "/images/blog/ryze-generative-engine-optimization-services-how-to-review-a-proposal-779f2ac54bb9.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "google-ads-lead-forms",
+    "url": "/blog/google-ads-lead-forms",
+    "file": "blog-google-ads-lead-forms.html",
+    "title": "Google Ads Lead Forms: Setup, Quality and Follow-Up",
+    "category": "Google Ads",
+    "excerpt": "How Google Ads lead forms work, who can use them, how to set one up, and how to raise lead quality and follow up fast so submissions turn into customers.",
+    "read_min": 13,
+    "date": "2026-11-25",
+    "image": "/images/blog/google-ads-lead-forms-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "broad-match-vs-phrase-match",
+    "url": "/blog/broad-match-vs-phrase-match",
+    "file": "blog-broad-match-vs-phrase-match.html",
+    "title": "Broad Match vs Phrase Match in Google Ads: Which to Use",
+    "category": "Google Ads",
+    "excerpt": "Broad match vs phrase match in Google Ads: how each works now, real examples, when to use which, and a simple rollout plan for local service advertisers.",
+    "read_min": 12,
+    "date": "2026-11-25",
+    "image": "/images/blog/broad-match-vs-phrase-match-cover.webp",
+    "auto": true
   }
 ]

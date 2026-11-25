@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/broad-match-vs-phrase-match"
+  to = "/blog-broad-match-vs-phrase-match.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/google-ads-lead-forms"
+  to = "/blog-google-ads-lead-forms.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/personal-injury-seo"
   to = "/blog-personal-injury-seo.html"
   status = 200
