@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-25",
+  "last_release_date": "2026-11-26",
   "posts": [
-    {
-      "slug": "target-cpa-vs-target-roas",
-      "file": "_queue/blog-target-cpa-vs-target-roas.html",
-      "title": "Target CPA vs Target ROAS: How to Choose in Google Ads",
-      "category": "Google Ads",
-      "excerpt": "Target CPA or Target ROAS? Learn the difference, how to calculate break-even numbers, and which bid strategy fits lead-gen or value-driven Google Ads.",
-      "read_min": 12,
-      "source": "babylovegrowth",
-      "blg_id": "1083417"
-    },
-    {
-      "slug": "google-ads-for-law-firms",
-      "file": "_queue/blog-google-ads-for-law-firms.html",
-      "title": "Google Ads for Law Firms: A Practical Guide for 2026",
-      "category": "Industry Tips",
-      "excerpt": "How law firms should run Google Ads: campaign setup, budgets, keywords, ad copy, landing pages, ethics rules and tracking, plus what management costs.",
-      "read_min": 13,
-      "source": "babylovegrowth",
-      "blg_id": "1087779"
-    },
     {
       "slug": "urgent-care-seo",
       "file": "_queue/blog-urgent-care-seo.html",
@@ -456,6 +436,14 @@
     {
       "slug": "broad-match-vs-phrase-match",
       "date": "2026-11-25"
+    },
+    {
+      "slug": "target-cpa-vs-target-roas",
+      "date": "2026-11-26"
+    },
+    {
+      "slug": "google-ads-for-law-firms",
+      "date": "2026-11-26"
     }
   ],
   "held": [

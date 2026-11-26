@@ -1307,5 +1307,29 @@
     "image": "/images/blog/ryze-home-services-seo-what-changes-when-you-acquire-another-company-fb01f11b0d63.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "target-cpa-vs-target-roas",
+    "url": "/blog/target-cpa-vs-target-roas",
+    "file": "blog-target-cpa-vs-target-roas.html",
+    "title": "Target CPA vs Target ROAS: How to Choose in Google Ads",
+    "category": "Google Ads",
+    "excerpt": "Target CPA or Target ROAS? Learn the difference, how to calculate break-even numbers, and which bid strategy fits lead-gen or value-driven Google Ads.",
+    "read_min": 12,
+    "date": "2026-11-26",
+    "image": "/images/blog/target-cpa-vs-target-roas-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "google-ads-for-law-firms",
+    "url": "/blog/google-ads-for-law-firms",
+    "file": "blog-google-ads-for-law-firms.html",
+    "title": "Google Ads for Law Firms: A Practical Guide for 2026",
+    "category": "Industry Tips",
+    "excerpt": "How law firms should run Google Ads: campaign setup, budgets, keywords, ad copy, landing pages, ethics rules and tracking, plus what management costs.",
+    "read_min": 13,
+    "date": "2026-11-26",
+    "image": "/images/blog/google-ads-for-law-firms-cover.webp",
+    "auto": true
   }
 ]

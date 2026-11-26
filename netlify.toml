@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/google-ads-for-law-firms"
+  to = "/blog-google-ads-for-law-firms.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/target-cpa-vs-target-roas"
+  to = "/blog-target-cpa-vs-target-roas.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/broad-match-vs-phrase-match"
   to = "/blog-broad-match-vs-phrase-match.html"
   status = 200
