@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>SEO for roofers: how to turn finished projects into search content</title>
+      <link>https://nsyght.com/blog/seo-for-roofers-how-to-turn-finished-projects-into-search-content</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/seo-for-roofers-how-to-turn-finished-projects-into-search-content</guid>
+      <pubDate>Thu, 26 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>SEO for roofers works best when real projects answer homeowner questions. Learn what to capture, what to publish, and how to track relevant enquiries.</description>
+    </item>
+    <item>
+      <title>Small business SEO services: how much of your time is needed?</title>
+      <link>https://nsyght.com/blog/small-business-seo-services-how-much-of-your-time-is-needed</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/small-business-seo-services-how-much-of-your-time-is-needed</guid>
+      <pubDate>Thu, 26 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Small business SEO services need your decisions, not your daily management. See what to approve, what to delegate, and how to keep owner time focused.</description>
+    </item>
     <item>
       <title>Answer engine optimization services: which pages come first?</title>
       <link>https://nsyght.com/blog/answer-engine-optimization-services-which-pages-come-first</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Small business SEO services should start with access, tracking, and priority fixes. See what to expect in month one and how to judge real progress.</description>
-    </item>
-    <item>
-      <title>Indexing Issues in SEO: How to Find and Fix Them</title>
-      <link>https://nsyght.com/blog/indexing-issues-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/indexing-issues-seo</guid>
-      <pubDate>Sun, 22 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>Pages missing from Google? Learn how to check index status in Search Console, read each status, fix real indexing problems and skip the ones you should ignore.</description>
-    </item>
-    <item>
-      <title>Google Business Profile UTM Tracking: Setup Guide</title>
-      <link>https://nsyght.com/blog/google-business-utm</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/google-business-utm</guid>
-      <pubDate>Sun, 22 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Google Business Profile</category>
-      <description>Add UTM parameters to your Google Business Profile links, get the exact tag values, and read the traffic in GA4 without breaking attribution or local rankings.</description>
     </item>
   </channel>
 </rss>

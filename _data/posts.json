@@ -1268,5 +1268,31 @@
     "date": "2026-11-25",
     "image": "/images/blog/broad-match-vs-phrase-match-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "seo-for-roofers-how-to-turn-finished-projects-into-search-content",
+    "url": "/blog/seo-for-roofers-how-to-turn-finished-projects-into-search-content",
+    "file": "blog/seo-for-roofers-how-to-turn-finished-projects-into-search-content/index.html",
+    "title": "SEO for roofers: how to turn finished projects into search content",
+    "category": "Local SEO",
+    "excerpt": "SEO for roofers works best when real projects answer homeowner questions. Learn what to capture, what to publish, and how to track relevant enquiries.",
+    "read_min": 11,
+    "date": "2026-11-26",
+    "image": "/images/blog/ryze-seo-for-roofers-how-to-turn-finished-projects-into-search-content-730b5cfe1679.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "small-business-seo-services-how-much-of-your-time-is-needed",
+    "url": "/blog/small-business-seo-services-how-much-of-your-time-is-needed",
+    "file": "blog/small-business-seo-services-how-much-of-your-time-is-needed/index.html",
+    "title": "Small business SEO services: how much of your time is needed?",
+    "category": "Local SEO",
+    "excerpt": "Small business SEO services need your decisions, not your daily management. See what to approve, what to delegate, and how to keep owner time focused.",
+    "read_min": 11,
+    "date": "2026-11-26",
+    "image": "/images/blog/ryze-small-business-seo-services-how-much-of-your-time-is-needed-ce4934264a55.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]
