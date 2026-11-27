@@ -146,6 +146,16 @@
       "read_min": 12,
       "source": "babylovegrowth",
       "blg_id": "1367295"
+    },
+    {
+      "slug": "call-only-ads-strategy",
+      "file": "_queue/blog-call-only-ads-strategy.html",
+      "title": "Call-Only Ads Strategy: Getting Phone Leads After the 2027 Shutdown",
+      "category": "Google Ads",
+      "excerpt": "Google is retiring call-only ads in February 2027. Learn the replacement strategy: RSAs with call assets, bidding.",
+      "read_min": 13,
+      "source": "babylovegrowth",
+      "blg_id": "1371912"
     }
   ],
   "published": [
