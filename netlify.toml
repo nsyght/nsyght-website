@@ -311,6 +311,16 @@
 
 # ── AUTO-PUBLISHED POSTS ──
 [[redirects]]
+  from = "/blog/orthodontist-seo"
+  to = "/blog-orthodontist-seo.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/urgent-care-seo"
+  to = "/blog-urgent-care-seo.html"
+  status = 200
+
+[[redirects]]
   from = "/blog/google-ads-for-law-firms"
   to = "/blog-google-ads-for-law-firms.html"
   status = 200

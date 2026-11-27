@@ -5,28 +5,8 @@
     "steady_per_day": 1,
     "switch_to_steady_when_queue_at_or_below": 3
   },
-  "last_release_date": "2026-11-26",
+  "last_release_date": "2026-11-27",
   "posts": [
-    {
-      "slug": "urgent-care-seo",
-      "file": "_queue/blog-urgent-care-seo.html",
-      "title": "Urgent Care SEO: How Clinics Win Near-Me Searches",
-      "category": "Industry Tips",
-      "excerpt": "Urgent care SEO explained: how clinics earn map pack visibility, build trustworthy profiles and pages, stay HIPAA-safe, and measure completed visits.",
-      "read_min": 13,
-      "source": "babylovegrowth",
-      "blg_id": "1092542"
-    },
-    {
-      "slug": "orthodontist-seo",
-      "file": "_queue/blog-orthodontist-seo.html",
-      "title": "Orthodontist SEO: How to Win Local Search for New Patients",
-      "category": "Industry Tips",
-      "excerpt": "Orthodontist SEO explained for practice owners: the Google Business Profile, location pages.",
-      "read_min": 11,
-      "source": "babylovegrowth",
-      "blg_id": "1097355"
-    },
     {
       "slug": "roofing-google-ads",
       "file": "_queue/blog-roofing-google-ads.html",
@@ -454,6 +434,14 @@
     {
       "slug": "google-ads-for-law-firms",
       "date": "2026-11-26"
+    },
+    {
+      "slug": "urgent-care-seo",
+      "date": "2026-11-27"
+    },
+    {
+      "slug": "orthodontist-seo",
+      "date": "2026-11-27"
     }
   ],
   "held": [

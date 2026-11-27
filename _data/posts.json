@@ -1370,5 +1370,29 @@
     "image": "/images/blog/ryze-law-firm-seo-services-how-to-handle-several-practice-areas-8d693dbb830b.jpg",
     "auto": true,
     "ryze": true
+  },
+  {
+    "slug": "urgent-care-seo",
+    "url": "/blog/urgent-care-seo",
+    "file": "blog-urgent-care-seo.html",
+    "title": "Urgent Care SEO: How Clinics Win Near-Me Searches",
+    "category": "Industry Tips",
+    "excerpt": "Urgent care SEO explained: how clinics earn map pack visibility, build trustworthy profiles and pages, stay HIPAA-safe, and measure completed visits.",
+    "read_min": 13,
+    "date": "2026-11-27",
+    "image": "/images/blog/urgent-care-seo-cover.webp",
+    "auto": true
+  },
+  {
+    "slug": "orthodontist-seo",
+    "url": "/blog/orthodontist-seo",
+    "file": "blog-orthodontist-seo.html",
+    "title": "Orthodontist SEO: How to Win Local Search for New Patients",
+    "category": "Industry Tips",
+    "excerpt": "Orthodontist SEO explained for practice owners: the Google Business Profile, location pages.",
+    "read_min": 11,
+    "date": "2026-11-27",
+    "image": "/images/blog/orthodontist-seo-cover.webp",
+    "auto": true
   }
 ]
