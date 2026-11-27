@@ -1331,5 +1331,31 @@
     "date": "2026-11-26",
     "image": "/images/blog/google-ads-for-law-firms-cover.webp",
     "auto": true
+  },
+  {
+    "slug": "austin-seo-how-to-compete-when-your-business-is-outside-the-city",
+    "url": "/blog/austin-seo-how-to-compete-when-your-business-is-outside-the-city",
+    "file": "blog/austin-seo-how-to-compete-when-your-business-is-outside-the-city/index.html",
+    "title": "Austin SEO: how to compete when your business is outside the city",
+    "category": "Local SEO",
+    "excerpt": "Austin SEO can reach customers beyond your business location. Learn how to build useful area pages, manage Maps limits, and track qualified enquiries.",
+    "read_min": 12,
+    "date": "2026-11-27",
+    "image": "/images/blog/ryze-austin-seo-how-to-compete-when-your-business-is-outside-the-city-4a707f272cf4.jpg",
+    "auto": true,
+    "ryze": true
+  },
+  {
+    "slug": "dental-seo-services-what-to-do-before-a-practice-changes-owners",
+    "url": "/blog/dental-seo-services-what-to-do-before-a-practice-changes-owners",
+    "file": "blog/dental-seo-services-what-to-do-before-a-practice-changes-owners/index.html",
+    "title": "Dental SEO services: what to do before a practice changes owners",
+    "category": "Local SEO",
+    "excerpt": "Dental SEO services before a practice sale: protect website access, Google Business Profile ownership, patient enquiries, and accurate practice details.",
+    "read_min": 11,
+    "date": "2026-11-27",
+    "image": "/images/blog/ryze-dental-seo-services-what-to-do-before-a-practice-changes-owners-a00ac01cb573.jpg",
+    "auto": true,
+    "ryze": true
   }
 ]

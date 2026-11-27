@@ -6,7 +6,25 @@
     <atom:link href="https://nsyght.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Local SEO, Google Business Profile, and AI search articles from Don Phelps at NSYGHT.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <item>
+      <title>Austin SEO: how to compete when your business is outside the city</title>
+      <link>https://nsyght.com/blog/austin-seo-how-to-compete-when-your-business-is-outside-the-city</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/austin-seo-how-to-compete-when-your-business-is-outside-the-city</guid>
+      <pubDate>Fri, 27 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Austin SEO can reach customers beyond your business location. Learn how to build useful area pages, manage Maps limits, and track qualified enquiries.</description>
+    </item>
+    <item>
+      <title>Dental SEO services: what to do before a practice changes owners</title>
+      <link>https://nsyght.com/blog/dental-seo-services-what-to-do-before-a-practice-changes-owners</link>
+      <guid isPermaLink="true">https://nsyght.com/blog/dental-seo-services-what-to-do-before-a-practice-changes-owners</guid>
+      <pubDate>Fri, 27 Nov 2026 08:00:00 -0600</pubDate>
+      <dc:creator>Don Phelps</dc:creator>
+      <category>Local SEO</category>
+      <description>Dental SEO services before a practice sale: protect website access, Google Business Profile ownership, patient enquiries, and accurate practice details.</description>
+    </item>
     <item>
       <title>SEO for roofers: how to turn finished projects into search content</title>
       <link>https://nsyght.com/blog/seo-for-roofers-how-to-turn-finished-projects-into-search-content</link>
@@ -168,24 +186,6 @@
       <dc:creator>Don Phelps</dc:creator>
       <category>Local SEO</category>
       <description>Austin SEO works best when your target area matches real service coverage. Learn when to start with suburbs, build local pages, and measure enquiries.</description>
-    </item>
-    <item>
-      <title>SEO Web Design Cost: What You&#x27;ll Pay in the US</title>
-      <link>https://nsyght.com/blog/seo-web-design-cost</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/seo-web-design-cost</guid>
-      <pubDate>Mon, 23 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Local SEO</category>
-      <description>What SEO web design costs in the US: build price ranges, what SEO work belongs in the quote, ongoing retainer costs, and how to compare proposals.</description>
-    </item>
-    <item>
-      <title>Criminal Defense SEO: How Defense Firms Get Found</title>
-      <link>https://nsyght.com/blog/criminal-defense-seo</link>
-      <guid isPermaLink="true">https://nsyght.com/blog/criminal-defense-seo</guid>
-      <pubDate>Mon, 23 Nov 2026 08:00:00 -0600</pubDate>
-      <dc:creator>Don Phelps</dc:creator>
-      <category>Industry Tips</category>
-      <description>Criminal defense SEO explained for firm owners: local pack, Google Business Profile, content, AI search, ethics rules and how to measure signed cases.</description>
     </item>
   </channel>
 </rss>
